@@ -1,0 +1,332 @@
+
+Body { 
+   background-color: #FEFEFE;
+   color: #181818;
+   font-size: 13px;	
+   font-family: verdana,arial,helvetica,sans-serif;
+   top: 0px;
+   left: 0px;
+   right: 0px;
+	margin: 0px;
+}
+
+table td {
+   font-size: 13px;	
+   font-family: verdana,arial,helvetica,sans-serif;
+}
+
+#mainpage {
+   margin: 55px 10px 10px 10px;
+   padding: 0ex;
+   border-style: none;
+   background-position: top left;
+}
+
+#hdr {
+   position: absolute;
+   z-index: 5;
+   top: 0px;
+   left: 0px;
+	right: 0px;
+	width: 100%;
+   height: 50px;
+   text-align: right;
+	padding: 5px 0px;
+   background: url("/Images/top.jpg") no-repeat;
+   font-size: 13px;	
+   font-family: arial,verdana,helvetica,sans-serif;
+}
+
+div.figure {
+   margin: 0ex 1ex 0ex 1ex;
+   padding: 1ex;
+   border-width: 0.1em;
+   border-color: #9eacb7;
+   border-style: solid;
+   background-color: #f7f8f2;
+}
+
+div.figure p {
+  text-align: justify;
+  font-size: smaller;
+  text-indent: 0;
+  padding: 2px;
+}
+
+div.figure img {
+    text-align:center;
+    display: block;
+    border-style: none;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.figureplain {
+}
+
+div.figureplain p {
+  text-align: justify;
+  text-indent: 0;
+  padding: 2px;
+}
+
+div.figureplain img {
+    text-align:center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #9eacb7;
+}
+
+
+A:link {
+   color: #1A2959;
+   text-decoration: underline;
+   background: transparent;
+}
+A:visited {
+   color: #671C1E;
+   text-decoration: underline;
+   background: transparent;
+}
+A:active {
+   color: #671C1E;
+   text-decoration: underline;
+   background: transparent;
+}
+A:hover {
+   color: #671C1E;
+   text-decoration: underline;
+   background: transparent;
+}
+
+H1  {
+   font-weight:    bold;
+   font-size:      16px;
+   text-align:     center;
+   background : transparent;
+   font-size:      130%;
+   padding: 5px 0px 5px 20px;
+}
+
+h2 {
+   font-weight: bold;
+   background : transparent;
+   font-size:      14px;
+   padding: 5px 0px 1px 20px;
+   border-width: 0px 0px 1px 0px;
+   border-style: solid;
+   border-color: #181818;
+}
+
+h3 {
+   font-weight: bold;
+   font-size:      13px;
+   padding: 5px 0px 1px 30px;
+   margin: 5px 100px 5px 20px;
+   border-width: 0px 0px 1px 0px;
+   border-style: dotted;
+   border-color: #181818;
+}
+
+H4 {
+   font-style:     italic;
+   font-weight:    normal;
+   text-align:     right;
+   font-size:      13px;
+   background : transparent;
+   padding: 0em;
+   margin: 0em;
+}
+
+blockquote {
+   margin: 0.5em 0em 0.5em 3em;
+}
+
+code {
+	color: #132060;
+	/*color: #C7490E;*/
+   /*background-color: #EEEEEE;*/
+}
+
+span.warning {
+   color:red;
+}
+
+span.journal {
+	font-style: italic;
+	color: #1B569F;
+}
+
+span.volume {
+	font-weight: bold;
+}
+
+span.fulltext {
+	color: #A01215;
+}
+
+div.boite {
+   margin: 5px;
+   padding: 0px;
+   border-width: 0px;
+}
+
+div.comment {
+   color: #490C0C;
+   margin: .5ex .5ex .5ex 75px;
+   padding: .5ex;
+   border-width: 1px;
+   border-style: solid none;
+   border-color: #9eacb7;
+   background-color: #f3f3f3;
+}
+
+table.list { 
+  border: 2px solid #9eacb7;
+}
+
+td.list { 
+  border: 1px solid #330000;
+}
+
+div.boiteadcv {
+   margin: 0ex 1ex 0ex 1ex;
+   padding: 0ex 1ex 0ex 1ex;
+   border-width: 0.0em 0.0em 0.0em 1em;
+   border-color: #FFFFFF #FFFFFF #FFFFFF #A1A1A1;
+   border-style: solid;
+   background : transparent;
+}
+
+div.itemcv {
+   font-weight: bold;
+   margin: 0ex .1ex 0ex .1ex;
+   padding: 0ex 1ex 0ex 1ex;
+   border-width: 1px;
+   border-color: #A1A1A1;
+   border-style: solid;
+   background-color: #CCCCCC;
+}
+
+div.image {
+   margin: 10px;
+   padding: 10px;
+   border-width: 1px;
+   border-color: #9eacb7;
+   border-style: solid;
+   background-color: #f7f8f2;
+}
+
+div.image img {
+	border-width: 0px;
+}
+
+table.toppage {
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+table.toppage td {
+	vertical-align: top;
+	background: #F1F1F1;
+   border-style: solid;
+   border-color: #FFFFFF;
+	border-width:0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+table.toppage td h2 {
+	font-size: 13px;
+	font-weight: bold;
+	font-variant: small-caps;
+	border-width: 0px;
+	margin: 0px; 
+	padding: 0px;
+	color: #801313;
+}
+
+table.toppage td h1 {
+	font-size: 14px;
+	font-weight: bold;
+	font-variant: normal;
+	border-width: 0px;
+	margin: 0px; 
+	padding: 0px;
+	text-align: left;
+}
+
+table.toppage td h3 {
+	font-size: 13px;
+	font-weight: bold;
+	font-variant: normal;
+	border-width: 0px;
+	margin: 0px; 
+	padding: 0px;
+	text-align: left;
+}
+
+table.toppage td P {
+	margin: 2px 0px 5px 5px;
+	padding: 0px;
+	font-size: 13px;
+}
+
+table.toppage td.left {
+	border-width: 0px 2px 0px 0px;
+	width: 25%;
+	font-size: 13px;
+}
+
+table.toppage td.left A:link {
+   color: #1A2959;
+   text-decoration: none;
+   background: transparent;
+}
+
+table.toppage td.left A:visited {
+   /*color: #671C1E;*/
+   color: #1A2959;
+   text-decoration: none;
+   background: transparent;
+}
+
+table.toppage td.left A:active {
+   color: #671C1E;
+   text-decoration: underline;
+   background: transparent;
+}
+
+table.toppage td.left A:hover {
+   color: #671C1E;
+   text-decoration: underline;
+   background: transparent;
+}
+
+table.toppage td.center {
+	border-width: 0px 2px 0px 2px;
+	width: 50%;
+}
+
+table.toppage td.right {
+   border-width: 0px 0px 0px 2px;
+	width: 25%;
+}
+
+
+div.error {
+   font-weight: bold;
+   margin: 30px;
+   padding: 20px;
+   border-width: 1px;
+   border-color: #F00;
+   border-style: solid;
+   background-color: #CCCCCC;
+   text-align: center;
+}
+/* To put below floats (e.g. images) to force the borders of a div to go around them*/
+div.clearer {clear: both; line-height: 0; height: 0;}

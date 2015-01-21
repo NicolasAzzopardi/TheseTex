@@ -1,0 +1,598 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+<title>Pense-bête pour Natbib</title>
+<meta name="Author" content="Sebastien Merkel">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<link rel="icon" href="http://merkel.zoneo.net/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="http://merkel.zoneo.net/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" href="natbib.php_fichiers/boulot.css" type="text/css"><script language="JavaScript" src="natbib.php_fichiers/phpTACookie.js"></script>
+<style type="text/css">
+h3 {color: #616AFF;}
+tt {color: #FF0040;}
+i {color: #172CD4;}
+</style>
+</head>
+<body onload="writePhpTACookie()">
+<div id="mainpage">
+<center>
+<table border="0" cellpadding="5" cellspacing="0" width="80%">
+<tbody><tr><td valign="middle">
+<div align="center">
+<a href="http://merkel.zoneo.net/Latex/natbib.php?lang=fr"><img src="natbib.php_fichiers/frenchFlag.png" alt="Français" border="0" height="16" width="30"></a>
+</div>
+</td><td valign="middle">
+<div align="center">
+<a href="http://merkel.zoneo.net/Latex/index.php?lang=fr"><img src="natbib.php_fichiers/flecheHaut.gif" alt="Back" border="0" height="19" width="19"></a>
+</div>
+</td><td valign="middle">
+<div align="center">
+<a href="http://merkel.zoneo.net/Latex/natbib.php?lang=en"><img src="natbib.php_fichiers/englishFlag.png" alt="English" border="0" height="16" width="30"></a>
+</div>
+</td></tr>
+</tbody></table>
+</center>
+<table>
+  <tbody>
+    <tr>
+      <td>
+      <p></p>
+      <div align="center"><b><font size="+2">Pense-bête pour <tt>natbib</tt></font></b>
+      <br>
+      <font size="+1">(Adapté de la version anglaise
+décrivant la version 7.0b du 2002/02/27)</font>
+      </div>
+      <p> 
+      </p>
+      <blockquote><i>Pour une descritption plus détaillée
+du paquetage <tt>natbib</tt>, veuiller vous référer au
+fichier source L<sup><small>A</small></sup>T<small>E</small>X&nbsp; <tt>natbib.dtx</tt>.
+        <br>
+        </i></blockquote>
+      <p>
+      </p> 
+      <h3><a name="SECTION00000100000000000000">Introduction</a>
+      </h3>
+Le paquetage <tt>natbib</tt> est une réimplementation de la
+commande L<sup><small>A</small></sup>T<small>E</small>X <tt>\cite</tt>
+pour qu'elle marche avec des citations de type auteur-année,
+mais aussi numérique. Il est compatible avec les fichiers de
+bibliographie standards tels que <tt>plain.bst</tt>, mais aussi
+d'autres formats tels que <tt>harvard</tt>, <tt>apalike</tt>, <tt>chicago</tt>,
+      <tt>astron</tt>, <tt>authordate</tt>.
+      <p></p>
+      <h3><a name="SECTION00000200000000000000">Chargement</a>
+      </h3>
+On charche le paquetage avec la commande <tt>\usepackage[<i>options</i>]{natbib}</tt>.
+La liste des
+      <i>options</i> est à la fin de ce document.
+      <p></p>
+      <h3><a name="SECTION00000300000000000000">Replacement des styles
+bibliographiques</a>
+      </h3>
+Natbib contient trois fichiers <tt>.bst</tt> pour remplacer les
+fichiers standards et numériques de L<sup><small>A</small></sup>T<small>E</small>X:
+      <blockquote>
+        <tt> plainnat.bst
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;abbrvnat.bst
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;unsrtnat.bst
+        </tt></blockquote>
+      <h3><a name="SECTION00000400000000000000">
+Commandes de base</a>
+      </h3>
+Le paquetage <tt>natbib</tt> a deux commandes de citation, <tt>\citet</tt>
+et
+      <tt>\citep</tt>, pour des citations <i>dans le texte</i> ou <i>entre
+parenthèses</i>.
+Il existe aussi des versions étoilées de ces commandes, <tt>\citet*</tt>
+et <tt>\citep*</tt>, qui impriment la liste complète des
+auteurs, et non la version abrégée. Toutes ces commandes
+peuvent prendre une ou deux options pour ajouter du texte avant, ou
+après la citation.
+      <blockquote>
+        <table cellpadding="3">
+          <tbody>
+            <tr>
+              <td align="left"><tt>\citet{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones et al. (1990)</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citet[chap.&nbsp;2]{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones et al. (1990, chap.&nbsp;2)</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citep{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">(Jones et al., 1990)</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citep[chap.&nbsp;2]{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">(Jones et al., 1990, chap.&nbsp;2)</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citep[voir][]{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">(voir Jones et al., 1990)</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citep[voir][chap.&nbsp;2]{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">(voir Jones et al., 1990, chap.&nbsp;2)</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citet*{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones, Baker, et Williams (1990)</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citep*{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">(Jones, Baker, et Williams, 1990)</td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+      <h3><a name="SECTION00000500000000000000">Citations multiples</a>
+      </h3>
+Les citations multiples peuvent être faites en includant plus
+d'une clé dans l'argument de la commande <tt>\cite</tt>.
+      <blockquote>
+        <table cellpadding="3">
+          <tbody>
+            <tr>
+              <td align="left"><tt>\citet{jon90,jam91}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones et al. (1990); James et al. (1991)</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citep{jon90,jam91}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">(Jones et al., 1990; James et al. 1991)</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citep{jon90,jon91}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">(Jones et al., 1990, 1991)</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citep{jon90a,jon90b}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">(Jones et al., 1990a,b)</td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+      <p>
+      </p>
+      <h3><a name="SECTION00000600000000000000">Mode numérique</a>
+      </h3>
+En mode numérique (<tt>\citet</tt>), les résultats sont
+sensiblement différents.
+      <blockquote>
+        <table cellpadding="3">
+          <tbody>
+            <tr>
+              <td align="left"><tt>\citet{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones et al. [21]</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citet[chap.&nbsp;2]{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones et al. [21, chap.&nbsp;2]</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citep{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">[21]</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citep[chap.&nbsp;2]{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">[21, chap.&nbsp;2]</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citep[see][]{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">[see 21]</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citep[see][chap.&nbsp;2]{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">[see 21, chap.&nbsp;2]</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citep{jon90a,jon90b}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">[21, 32]</td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+      <h3><a name="SECTION00000700000000000000">
+Retirer les parenthèses</a>
+      </h3>
+Une autre alternative au mode numérique, <tt>\citealt</tt> et
+similaire à <tt>\citet</tt> mais <i>sans parenthèses</i>.
+De même, <tt>\citealp</tt> est la version sans
+paranthèses de <tt>\citep</tt>. Des références
+multiples, notes, et des variations avec étoiles exitent aussi.
+      <blockquote>
+        <table cellpadding="3">
+          <tbody>
+            <tr>
+              <td align="left"><tt>\citealt{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones et al. 1990</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citealt*{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones, Baker, et Williams 1990</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citealp{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones et al., 1990</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citealp*{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones, Baker, et Williams, 1990</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citealp{jon90,jam91}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones et al., 1990; James et al., 1991</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citealp[p.&nbsp;32]{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones et al., 1990, p.&nbsp;32</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citetext{priv. comm.}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">(priv. comm.)</td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+La commande <tt>\citetext</tt> permet de placer un texte arbitraire
+dans la citation entre parenthèses. Elle peut être
+utilisée en combinaison avec <tt>\citealp</tt>.
+      <h3><a name="SECTION00000800000000000000">Citations partielles</a>
+      </h3>
+Dans le mode auteur-année, on veut de temps en temps être
+capable de se référer aux auteurs, sans la date, ou
+inversement. Cette fonction est accessible par l'intermédiaire
+de commandes supplémentaires.
+      <blockquote>
+        <table cellpadding="3">
+          <tbody>
+            <tr>
+              <td align="left"><tt>\citeauthor{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones et al.</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citeauthor*{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Jones, Baker, et Williams</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citeyear{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">1990</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citeyearpar{jon90}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">(1990)</td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+      <h3><a name="SECTION00000900000000000000">
+Imposer les majuscules</a>
+      </h3>
+Si le nom d'au auteur contient une particule telle que "della
+Robbia", alors <tt>\citet{dRob98}</tt> produira "della Robbia (1998)",
+même s'il se trouve en début de phrase. Il est possible
+d'imposer une majuscule en utilisant la commande <tt>\Citet</tt> au
+lieu de <tt>\citet</tt>. D'autres commandes de mise en majuscule
+existent:<br>
+      <blockquote>
+        <table cellpadding="3">
+          <tbody>
+            <tr>
+              <td align="right">quand<br>
+              </td>
+              <td align="left"><tt>\citet{dRob98}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">della Robbia (1998)</td>
+            </tr>
+            <tr>
+              <td align="right">et<br>
+              </td>
+              <td align="left"><tt>\Citet{dRob98}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Della Robbia (1998)</td>
+            </tr>
+            <tr>
+              <td align="right">&nbsp;</td>
+              <td align="left"><tt>\Citep{dRob98}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">(Della Robbia, 1998)</td>
+            </tr>
+            <tr>
+              <td align="right">&nbsp;</td>
+              <td align="left"><tt>\Citealt{dRob98}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Della Robbia 1998</td>
+            </tr>
+            <tr>
+              <td align="right">&nbsp;</td>
+              <td align="left"><tt>\Citealp{dRob98}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Della Robbia, 1998</td>
+            </tr>
+            <tr>
+              <td align="right">&nbsp;</td>
+              <td align="left"><tt>\Citeauthor{dRob98}</tt></td>
+              <td align="left">&nbsp;&nbsp;&nbsp;&nbsp;--&gt;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+              <td align="left">Della Robbia</td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+Ces commandes existent aussi dans des versions étoilées
+pour obtenir la liste complète des auteurs.<br>
+      <p>
+      </p>
+      <h3><a name="SECTION000001000000000000000">Alias de citation</a>
+      </h3>
+De temps en temps, il est souhaitable de se référer
+à une citation avec une désignation spéciale
+plutôt que la liste des auteurs, i.e. Papier&nbsp;I,
+Papier&nbsp;II. De tels alias peuvent être définis et
+utilisés, avec ou sans parenthèses, avec les commandes:
+      <blockquote>
+        <table cellpadding="3">
+          <tbody>
+            <tr>
+              <td align="left"><tt>\defcitealias{jon90}{Papier&nbsp;I}</tt></td>
+              <td align="center">&nbsp;</td>
+              <td align="left">&nbsp;</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citetalias{jon90}</tt></td>
+              <td align="center">-&gt;</td>
+              <td align="left">Papier&nbsp;I</td>
+            </tr>
+            <tr>
+              <td align="left"><tt>\citepalias{jon90}</tt></td>
+              <td align="center">-&gt;</td>
+              <td align="left">(Papier&nbsp;I)</td>
+            </tr>
+          </tbody>
+        </table>
+      </blockquote>
+Ces commandes de citation marchent comme <tt>\citet</tt> et <tt>\citep</tt>:
+elles accèptent plusieurs clés en argument, peuvent
+contenir des notes, et sont marquées comme hyperliens.
+      <h3><a name="SECTION000001100000000000000">Choisir un style de
+citation et de ponctuation</a>
+      </h3>
+La commande <tt>\bibpunct</tt> s'utilise avec 1 argument optionel, et
+6 obligatoires:<br>
+      <ol>
+        <li>le symbole d'ouverture de parenthèse, par
+défaut = (
+        </li>
+        <li>le symbole de fermeture de parenthèse, par
+défaut = )
+        </li>
+        <li>le symbole de ponctuation entre citations multiples, par
+défaut = ;
+        </li>
+        <li>la lettre 'n' pour le style numerique, ou 's' pour les
+style numerique en exposant, et n'importe quelle autre lettre pour le
+mode auteur-année, par défaut = auteur-année;
+        </li>
+        <li>le symbole de ponctuation qui vient entre les auteurs et
+l'année
+        </li>
+        <li>le symbole de ponctuation qui vient entre l'année ou
+le numéro quand la liste des auteurs est supprimée&nbsp;
+(par défaut = ,);
+        </li>
+      </ol>
+      <p>
+L'argument optionel est caractère qui précéde une
+post-note, par défaut, c'est une virgule puis un espace. En
+redéfinissant ce caractère, il est possible d'y ajouter
+un espace, si désiré.
+      </p>
+      <p>Exemple&nbsp;1, <tt>\bibpunct{[}{]}{,}{a}{}{;}</tt> change le
+résultat de<br>
+      </p>
+      <blockquote><tt>\citep{jon90,jon91,jam92}</tt>
+      </blockquote>
+en [Jones et al. 1990; 1991, James et al. 1992].
+      <p>Exemple&nbsp;2, <tt>\bibpunct[; ]{(}{)}{,}{a}{}{;}</tt>
+change le résultat de<br>
+      </p>
+      <blockquote><tt>\citep[and references therein]{jon90}</tt>
+      </blockquote>
+en (Jones et al. 1990; and references therein).
+      <p></p>
+      <h3><a name="SECTION000001200000000000000">Autres options de
+formattage</a>
+      </h3>
+      <ul>
+        <li>Redéfinir <tt>\bibsection</tt> pour la commande
+voulue pour l'introduction de la bibliographie. En
+générale, elle est&nbsp; <tt>\section*</tt> ou <tt>\chapter*</tt>.
+        </li>
+        <li>Définir <tt>\bibpreamble</tt> en n'importe quel
+texte qui sera imprimé avant la liste de publications, mais sous
+l'entête de la liste de publications.
+        </li>
+        <li>Définir <tt>\bibfont</tt> qui sera la
+déclaration de police appliquée a la liste de publications.
+        </li>
+        <li>Définir <tt>\citenumfont</tt> qui sera une
+déclaration de police&nbsp; ou une commande de type <tt>\itshape</tt>
+ou <tt>\textit</tt>.
+        </li>
+        <li>Redéfinir <tt>\bibnumfmt</tt> comme une commande
+avec un argument pour formatter les numéros dans la liste de
+publications. Par défaut, c'est <tt>[#1]</tt>.
+        </li>
+        <li>L'indentation après la première ligne de
+chaque référence est donnée
+          <tt>\bibhang</tt>; changez cette valeur avec la commande <tt>\setlength</tt>.
+        </li>
+        <li>L'espace vertical entre références est
+donné par <tt>\bibsep</tt>; changez cette valeur avec la
+commande <tt>\setlength</tt>.
+        </li>
+      </ul>
+      <p>
+      </p>
+      <h3><a name="SECTION000001300000000000000">Indexage automatique
+des citations</a>
+      </h3>
+Si l'on veut que les citations entrent dans le fichier d'indexage <tt>.idx</tt>,
+il faut inclure la commande <tt>\citeindextrue</tt> n'importe
+où dans le docoment. Toutes les commandes <tt>\cite</tt>
+suivantes (de tous types) seront référencées dans
+ce fichier. Avec <tt>\citeindexfalse</tt>, ces
+référencements seront stoppés.
+      <p></p>
+      <h3><a name="SECTION000001400000000000000">Utilisation avec le
+paquetage <tt>chapterbib</tt></a>
+      </h3>
+      <p>
+Le paquetage <tt>natbib</tt> est compatible avec le paquetage <tt>chapterbib</tt>
+qui permet d'avoir plusieurs bibliographies à l'intérieur
+d'un même document.&nbsp;<br>
+      </p>
+      <p>Le paquetage utilise la commande <tt>\include</tt>, et chaque
+fichier <tt>\included</tt> a sa propre bibliographie.
+      </p>
+      <p>L'ordre dans lequel <tt>chapterbib</tt> et <tt>natbib</tt>
+sont chargés n'a pas d'importance.<br>
+      </p>
+      <p>Le paquetage <tt>chapterbib</tt> a une option <tt>sectionbib</tt>
+qui met la bibliographie dans une <tt>\section*</tt> au lieu d'une <tt>\chapter*</tt>,
+ce qui a un sens si il y a une bibliographie pour chaque chapitre.
+Cette option ne marchera pas si <tt>natbib</tt> est chargé;
+à la place, ajoutez cette option à natbib.<br>
+      </p>
+      <p>Tous les fichiers <tt>\included</tt> doivent contenir leur
+propre commande
+      <tt>\bibliography</tt> à l'endroit où la
+bibliographie doit apparaître. Le fichier de données de la
+liste d'arguments de cette commande doit être différent
+pour chaque fichier, bien sûr. En revanche, ce qui n'est pas si
+évident, c'est que chaque fichier doit aussi contenir une
+commande <tt>\bibliographystyle</tt>, <i>et de
+préférence avec un argument de style</i>.
+      </p>
+      <h3><a name="SECTION000001500000000000000">Classer et compresser
+les citations</a>
+      </h3>
+N'utilisez pas le paquetage <tt>\cite</tt> avec natbib, mais
+plutôt une des options <tt>sort</tt> ou <tt>sort&amp;compress</tt>.
+      <p>
+Elles marchent aussi en mode auteur-année, en faisant
+apparaître les citations multiples dans leur order de la liste de
+publications.
+      </p>
+      <p></p>
+      <h3><a name="SECTION000001600000000000000">Longue liste d'auteurs
+pour la première citation</a>
+      </h3>
+Utilisez l'option <tt>longnamesfirst</tt> pour avoir la
+première citation donner la liste complète des auteurs
+automatiquement.
+      <p>Retirez cette option pour quelques citations avec <tt>\shortcites{<i>key-list}</i></tt>,
+avant leur première citation.<br>
+      </p>
+      <p></p>
+      <h3><a name="SECTION000001700000000000000">Configuration locale</a>
+      </h3>
+Tout recodage ou définition locale peut être incrite dans
+le fichier <tt>natbib.cfg</tt> qui est lu après le fichier
+principal du paquetage.
+      <p></p>
+      <h3><a name="SECTION000001800000000000000">Options qui peuvent
+être ajoutées à <tt>\usepackage</tt></a>
+      </h3>
+      <ul>
+        <li><tt>round</tt>: (par défaut) pour des
+parenthèses arondies (());
+        </li>
+        <li><tt>square</tt>: pour des crochets ([]);
+        </li>
+        <li><tt>curly</tt>: pour des accolades ({});
+        </li>
+        <li><tt>angle</tt>: pour des équerres (&lt;&gt;) ;
+        </li>
+        <li><tt>colon</tt>: (par défaut) pour séparer les
+citations multiples par deux points (:);
+        </li>
+        <li><tt>comma</tt>: pour utiliser une virgule comme
+séparateur;
+        </li>
+        <li><tt>authoryear</tt>: (par défaut) pour des citations
+auteurs-année;
+        </li>
+        <li><tt>numbers</tt>: pour des citations numériques;
+        </li>
+        <li><tt>super</tt>: pour des citations numériques en
+exposant, comme dans <i>Nature</i>;
+        </li>
+        <li><tt>sort</tt>: ordonne les citations multiples dans l'ordre
+dans lequel elles apparaissent dans la bibliographie;
+        </li>
+        <li><tt>sort&amp;compress</tt>: comme <tt>sort</tt> mais en
+plus les citations numériques multiples sont comprimées,
+si possible (3-6, 15, par exemple);
+        </li>
+        <li><tt>longnamesfirst</tt>: transforme la première
+citation à une référence en une version
+étoilée (avec la liste complète des auteurs) et le
+citations suivantes normales (liste abbrégée);
+        </li>
+        <li><tt>sectionbib</tt>: pour redéfinir <tt>\thebibliography</tt>
+pour avoir une <tt>\section*</tt> à la place d'un <tt>\chapter*</tt>;
+valide seulement pour les classes de document possédant la
+commande <tt>\chapter</tt>; à utiliser avec le paquetage&nbsp; <tt>chapterbib</tt>;
+        </li>
+        <li><tt>nonamebreak</tt>: garde tous les noms d'auteurs d'une
+citation sur une même ligne; celà cause des
+problèmes de débordement, mais permet de résoudre
+certains problèmes liés à <tt>hyperref</tt>.
+        </li>
+      </ul>
+      <h3><a name="SECTION000001900000000000000">
+A propos de ce document ...</a>
+      </h3>
+      <p>Document traduit de sa <a href="http://merkel.zoneo.net/Latex/natbib.php?lang=en">version
+anglaise</a> par
+S. Merkel, Dept of Earth and Panet. Sc., Univ. Calif. Berkeley, en
+janvier 2005.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<img src="natbib.php_fichiers/count.gif" alt="">
+</div>
+<div id="hdr"><table align="right" border="0" cellpadding="0" cellspacing="0"><tbody><tr><td valign="middle">© <img src="natbib.php_fichiers/email.gif" alt="Email" align="top" border="0" height="13" width="235"><br><a href="http://merkel.zoneo.net/index.php?lang=fr">Home</a> &gt; <a href="http://merkel.zoneo.net/Latex/index.php?lang=fr">Latex</a> &gt; natbib.php</td><td width="10px">&nbsp;</td></tr></tbody></table></div>
+
+</body></html>

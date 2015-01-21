@@ -1,0 +1,145 @@
+109	"	Algars"	 A.	 et al.	 EGFR gene copy number assessment from areas with highest EGFR expression predicts response to anti-EGFR therapy in colorectal cancer. Br J Cancer	 2011. 105(2): p. 255-62.				
+144	"	Alvarenga"	 M.L.	 et al.	 In-depth biophysical analysis of interactions between therapeutic antibodies and the extracellular domain of the epidermal growth factor receptor. Anal Biochem	 2011. 2011: p. 28.				
+15	"	Andersen"	 D.C. and D.E. Reilly	 Production technologies for monoclonal antibodies and their fragments. Curr Opin Biotechnol	 2004. 15(5): p. 456-62.					
+21	"	Anderson"	 C.L.	 et al.	 Perspective-- FcRn transports albumin: relevance to immunology and medicine. Trends Immunol	 2006. 27(7): p. 343-8.				
+127	"	Baselga"	 J.	 et al.	 Phase I studies of anti-epidermal growth factor receptor chimeric antibody C225 alone and in combination with cisplatin. J Clin Oncol	 2000. 18(4): p. 904-14.				
+145	"	Baselga"	 J.	 Phase I and II clinical trials of trastuzumab. Ann Oncol	 2001. 12 Suppl 1(1): p. S49-55.					
+48	"	Bauer"	 R.J.	 et al.	 Population pharmacokinetics and pharmacodynamics of the anti-CD11a antibody hu1124 in human subjects with psoriasis. J Pharmacokinet Biopharm.	 1999. 27(4): p. 397-420.				
+111	"	Benvenuti"	 S.	 et al.	 Oncogenic activation of the RAS/RAF signaling pathway impairs the response of metastatic colorectal cancers to anti-epidermal growth factor receptor antibody therapies. Cancer Res	 2007. 67(6): p. 2643-8.				
+142	"	Bergstrand"	 M. and M.O. Karlsson	 Handling data below the limit of quantification in mixed effect models. Aaps J	 2009. 11(2): p. 371-80.					
+131	"	Bibeau"	 F.	 et al.	 Impact of Fc{gamma}RIIa-Fc{gamma}RIIIa polymorphisms and KRAS mutations on the clinical outcome of patients with metastatic colorectal cancer treated with cetuximab plus irinotecan. J Clin Oncol	 2009. 27(7): p. 1122-9.				
+2	"	Bonate"	 P.L.	 ed. Pharmacokinetic-Pharmacodynamic Modeling and Simulation. Springer Science ed. 2006	 Springer. 387.					
+11	"	Bonate"	 P.L.	 The effect of collinearity on parameter estimates in nonlinear mixed effect models. Pharm Res	 1999. 16(5): p. 709-17.					
+105	"	Bonner"	 J.A.	 et al.	 Radiotherapy plus cetuximab for squamous-cell carcinoma of the head and neck. N Engl J Med	 2006. 354(6): p. 567-78.				
+101	"	Bowman"	 T.	 et al.	 STATs in oncogenesis. Oncogene	 2000. 19(21): p. 2474-88.				
+24	"	Brambell"	 F.W.	 W.A. Hemmings	 and I.G. Morris	 A Theoretical Model of Gamma-Globulin Catabolism. Nature	 1964. 203: p. 1352-4.			
+17	"	Breedveld"	 F.C.	 Therapeutic monoclonal antibodies. Lancet	 2000. 355(9205): p. 735-40.					
+76	"	Bruno"	 R.	 et al.	 Population pharmacokinetics of trastuzumab in patients with HER2+ metastatic breast cancer. Cancer Chemother Pharmacol.	 2005. 56(4): p. 361-9. Epub 2005 May 3.				
+121	"	Butts"	 C.A.	 et al.	 Randomized phase II study of gemcitabine plus cisplatin or carboplatin [corrected]	 with or without cetuximab	 as first-line therapy for patients with advanced or metastatic non small-cell lung cancer. J Clin Oncol	 2007. 25(36): p. 5777-84.		
+143	"	Byon"	 W.	 C.V. Fletcher	 and R.C. Brundage	 Impact of censoring data below an arbitrary quantification limit on structural model misspecification. J Pharmacokinet Pharmacodyn	 2008. 35(1): p. 101-16.			
+45	"	Cartron"	 G. and J.F. Rossi	 [Therapeutic monoclonal antibodies in onco-hematology]. Med Sci (Paris)	 2009. 25(12): p. 1085-9.					
+47	"	Cartron"	 G.	 Immunologic effects of anti-B-lymphocyte antibodies. Rev Med Interne	 2005. 26 Spec No 1: p. 42-6.					
+82	"	Cartron"	 G.	 et al.	 Therapeutic activity of humanized anti-CD20 monoclonal antibody and polymorphism in IgG Fc receptor FcgammaRIIIa gene. Blood	 2002. 99(3): p. 754-8.				
+38	"	Chaudhury"	 C.	 et al.	 The major histocompatibility complex-related Fc receptor for IgG (FcRn) binds albumin and prolongs its lifespan. J Exp Med	 2003. 197(3): p. 315-22.				
+125	"	Che"	 J.	 et al.	 A new approach for pharmacokinetics of single-dose cetuximab in rhesus monkeys by surface plasmon resonance biosensor. J Pharm Biomed Anal	 2009. 50(2): p. 183-8.				
+107	"	Chung"	 K.Y.	 et al.	 Cetuximab shows activity in colorectal cancer patients with tumors that do not express the epidermal growth factor receptor by immunohistochemistry. J Clin Oncol	 2005. 23(9): p. 1803-10.				
+42	"	Coffey"	 G.P.	 et al.	 In vitro internalization	 intracellular transport	 and clearance of an anti-CD11a antibody (Raptiva) by human T-cells. J Pharmacol Exp Ther	 2004. 310(3): p. 896-904. Epub 2004 Jun 09.		
+16	"	Congy-Jolivet"	 N.	 et al.	 Recombinant therapeutic monoclonal antibodies: mechanisms of action in relation to structural and functional duality. Crit Rev Oncol Hematol	 2007. 64(3): p. 226-33.				
+84	"	Congy-Jolivet"	 N.	 et al.	 Fc gamma RIIIa expression is not increased on natural killer cells expressing the Fc gamma RIIIa-158V allotype. Cancer Res	 2008. 68(4): p. 976-80.				
+132	"	Cunningham"	 D.	 et al.	 Cetuximab monotherapy and cetuximab plus irinotecan in irinotecan-refractory metastatic colorectal cancer. N Engl J Med	 2004. 351(4): p. 337-45.				
+83	"	Dall'Ozzo"	 S.	 et al.	 Rituximab-dependent cytotoxicity by natural killer cells: influence of FCGR3A polymorphism on the concentration-effect relationship. Cancer Res	 2004. 64(13): p. 4664-9.				
+96	"	Damen"	 C.W.	 J.H. Schellens	 and J.H. Beijnen	 Bioanalytical methods for the quantification of therapeutic monoclonal antibodies and their application in clinical pharmacokinetic studies. Hum Antibodies	 2009. 18(3): p. 47-73.			
+70	"	Dartois"	 C.	 et al.	 Exposure-effect population model of inolimomab	 a monoclonal antibody administered in first-line treatment for acute graft-versus-host disease. Clin Pharmacokinet	 2007. 46(5): p. 417-32.			
+10	"	Davidian"	 M. and D. Giltinan	 Nonlinear models for repeated measurement data1995: Chapman & Hall/CRC.						
+46	"	Dayde"	 D.	 et al.	 Tumor burden influences exposure and response to rituximab: pharmacokinetic-pharmacodynamic modeling using a syngeneic bioluminescent murine model expressing human CD20. Blood	 2009. 113(16): p. 3765-72.				
+113	"	De Roock"	 W.	 et al.	 KRAS wild-type state predicts survival and is associated to early radiological response in metastatic colorectal cancer treated with cetuximab. Ann Oncol	 2008. 19(3): p. 508-15.				
+114	"	De Roock"	 W.	 et al.	 Association of KRAS p.G13D mutation with outcome in patients with chemotherapy-refractory metastatic colorectal cancer treated with cetuximab. Jama	 2010. 304(16): p. 1812-20.				
+33	"	Decker"	 M.	 et al.	 Rituximab plus CHOP for treatment of diffuse large B-cell lymphoma during second trimester of pregnancy. Lancet Oncol	 2006. 7(8): p. 693-4.				
+126	"	Delbaldo"	 C.	 et al.	 Pharmacokinetic profile of cetuximab (Erbitux) alone and in combination with irinotecan in patients with advanced EGFR-positive adenocarcinoma. Eur J Cancer	 2005. 41(12): p. 1739-45.				
+133	"	DeSilva"	 B.	 et al.	 Recommendations for the bioanalytical method validation of ligand-binding assays to support pharmacokinetic assessments of macromolecules. Pharm Res	 2003. 20(11): p. 1885-900.				
+112	"	Di Fiore"	 F.	 et al.	 Clinical relevance of KRAS mutation detection in metastatic colorectal cancer treated by Cetuximab plus chemotherapy. Br J Cancer	 2007. 96(8): p. 1166-9.				
+68	"	Dirks"	 N.L.	 et al.	 Population pharmacokinetics of cetuximab in patients with squamous cell carcinoma of the head and neck. J Clin Pharmacol	 2008. 48(3): p. 267-78.				
+78	"	Dirks"	 N.L. and B. Meibohm	 Population pharmacokinetics of therapeutic monoclonal antibodies. Clin Pharmacokinet	 2010. 49(10): p. 633-59.					
+94	"	Dubois"	 M.	 et al.	 Immunopurification and mass spectrometric quantification of the active form of a chimeric therapeutic antibody in human serum. Anal Chem	 2008. 80(5): p. 1737-45.				
+95	"	Engvall"	 E. and P. Perlmann	 Enzyme-linked immunosorbent assay (ELISA). Quantitative assay of immunoglobulin G. Immunochemistry	 1971. 8(9): p. 871-4.					
+81	"	Fasanmade"	 A.A.	 et al.	 Population pharmacokinetic analysis of infliximab in patients with ulcerative colitis. Eur J Clin Pharmacol	 2009. 65(12): p. 1211-28.				
+9	"	FDA"	 Guidance for Industry : population pharmacokinetics. 1999. www.fda.gov/cder/guidance/1852fnl.pdf Accessed at 2005/05/08.							
+32	"	Firan"	 M.	 et al.	 The MHC class I-related receptor	 FcRn	 plays an essential role in the maternofetal transfer of gamma-globulin in humans. Int Immunol	 2001. 13(8): p. 993-1002.		
+122	"	Fracasso"	 P.M.	 et al.	 A phase 1 escalating single-dose and weekly fixed-dose study of cetuximab: pharmacokinetic and pharmacodynamic rationale for dosing. Clin Cancer Res	 2007. 13(3): p. 986-93.				
+75	"	Frey"	 N.	 S. Grange	 and T. Woodworth	 Population pharmacokinetic analysis of tocilizumab in patients with rheumatoid arthritis. J Clin Pharmacol	 2010. 50(7): p. 754-66.			
+19	"	Garg"	 A. and J.P. Balthasar	 Physiologically-based pharmacokinetic (PBPK) model to predict IgG tissue kinetics in wild-type and FcRn-knockout mice. J Pharmacokinet Pharmacodyn	 2007. 18: p. 18.					
+4	"	Grimm"	 H.P.	 Gaining insights into the consequences of target-mediated drug disposition of monoclonal antibodies using quasi-steady-state approximations. J Pharmacokinet Pharmacodyn	 2009. 36(5): p. 407-20.					
+102	"	Gschwind"	 A.	 O.M. Fischer	 and A. Ullrich	 The discovery of receptor tyrosine kinases: targets for cancer therapy. Nat Rev Cancer	 2004. 4(5): p. 361-70.			
+43	"	Harding"	 J. and B. Burtness	 Cetuximab: an epidermal growth factor receptor chemeric human-murine monoclonal antibody. Drugs Today (Barc). 2005. 41(2): p. 107-27.						
+61	"	Hayashi"	 N.	 et al.	 A mechanism-based binding model for the population pharmacokinetics and pharmacodynamics of omalizumab. Br J Clin Pharmacol.	 2007. 63(5): p. 548-61. Epub 2006 Nov 10.				
+51	"	Iacona"	 I.	 et al.	 Rituximab (IDEC-C2B8): validation of a sensitive enzyme-linked immunoassay applied to a clinical pharmacokinetic study. Ther Drug Monit.	 2000. 22(3): p. 295-301.				
+135	"	Inauen"	 R.	 et al.	 Feasibility of using cetuximab and bevacizumab in a patient with colorectal cancer and terminal renal failure. Oncology	 2007. 72(3-4): p. 209-10.				
+26	"	Israel"	 E.J.	 et al.	 Expression of the neonatal Fc receptor	 FcRn	 on human intestinal epithelial cells. Immunology	 1997. 92(1): p. 69-74.		
+41	"	Israel"	 E.J.	 et al.	 Increased clearance of IgG in mice that lack beta 2-microglobulin: possible protective role of FcRn. Immunology	 1996. 89(4): p. 573-8.				
+108	"	Italiano"	 A.	 et al.	 Cetuximab Shows Activity in Colorectal Cancer Patients With Tumors for Which FISH Analysis Does Not Detect an Increase in &lt;i&gt;EGFR&lt;/i&gt; Gene Copy Number. 2008(2): p. 649-654.					
+30	"	Junghans"	 R.P.	 Finally! The Brambell receptor (FcRB). Mediator of transmission of immunity and protection from catabolism for IgG. Immunol Res	 1997. 16(1): p. 29-57.					
+138	"	Kang"	 M.J.	 et al.	 Biweekly cetuximab plus irinotecan as second-line chemotherapy for patients with irinotecan-refractory and KRAS wild-type metastatic colorectal cancer according to epidermal growth factor receptor expression status. Invest New Drugs	 2011. 2011: p. 25.				
+91	"	Kelley"	 M. and B. DeSilva	 Key elements of bioanalytical method validation for macromolecules. Aaps J	 2007. 9(2): p. E156-63.					
+27	"	Kim"	 K.J. and A.B. Malik	 Protein transport across the lung epithelial barrier. Am J Physiol Lung Cell Mol Physiol	 2003. 284(2): p. L247-59.					
+63	"	Kloft"	 C.	 et al.	 Population pharmacokinetics of sibrotuzumab	 a novel therapeutic monoclonal antibody	 in cancer patients. Invest New Drugs	 2004. 22(1): p. 39-52.		
+***74	"	Kloft"	 C.	 et al.	 Population pharmacokinetics of sibrotuzumab	 a novel therapeutic monoclonal antibody	 in cancer patients. Invest New Drugs	 2004. 22(1): p. 39-52.		
+13	"	Kohler"	 G. and C. Milstein	 Continuous cultures of fused cells secreting antibody of predefined specificity. J Immunol	 1975. 174(5): p. 2453-5.					
+12	"	Kowalski"	 K.G. and M.M. Hutmacher	 Efficient screening of covariates in population models using Wald's approximation to the likelihood ratio test. J Pharmacokinet Pharmacodyn	 2001. 28(3): p. 253-75.					
+23	"	Kuester"	 K. and C. Kloft	 Pharmacokinetics of Monoclonal Antibodies. Pharmacokinetics and Pharmacodynamics of Biotech Drugs2006: Wiley-VCH Verlag GmbH & Co. KGaA. 45-91.						
+72	"	Kuester"	 K.	 et al.	 Refinement of the population pharmacokinetic model for the monoclonal antibody matuzumab: external model evaluation and simulations. Clin Pharmacokinet	 2009. 48(7): p. 477-87.				
+129	"	Kuester"	 K.	 et al.	 Population pharmacokinetic data analysis of three phase I studies of matuzumab	 a humanised anti-EGFR monoclonal antibody in clinical cancer development. Br J Cancer	 2008. 98(5): p. 900-6.			
+116	"	Laurent-Puig"	 P.	 et al.	 Analysis of PTEN	 BRAF	 and EGFR status in determining benefit from cetuximab therapy in wild-type KRAS metastatic colon cancer. J Clin Oncol	 2009. 27(35): p. 5924-30.		
+139	"	Laux"	 I.	 et al.	 Epidermal growth factor receptor dimerization status determines skin toxicity to HER-kinase targeted therapies. Br J Cancer	 2006. 94(1): p. 85-92.				
+110	"	Lievre"	 A.	 et al.	 KRAS mutation status is predictive of response to cetuximab therapy in colorectal cancer. Cancer Res	 2006. 66(8): p. 3992-5.				
+88	"	Louis"	 E.J.	 et al.	 Polymorphism in IgG Fc receptor gene FCGR3A and response to infliximab in Crohn's disease: a subanalysis of the ACCENT I study. Pharmacogenet Genomics	 2006. 16(12): p. 911-4.				
+73	"	Ma"	 P.	 et al.	 Population pharmacokinetic analysis of panitumumab in patients with advanced solid tumors. J Clin Pharmacol	 2009. 49(10): p. 1142-56.				
+6	"	Mager"	 D.E. and W.J. Jusko	 General pharmacokinetic model for drugs exhibiting target-mediated drug disposition. J Pharmacokinet Pharmacodyn	 2001. 28(6): p. 507-32.					
+65	"	Mager"	 D.E.	 et al.	 Simultaneous modeling of abciximab plasma concentrations and ex vivo pharmacodynamics in patients undergoing coronary angioplasty. J Pharmacol Exp Ther	 2003. 307(3): p. 969-76.				
+140	"	Maillet"	 A.	 et al.	 Aerodynamical	 immunological and pharmacological properties of the anticancer antibody cetuximab following nebulization. Pharm Res	 2008. 25(6): p. 1318-26.			
+90	"	Male"	 D.	 et al.	 Immunology	 7th Edition. 7th ed2006. 564.				
+53	"	Maloney"	 D.G.	 et al.	 IDEC-C2B8 (Rituximab) anti-CD20 monoclonal antibody therapy in patients with relapsed low-grade non-Hodgkin's lymphoma. Blood	 1997. 90(6): p. 2188-95.				
+54	"	Maloney"	 D.G.	 et al.	 Phase I clinical trial using escalating single-dose infusion of chimeric anti-CD20 monoclonal antibody (IDEC-C2B8) in patients with recurrent B-cell lymphoma. Blood	 1994. 84(8): p. 2457-66.				
+117	"	Mao"	 C.	 R.Y. Liao	 and Q. Chen	 BRAF mutation predicts resistance to anti-EGFR monoclonal antibodies in wild-type KRAS metastatic colorectal cancer. J Cancer Res Clin Oncol	 2010. 136(8): p. 1293-4.			
+119	"	Maubec"	 E.	 et al.	 Phase II Study of Cetuximab As First-Line Single-Drug Therapy in Patients With Unresectable Squamous Cell Carcinoma of the Skin. J Clin Oncol	2011				
+5	"	Michaelis"	 L. and M.L. Menten	 Kinetics on Invertase Action. Biochem. Z.	 1913. 49: p. 333-369.					
+55	"	Miescher"	 S.	 et al.	 A single recombinant anti-RhD IgG prevents RhD immunization: association of RhD-positive red blood cell clearance rate with polymorphisms in the FcgammaRIIA and FcgammaIIIA genes. Blood	 2004. 103(11): p. 4028-35. Epub 2004 Feb 19.				
+87	"	Miescher"	 S.	 et al.	 A single recombinant anti-RhD IgG prevents RhD immunization: association of RhD-positive red blood cell clearance rate with polymorphisms in the FcgammaRIIA and FcgammaIIIA genes. Blood	 2004. 103(11): p. 4028-35.				
+20	"	Morell"	 A.	 W.D. Terry	 and T.A. Waldmann	 Metabolic properties of IgG subclasses in man. J Clin Invest	 1970. 49(4): p. 673-80.			
+56	"	Morris"	 E.C.	 et al.	 Pharmacokinetics of alemtuzumab used for in vivo and in vitro T-cell depletion in allogeneic transplantations: relevance for early adoptive immunotherapy and infectious complications. Blood	 2003. 102(1): p. 404-6. Epub 2003 Mar 06.				
+49	"	Mortensen"	 D.L.	 et al.	 Pharmacokinetics and pharmacodynamics of multiple weekly subcutaneous efalizumab doses in patients with plaque psoriasis. J Clin Pharmacol.	 2005. 45(3): p. 286-98.				
+****39	"	Mould"	 D.R. and K.R. Sweeney	 The pharmacokinetics and pharmacodynamics of monoclonal antibodies--mechanistic modeling applied to drug development. Curr Opin Drug Discov Devel.	 2007. 10(1): p. 84-96.					
+62	"	Mould"	 D.R. and K.R. Sweeney	 The pharmacokinetics and pharmacodynamics of monoclonal antibodies--mechanistic modeling applied to drug development. Curr Opin Drug Discov Devel	 2007. 10(1): p. 84-96.					
+67	"	Mould"	 D.R.	 et al.	 Population pharmacokinetics-pharmacodynamics of alemtuzumab (Campath) in patients with chronic lymphocytic leukaemia and its link to treatment response. Br J Clin Pharmacol.	 2007. 64(3): p. 278-91. Epub 2007 May 16.				
+69	"	Mould"	 D.R.	 et al.	 A population pharmacokinetic-pharmacodynamic analysis of single doses of clenoliximab in patients with rheumatoid arthritis. Clin Pharmacol Ther	 1999. 66(3): p. 246-57.				
+89	"	Musolino"	 A.	 et al.	 Immunoglobulin G fragment C receptor polymorphisms and clinical efficacy of trastuzumab-based therapy in patients with HER-2/neu-positive metastatic breast cancer. J Clin Oncol	 2008. 26(11): p. 1789-96.				
+50	"	Ng"	 C.M.	 et al.	 Pharmacokinetic-pharmacodynamic-efficacy analysis of efalizumab in patients with moderate to severe psoriasis. Pharm Res.	 2005. 22(7): p. 1088-100. Epub 2005 Jul 22.				
+52	"	Ng"	 C.M.	 et al.	 Population pharmacokinetics of rituximab (anti-CD20 monoclonal antibody) in rheumatoid arthritis patients during a phase II clinical trial. J Clin Pharmacol.	 2005. 45(7): p. 792-801.				
+99	"	Nishinaka"	 T. and C. Yabe-Nishimura	 EGF receptor-ERK pathway is the major signaling pathway that mediates upregulation of aldose reductase expression under oxidative stress. Free Radic Biol Med	 2001. 31(2): p. 205-16.					
+98	"	Nyati"	 M.K.	 et al.	 Integration of EGFR inhibitors with radiochemotherapy. Nat Rev Cancer	 2006. 6(11): p. 876-85.				
+36	"	Ober"	 R.J.	 et al.	 Visualizing the site and dynamics of IgG salvage by the MHC class I-related receptor	 FcRn. J Immunol	 2004. 172(4): p. 2021-9.			
+57	"	Oberneder"	 R.	 et al.	 A phase I study with adecatumumab	 a human antibody directed against epithelial cell adhesion molecule	 in hormone refractory prostate cancer patients. Eur J Cancer.	 2006. 42(15): p. 2530-8. Epub 2006 Aug 23.		
+18	"	Paintaud"	 G.	 [Pharmacokinetics (PK) of mAbs]. Med Sci (Paris)	 2009. 25(12): p. 1057-62.					
+34	"	Popov"	 S.	 et al.	 The stoichiometry and affinity of the interaction of murine Fc fragments with the MHC class I-related receptor	 FcRn. Mol Immunol	 1996. 33(6): p. 521-30.			
+44	"	Rebello"	 P.R.	 et al.	 Anti-globulin responses to rat and humanized CAMPATH-1 monoclonal antibody used to treat transplant rejection. Transplantation.	 1999. 68(9): p. 1417-20.				
+35	"	Reff"	 M.E. and C. Heard	 A review of modifications to recombinant antibodies: attempt to increase efficacy in oncology applications. Crit Rev Oncol Hematol	 2001. 40(1): p. 25-35.					
+128	"	Robert"	 F.	 et al.	 Phase I study of anti--epidermal growth factor receptor antibody cetuximab in combination with radiation therapy in patients with advanced head and neck cancer. J Clin Oncol	 2001. 19(13): p. 3234-43.				
+31	"	Roopenian"	 D.C.	 et al.	 The MHC class I-like IgG receptor controls perinatal IgG transport	 IgG homeostasis	 and fate of IgG-Fc-coupled drugs. J Immunol	 2003. 170(7): p. 3528-33.		
+120	"	Rosell"	 R.	 et al.	 Randomized phase II study of cetuximab plus cisplatin/vinorelbine compared with cisplatin/vinorelbine alone as first-line therapy in EGFR-expressing advanced non-small-cell lung cancer. Ann Oncol	 2008. 19(2): p. 362-9.				
+40	"	Sachs"	 U.J.	 et al.	 A variable number of tandem repeats polymorphism influences the transcriptional activity of the neonatal Fc receptor alpha-chain promoter. Immunology	 2006. 119(1): p. 83-9.				
+141	"	Saleh"	 M.N.	 et al.	 Combined modality therapy of A431 human epidermoid cancer using anti-EGFr antibody C225 and radiation. Cancer Biother Radiopharm	 1999. 14(6): p. 451-63.				
+1	"	Savic"	 R.M.	 et al.	 Implementation of a transit compartment model for describing drug absorption in pharmacokinetic studies. J Pharmacokinet Pharmacodyn	 2007. 34(5): p. 711-26.				
+103	"	Schiff"	 R.	 et al.	 Cross-talk between estrogen receptor and growth factor pathways as a molecular target for overcoming endocrine resistance. Clin Cancer Res	 2004. 10(1 Pt 2): p. 331S-6S.				
+137	"	Schoennemann"	 K.R.	 et al.	 Biweekly cetuximab and irinotecan as second-line therapy in patients with gastro-esophageal cancer previously treated with platinum. Gastric Cancer	 2011. 14(3): p. 219-25.				
+64	"	Sharma"	 A.	 et al.	 Comparative pharmacodynamics of keliximab and clenoliximab in transgenic mice bearing human CD4. J Pharmacol Exp Ther	 2000. 293(1): p. 33-41.				
+8	"	Sheiner"	 L.B.	 B. Rosenberg	 and V.V. Marathe	 Estimation of population characteristics of pharmacokinetic parameters from routine clinical data. J Pharmacokinet Biopharm	 1977. 5(5): p. 445-79.			
+136	"	Shitara"	 K.	 et al.	 Phase II study of combination chemotherapy with biweekly cetuximab and irinotecan for wild-type KRAS metastatic colorectal cancer refractory to irinotecan	 oxaliplatin	 and fluoropyrimidines. Invest New Drugs	 2010. 2010: p. 22.		
+25	"	Simister"	 N.E. and K.E. Mostov	 An Fc receptor structurally related to MHC class I antigens. Nature	 1989. 337(6203): p. 184-7.					
+22	"	Spiegelberg"	 H.L. and W.O. Weigle	 The Catabolism of Homologous and Heterologous 7s Gamma Globulin Fragments. J Exp Med.	 1965. 121: p. 323-38.					
+29	"	Spiekermann"	 G.M.	 et al.	 Receptor-mediated immunoglobulin G transport across mucosal barriers in adult life: functional expression of FcRn in the mammalian lung. J Exp Med	 2002. 196(3): p. 303-10.				
+60	"	St Clair"	 E.W.	 et al.	 The relationship of serum infliximab concentrations to clinical improvement in rheumatoid arthritis: results from ATTRACT	 a multicenter	 randomized	 double-blind	 placebo-controlled trial. Arthritis Rheum	 2002. 46(6): p. 1451-9.
+58	"	Stephens"	 S.	 et al.	 Comprehensive pharmacokinetics of a humanized antibody and analysis of residual anti-idiotypic responses. Immunology.	 1995. 85(4): p. 668-74.				
+92	"	Stubenrauch"	 K.	 et al.	 Evaluation of a biosensor immunoassay for simultaneous characterization of isotype and binding region of human anti-tocilizumab antibodies with control by surrogate standards. Anal Biochem	 2009. 390(2): p. 189-96.				
+118	"	Tabernero"	 J.	 et al.	 Cetuximab administered once every second week to patients with metastatic colorectal cancer: a two-part pharmacokinetic/pharmacodynamic phase I dose-escalation study. Ann Oncol	 2010. 21(7): p. 1537-45.				
+**59	"	Tan"	 A.R.	 et al.	 Pharmacokinetics of cetuximab after administration of escalating single dosing and weekly fixed dosing in patients with solid tumors. Clin Cancer Res.	 2006. 12(21): p. 6517-22. Epub 2006 Oct 25.				
+123	"	Tan"	 A.R.	 et al.	 Pharmacokinetics of cetuximab after administration of escalating single dosing and weekly fixed dosing in patients with solid tumors. Clin Cancer Res	 2006. 12(21): p. 6517-22.				
+134	"	Team"	 R.D.C.	 R: A Language and Environment for Statistical Computing	2011	 R Foundation for Statistical Computing: Vienna	 Austria.			
+28	"	Telleman"	 P. and R.P. Junghans	 The role of the Brambell receptor (FcRB) in liver: protection of endocytosed immunoglobulin G (IgG) from catabolism in hepatocytes rather than transport of IgG to bile. Immunology	 2000. 100(2): p. 245-51.					
+7	"	Ternant"	 D. and G. Paintaud	 Pharmacokinetics and concentration-effect relationships of therapeutic monoclonal antibodies and fusion proteins. Expert Opin Biol Ther	 2005. 5 Suppl 1: p. S37-47.					
+71	"	Ternant"	 D.	 et al.	 Infliximab pharmacokinetics in inflammatory bowel disease patients. Ther Drug Monit	 2008. 30(4): p. 523-9.				
+86	"	Ternant"	 D.	 et al.	 Interindividual variability in the concentration-effect relationship of antilymphocyte globulins - a possible influence of FcgammaRIIIa genetic polymorphism. Br J Clin Pharmacol	 2008. 65(1): p. 60-8.				
+104	"	Van Cutsem"	 E.	 et al.	 Cetuximab and chemotherapy as initial treatment for metastatic colorectal cancer. N Engl J Med	 2009. 360(14): p. 1408-17.				
+106	"	Vermorken"	 J.B.	 et al.	 Platinum-based chemotherapy plus cetuximab in head and neck cancer. N Engl J Med	 2008. 359(11): p. 1116-27.				
+100	"	Vivanco"	 I. and C.L. Sawyers	 The phosphatidylinositol 3-Kinase AKT pathway in human cancer. Nat Rev Cancer	 2002. 2(7): p. 489-501.					
+37	"	Ward"	 E.S.	 et al.	 Evidence to support the cellular mechanism involved in serum IgG homeostasis in humans. Int Immunol	 2003. 15(2): p. 187-95.				
+115	"	Watanabe"	 T.	 et al.	 Heterogeneity of KRAS status may explain the subset of discordant KRAS status between primary and metastatic colorectal cancer. Dis Colon Rectum	 2011. 54(9): p. 1170-8.				
+66	"	Weisman"	 M.H.	 et al.	 Efficacy	 pharmacokinetic	 and safety assessment of adalimumab	 a fully human anti-tumor necrosis factor-alpha monoclonal antibody	 in adults with rheumatoid arthritis receiving concomitant methotrexate: a pilot study. Clin Ther	 2003. 25(6): p. 1700-21.
+97	"	Wells"	 A.	 EGF receptor. Int J Biochem Cell Biol	 1999. 31(6): p. 637-43.					
+85	"	Weng"	 W.K.	 et al.	 Immunoglobulin G Fc receptor FcgammaRIIIa 158 V/F polymorphism correlates with rituximab-induced neutropenia after autologous transplantation in patients with non-Hodgkin's lymphoma. J Clin Oncol	 2009. 28(2): p. 279-84.				
+79	"	Wiseman"	 G.A.	 et al.	 Radiation dosimetry results and safety correlations from 90Y-ibritumomab tiuxetan radioimmunotherapy for relapsed or refractory non-Hodgkin's lymphoma: combined data from 4 clinical trials. J Nucl Med	 2003. 44(3): p. 465-74.				
+14	"	Wurm"	 F.M.	 Production of recombinant protein therapeutics in cultivated mammalian cells. Nat Biotechnol	 2004. 22(11): p. 1393-8.					
+3	"	Yan"	 X.	 D.E. Mager	 and W. Krzyzanski	 Selection between Michaelis-Menten and target-mediated drug disposition pharmacokinetic models. J Pharmacokinet Pharmacodyn	 2009. 37(1): p. 25-47.			
+93	"	Yang"	 Z.	 et al.	 LC-MS/MS approach for quantification of therapeutic proteins in plasma using a protein internal standard and 2D-solid-phase extraction cleanup. Anal Chem	 2007. 79(24): p. 9294-301.				
+130	"	Zhang"	 W.	 et al.	 FCGR2A and FCGR3A polymorphisms associated with clinical outcome of epidermal growth factor receptor expressing metastatic colorectal cancer patients treated with single-agent cetuximab. J Clin Oncol	 2007. 25(24): p. 3712-8.				
+80	"	Zhou"	 H.	 et al.	 Pharmacokinetics and safety of golimumab	 a fully human anti-TNF-alpha monoclonal antibody	 in subjects with rheumatoid arthritis. J Clin Pharmacol	 2007. 47(3): p. 383-96.		
+77	"	Zhu"	 Y.	 et al.	 Population pharmacokinetic modeling of ustekinumab	 a human monoclonal antibody targeting IL-12/23p40	 in patients with moderate to severe plaque psoriasis. J Clin Pharmacol	 2009. 49(2): p. 162-75.		
+124	"	Zhu"	 A.X.	 et al.	 Phase 2 study of cetuximab in patients with advanced hepatocellular carcinoma. Cancer	 2007. 110(3): p. 581-9.				

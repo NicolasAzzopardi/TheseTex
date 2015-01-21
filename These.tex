@@ -1,0 +1,185 @@
+\documentclass[a4paper,11pt,twoside]{book} %,openany
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Packages utilisés :
+\usepackage[T1]{fontenc}		%codage de caractres T1
+%\usepackage{lmodern}
+%\usepackage{aeguill}
+\usepackage{palatino}
+%\usepackage{fouriernc}
+\usepackage{kpfonts}
+\usepackage[utf8x]{inputenc}	%caractres accentus
+\usepackage[frenchb]{babel}	%adaptation de LaTeX au franÃ§ais
+\usepackage{amsmath}			%complement mathematique
+\usepackage{amssymb}			%ajoute des symboles
+	\DeclareMathOperator{\AUC}{\textit{AUC}}
+	\DeclareMathOperator{\EV}{\textit{EV}}
+	\DeclareMathOperator{\IV}{\textit{IV}}
+	\DeclareMathOperator{\MRT}{\textit{MRT}}
+	\DeclareMathOperator{\AUMC}{\textit{AUMC}}
+	\DeclareMathOperator{\MAT}{\textit{MAT}}
+	\DeclareMathOperator{\CL}{\textit{CL}}
+	\DeclareMathOperator{\off}{\textit{off}}
+%$k_{\textit{\text{12}}}$
+\usepackage{array}				%Outils supplmentaires pour les tableaux
+\usepackage{multicol}			%Plusieurs colonnes possibles
+\usepackage{supertabular} % tableaux qui tiennent sur plusieurs pages
+%\usepackage{minipage}
+\usepackage{titlesec} 
+\usepackage{xspace}				%Gestion des espaces
+\usepackage[pdftex]{graphicx}	%inclure des graphiques
+\usepackage{indentfirst} 		%indenter le premier paragraphe aprs une nouvelle section
+\usepackage{latexsym}			%ajoute des symboles
+\usepackage{setspace}			%Pour les Interlignes
+\usepackage{makeidx}			%Pour l'index
+\usepackage{vmargin}			%Definition des marges
+\usepackage{pdfpages}			%Ajout de PDF
+\usepackage[comma,sort&compress,super]{natbib}
+\usepackage{tabularx}
+\citeindextrue
+
+\usepackage{lscape} % Paysage
+
+%\usepackage[distance=5mm]{thumbs}
+
+\usepackage{hyperref}
+\titleformat{\chapter}[hang]{\bf\huge}{\thechapter}{2pc}{} 
+%\usepackage[table]{xcolor}
+%\usepackage{booktabs}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%en tete et pied de page :
+\usepackage{fancyhdr}
+\fancyhead{}
+
+\fancyhead[L]{\rightmark}	%calle gauche le titre de la section courante en tete de page
+\fancyfoot[C]{\thepage}		%centre LE numero de page en pied de page
+
+\iffloatpage{\pagestyle{empty}}{\pagestyle{fancy}}
+\clearpage{\pagestyle{empty}\cleardoublepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%profondeur de numerotation (1.2.1..) :
+\setcounter{tocdepth}{5}
+\setcounter{secnumdepth}{5}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Definition cmd :
+%center verticalement dans une page
+\newenvironment{vcenterpage}
+{\newpage\vspace*{\fill}}
+{\vspace*{\fill}\par\pagebreak}
+\makeindex
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%DEBUT DU DOCUMENT
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Propiete du document :
+\hypersetup{
+pdfauthor = {Nicolas Azzopardi},
+pdftitle = {Apport de la modélisation pharmacocinétique à l'étude de la variabilité de réponse aux anticorps monoclonaux antitumoraux : Application au cetuximab}
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Page de garde :
+\include{./inputs/page_garde}
+\thispagestyle{empty}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Definition des dimensions :
+\setlength{\voffset}{0pt} 			% offset vertical
+\setlength{\topmargin}{0pt}			% Pas de marge en haut
+\setlength{\headheight}{30pt}		% Haut de page
+\setlength{\headsep}{30pt}			% Entre le haut de page et le texte
+\setlength{\textheight}{620pt}		% Hauteur de la zone de texte
+\setlength{\footskip}{30pt}			% Bas de page + sparation
+\setlength{\hoffset}{0pt} 			% offset horizontal
+\setlength{\oddsidemargin}{20pt}	% Marge gauche sur pages impaires
+\setlength{\evensidemargin}{20pt}	% Marge gauche sur pages paires
+\setlength{\textwidth}{420pt}		% Largeur de la zone de texte 
+\setlength{\marginparsep}{1cm}		% Sparation de la marge
+\setlength{\marginparwidth}{40pt}	% Largeur de note dans la marge
+\parskip=3pt						% espace additionnel entre deux paragraphes
+%\pagestyle{fancy}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Page de remerciements :
+\input{./inputs/remerciements} %\clearpage{\pagestyle{empty}\cleardoublepage}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Les glossaire :
+\input{./inputs/abreviations} 
+
+\begin{spacing}{1.4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Les publis :
+\input{./inputs/publications} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Page Resume fr et en:
+
+\input{./inputs/resume} 
+\input{./inputs/abstract} %\clearpage{\pagestyle{empty}\cleardoublepage}
+\end{spacing}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Les sommaires :
+%\tableofcontents% 
+%L'introduction :
+\begin{spacing}{1.4}
+\input{./inputs/intro} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Les objectifs :
+%\addthumb{II}{\space\Huge{\textbf{\arabic{chapter}}}}{white}{gray}
+%\addtitlethumb{II}{\space\Huge{\textbf{II}}}{white}{gray}{none}
+\input{./inputs/objectifs} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Matériel et Méthodes :
+%\addtitlethumb{III}{\space\Huge{\textbf{III}}}{white}{gray}{none}
+\input{./inputs/MetM} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%RESULTATS :
+%\addtitlethumb{IV}{\space\Huge{\textbf{IV}}}{white}{gray}{none}
+\input{./inputs/resultats} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%PARTIE 2 :
+%\addtitlethumb{V}{\space\Huge{\textbf{V}}}{white}{gray}{none}
+\input{./inputs/discussion} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Les annexes :
+%\appendix
+\input{./inputs/PageAnnexes} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\stopthumb
+%La biblio :
+%\newpage
+\end{spacing}
+%\addtitlethumb{biblio}{\space\Huge{\textbf{B}}}{white}{gray}{none}
+%\bibliographystyle{apalike-fr}  % Auteur Date 
+\bibliographystyle{unsrtnat}      % Numero
+
+%\bibliography{biblio_endnote}
+\bibliography{./Biblio/BiblioThese2}
+%\markright{\MakeUppercase{Bibliographie}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\addtitlethumb{tabl}{\space\Huge{\textbf{T}}}{white}{gray}{none}
+\listoftables 
+%\addtitlethumb{figs}{\space\Huge{\textbf{F}}}{white}{gray}{none}
+\listoffigures 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Le indexes :
+%\newpage 
+%\addcontentsline{toc}{chapter}{Index}\printindex
+%\markright{\MakeUppercase{Index}}
+
+%\addtitlethumb{pI}{\space\Huge{\textbf{pI}}}{white}{gray}{none}
+\includepdf[pages=1-3]{./articles/Thariat.pdf}
+%\addtitlethumb{pII}{\space\Huge{\textbf{pII}}}{white}{gray}{none}
+\includepdf[pages=1-5]{./articles/Ceze.pdf}
+%\stopthumb
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%La page de dos :
+\thispagestyle{empty}
+\input{./inputs/page_dos}
+\end{document}
