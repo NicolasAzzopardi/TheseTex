@@ -32,46 +32,46 @@ Les études pharmacocinétiques nécessitent à la fois la mesure des concentrat
 L'objectif de l'analyse pharmacocinétique non-compartimentale est de décrire et de quantifier le devenir du médicament dans l'organisme en faisant le moins d'hypothèses possible. C'est l'approche pharmacocinétique qui est privilégiée par les agences du médicament car elle est robuste, peut être facilement vérifiée et est la plus objective. De plus, les paramètres décrits ci-après sont mesurables quel que soit l'allure des concentrations au cours du temps, pourvu qu'un nombre suffisant de prises de sang ait été réalisé.
 
 \subsubsection{Aire sous la courbe}
-L'aire sous la courbe ou $\AUC$ (pour \textit{Area under the concentration versus time curve}) reflète l'exposition du sujet au médicament administré. Sa dimension est la suivante :
+L'aire sous la courbe ou \gls{AUC} (pour \textit{Area under the concentration versus time curve}) reflète l'exposition du sujet au médicament administré. Sa dimension est la suivante :
 
 \begin{center}
 \textit{Unité de concentration $\times$ Unité de temps}
 \end{center}
 
-L'$\AUC$ est l'intégration des concentrations en fonction du temps :
+L'\gls{AUC} est l'intégration des concentrations en fonction du temps :
 \begin{equation}
-\AUC(t_\infty)=\int_{0}^{t_\infty}C(t) \, dt
+\gls{AUC}(t_\infty)=\int_{0}^{t_\infty}C(t) \, dt
 \label{eq:1}
 \end{equation}
 
-où $C$ est la concentration et $t$ le temps. Lors d'une administration unique, l'exposition totale du sujet est estimée par l'$\AUC$ extrapolée à l'infini, notée $\AUC_\infty$. Dans un premier temps, l'$\AUC$ entre les temps $t_0$ et $t_n$ est estimée par la méthode des trapèzes :
+où $C$ est la concentration et $t$ le temps. Lors d'une administration unique, l'exposition totale du sujet est estimée par l'\gls{AUC} extrapolée à l'infini, notée $\gls{AUC}_\infty$. Dans un premier temps, l'\gls{AUC} entre les temps $t_0$ et $t_n$ est estimée par la méthode des trapèzes :
 \begin{equation}
-\AUC_{0 \to t_n} = \sum_{i=0}^{n-1}\left ( \frac{C_i + C_{i+1}}{2}\cdot \left ( t_{i+1}-t_i \right ) \right )
+\gls{AUC}_{0 \to t_n} = \sum_{i=0}^{n-1}\left ( \frac{C_i + C_{i+1}}{2}\cdot \left ( t_{i+1}-t_i \right ) \right )
 \label{eq:2}
 \end{equation}
-où $C_i$ est la concentration mesurée au temps $t_i$ et $t_n$ est le temps correspondant à la dernière concentration mesurée. L'$\AUC$ entre la dernière concentration mesurée et l'infini $\AUC_{t_{n} \to \infty}$ est estimée par extrapolation de la pente de décroissance, si elle est log-linéaire. On peut démontrer que :
+où $C_i$ est la concentration mesurée au temps $t_i$ et $t_n$ est le temps correspondant à la dernière concentration mesurée. L'\gls{AUC} entre la dernière concentration mesurée et l'infini $\gls{AUC}_{t_{n} \to \infty}$ est estimée par extrapolation de la pente de décroissance, si elle est log-linéaire. On peut démontrer que :
 \begin{equation}
-\AUC_{t_n \to \infty} = \frac{C_n}{\lambda_z}
+\gls{AUC}_{t_n \to \infty} = \frac{C_n}{\lambda_z}
 \label{eq:3}
 \end{equation}
-où $C_n$ est la dernière concentration mesurée et $\lambda_z$ est la constante d'élimination d'ordre~1 correspondant à la pente de décroissance terminale (également appelée $k_e$ lorsqu'une seul phase de décroissance est visible). L'$\AUC$ extrapolée à l'infini est donc calculée par :
+où $C_n$ est la dernière concentration mesurée et $\lambda_z$ est la constante d'élimination d'ordre~1 correspondant à la pente de décroissance terminale (également appelée $k_e$ lorsqu'une seul phase de décroissance est visible). L'\gls{AUC} extrapolée à l'infini est donc calculée par :
 \begin{equation}
-\AUC_{0 \to \infty} =\, \AUC_{0 \to t_n} + \, \AUC_{t_n \to \infty}
+\gls{AUC}_{0 \to \infty} =\, \gls{AUC}_{0 \to t_n} + \, \gls{AUC}_{t_n \to \infty}
 \label{eq:4}
 \end{equation}
-La fraction extrapolée ne doit pas être trop importante, si possible inférieure à 10\% de l'$\AUC$ totale. Lors d'administrations répétées, la mesure de l'exposition repose sur le calcul de l'$\AUC$ à l'état d'équilibre, entre deux administrations (séparées par l'intervalle de temps $\tau$), par la méthode des trapèzes.
+La fraction extrapolée ne doit pas être trop importante, si possible inférieure à 10\% de l'\gls{AUC} totale. Lors d'administrations répétées, la mesure de l'exposition repose sur le calcul de l'\gls{AUC} à l'état d'équilibre, entre deux administrations (séparées par l'intervalle de temps $\tau$), par la méthode des trapèzes.
 
-L'$\AUC$ est souvent le meilleur critère pour l'étude des relations entre l'exposition et l'effet du médicament mais elle ne permet généralement pas d'étudier la relation concentration-effet individuelle et ses sources de variabilité. L'$\AUC$ est un indice pharmacocinétique dose-dépendant et la cinétique est dite linéaire lorsque l'$\AUC$ augmente proportionnellement à la dose.
+L'\gls{AUC} est souvent le meilleur critère pour l'étude des relations entre l'exposition et l'effet du médicament mais elle ne permet généralement pas d'étudier la relation concentration-effet individuelle et ses sources de variabilité. L'\gls{AUC} est un indice pharmacocinétique dose-dépendant et la cinétique est dite linéaire lorsque l'\gls{AUC} augmente proportionnellement à la dose.
 
 \subsubsection{Fraction biodisponible}
 Si un médicament est administré par voie~IV et par voie~EV, à deux moments différents suffisamment espacés pour que la première dose soit complètement éliminée, on peut calculer la fraction biodisponible $F$ :
 
 \begin{equation}
-F = \frac{\AUC_{EV}}{\AUC_{IV}} \cdot \frac{D_{IV}}{D_{EV}}
+F = \frac{\gls{AUC}_{EV}}{\gls{AUC}_{IV}} \cdot \frac{D_{IV}}{D_{EV}}
 \label{eq:5}
 \end{equation}
 
-où $\AUC_{EV}$ et $\AUC_{IV}$ sont respectivement les $\AUC$ après administrationé~EV et après administration~IV, et $D_{IV}$ et $D_{EV}$ sont les doses respectives de la voie~IV et de la voie~EV. La condition nécessaire est que la clairance ne se soit pas modifiée entre les deux études pharmacocinétiques. S'il n'y a pas de phénomènes saturables intervenant dans l'absorption, $F$ est indépendant de la dose.
+où $\gls{AUC}_{EV}$ et $\gls{AUC}_{IV}$ sont respectivement les \gls{AUC} après administrationé~EV et après administration~IV, et $D_{IV}$ et $D_{EV}$ sont les doses respectives de la voie~IV et de la voie~EV. La condition nécessaire est que la clairance ne se soit pas modifiée entre les deux études pharmacocinétiques. S'il n'y a pas de phénomènes saturables intervenant dans l'absorption, $F$ est indépendant de la dose.
 
 \subsubsection{Temps de résidence moyen} 
 La demi-vie $t_{1/2}$ est le paramètre le plus souvent utilisé pour quantifier l'élimination des médicaments. C'est le temps nécessaire pour que la concentration du médicament diminue de moitié. Lors de l'administration répétée d'un médicament, la $t_{1/2}$ permet de déterminer le temps nécessaire à l'obtention de l'état d'équilibre. Cependant, la $t_{1/2}$ ne peut être estimée s'il n'y a pas de phase log-linéaire de décroissance terminale des concentrations.
@@ -79,21 +79,21 @@ La demi-vie $t_{1/2}$ est le paramètre le plus souvent utilisé pour quantifier
 Le calcul du "temps de résidence moyen" ($\MRT$ pour \textit{Mean Residence Time}) est un autre moyen de mesurer le temps passé par un médicament dans l'organisme. Il peut être calculé quelle que soit l'allure de la cinétique des concentrations. Ce paramètre est particulièrement utile lorsqu'il s'agit de médicaments administrés par voie~EV et ayant une absorption lente (médicament à libération prolongée ou biomédicaments administrés par voie sous-cutanée) ou irrégulière. En pratique, le $\MRT$, qui a la dimension d'un temps, est calculé après administration~IV rapide (bolus) par :
 
 \begin{equation}
-\MRT_{IV} = \frac{\AUMC}{\AUC}
+\MRT_{IV} = \frac{\gls{AUMC}}{\gls{AUC}}
 \label{eq:6}
 \end{equation}
 
-où $\AUMC$ (\textit{Area Under the first Moment of the concentration versus time Curve}) est le moment d'ordre~1 de la courbe des concentrations en fonction du temps. Comme l'$\AUC$, l'$\AUMC$ entre les temps $t_0$ et $t_n$ peut être estimée par la méthode des trapèzes :
+où \gls{AUMC} (\textit{Area Under the first Moment of the concentration versus time Curve}) est le moment d'ordre~1 de la courbe des concentrations en fonction du temps. Comme l'\gls{AUC}, l'\gls{AUMC} entre les temps $t_0$ et $t_n$ peut être estimée par la méthode des trapèzes :
 
 \begin{equation}
-\AUMC_{0 \to t_n} = \sum_{i=0}^{n-1}\left ( \frac{t_i C_i + t_{i+1}C_{i+1}}{2}\cdot \left ( t_{i+1}-t_i \right ) \right )
+\gls{AUMC}_{0 \to t_n} = \sum_{i=0}^{n-1}\left ( \frac{t_i C_i + t_{i+1}C_{i+1}}{2}\cdot \left ( t_{i+1}-t_i \right ) \right )
 \label{eq:7}
 \end{equation}
 
 La fraction extrapolée à l'infini est obtenue par :
 
 \begin{equation}
-\AUMC_{t_n \to \infty} = \frac{C_n \cdot t_n}{\lambda_z}+\frac{C_n }{\lambda_z^2}
+\gls{AUMC}_{t_n \to \infty} = \frac{C_n \cdot t_n}{\lambda_z}+\frac{C_n }{\lambda_z^2}
 \label{eq:8}
 \end{equation}
 
@@ -121,7 +121,7 @@ La clairance ($\CL$) quantifie la capacité d'élimination du médicament par l'
 La $\CL$ peut être calculée, après administration~IV, par :
 
 \begin{equation}
-\CL = \frac{D}{\AUC}
+\CL = \frac{D}{\gls{AUC}}
 \label{eq:11}
 \end{equation}
 
@@ -707,7 +707,7 @@ La description compartimentale de la pharmacocinétique des anticorps administr�
 \subsubsection{Dose-dépendance et élimination non-linéaire}
 Des phénomènes d'éliminations saturables ont été décrits pour près de la moitié des anticorps monoclonaux commercialisés~\citep{REF62}. Leur clairance étant en partie due à leur fixation sur l'antigène-cible, un modèle mécanistique de type TMDD peut être utilisé si les données sont suffisamment riches. Les données disponibles étant rarement très riches, la description de ces phénomènes d'élimination saturable est souvent réalisée par une équation de type Michaelis-Menten~\citep{REF3}. Mould~\textit{et al.} ont par exemple décrit l'élimination de l'alemtuzumab par une équation de type Michaelis-Menten reliée au compartiment central. Kloft~\textit{et al.} ont décrit l'élimination du sibrotuzumab par une équation combinant clairance (élimination non saturable) et élimination de type Michaelis-Menten à partir du compartiment central~\citep{REF63}. Sharma~\textit{et al.} ont quant à eux décrit la pharmacocinétique du keliximab et du clenoliximab (deux anticorps anti CD4)  par un modèle à deux compartiments avec élimination de type Michaelis-Menten appliquée aux deux compartiments~\citep{REF64}.
 
-Lorsque l'élimination n'est pas saturée, l'$\AUC$ -- qui est le reflet de l'exposition -- est proportionnelle à la dose (équation~\ref{eq:1}). Dans ce cas, si l'intervalle d'injection $\tau$ est doublé, la même $\AUC$ peut être obtenue en doublant la dose. Lorsque l'élimination fait intervenir des phénomènes saturables, cette relation n'est plus vraie et il est nécessaire de disposer d'un modèle compartimental intégrant ces phénomènes pour adapter la posologie selon l'objectif d'exposition.
+Lorsque l'élimination n'est pas saturée, l'\gls{AUC} -- qui est le reflet de l'exposition -- est proportionnelle à la dose (équation~\ref{eq:1}). Dans ce cas, si l'intervalle d'injection $\tau$ est doublé, la même \gls{AUC} peut être obtenue en doublant la dose. Lorsque l'élimination fait intervenir des phénomènes saturables, cette relation n'est plus vraie et il est nécessaire de disposer d'un modèle compartimental intégrant ces phénomènes pour adapter la posologie selon l'objectif d'exposition.
 
 Bien que les modèles de type TMDD soient théoriquement les mieux adaptés à la description mécanistique de l'élimination des anticorps monoclonaux, aucune publication n'a encore rapporté leur utilisation. Les caractéristiques non-linéaires de l'élimination sont généralement décrites par équation de Michaelis-Menten.  
 
@@ -750,7 +750,7 @@ Comme décrit plus haut, la distribution et l'élimination de l'albumine et des 
 L'immunisation contre les anticorps thérapeutiques augmente leur clairance. Ternant~\textit{et al.} ont montré que la clairance de l'infliximab était 2,7 fois plus élevée chez les patients ayant des anticorps anti-infliximab (ATI pour \textit{antibodies toward infliximab})~\citep{REF71} que chez les patients non immunisés.
 
 \subsection{Facteurs de variabilité de la relation dose-concentration-effet des IgG}
-Un des premiers facteurs individuels de variabilité de la réponse aux anticorps thérapeutiques identifié est un polymorphisme génétique du récepteur Fc$\gamma$RIIIA (CD16a) codé par le gène FCGR3A. Ce polymorphisme conduit à la présence d'une phénylalanine ou d'une valine en position~\citep{REF158}. En effet, la survie sans progression de patients traités par rituximab, un anti-CD20, pour lymphome malin non Hodgkinien était significativement plus longue chez les patients homozygotes de génotype FCGR3A-158V/V que chez les patients porteurs de l'allèle FCGR3A-158F~\citep{REF82}. Ce polymorphisme génétique influence l'affinité du récepteur Fc$\gamma$RIIIA pour la portion Fc des IgG et donc le recrutement des cellules impliquées dans la cytotoxicité à médiation cellulaire dépendante des anticorps (ADCC pour \textit{Antibody-Dependent Cell-mediated Cytotoxicity})~\citep{REF83, REF84}. L'influence de ce polymorphisme sur l'efficacité du rituximab a été confirmée par d'autres études~\citep{REF85, REF86} et a également été mis en évidence pour d'autres anticorps thérapeutiques agissant au moins en partie par ADCC, comme un anticorps anti-D~\citep{REF87}, l'infliximab~\citep{REF88} et le trastuzumab~\citep{REF89}.
+Un des premiers facteurs individuels de variabilité de la réponse aux anticorps thérapeutiques identifié est un polymorphisme génétique du récepteur Fc$\gamma$RIIIA (CD16a) codé par le gène FCGR3A. Ce polymorphisme conduit à la présence d'une phénylalanine ou d'une valine en position~\citep{REF158}. En effet, la survie sans progression de patients traités par rituximab, un anti-CD20, pour lymphome malin non Hodgkinien était significativement plus longue chez les patients homozygotes de génotype FCGR3A-158V/V que chez les patients porteurs de l'allèle FCGR3A-158F~\citep{REF82}. Ce polymorphisme génétique influence l'affinité du récepteur Fc$\gamma$RIIIA pour la portion Fc des IgG et donc le recrutement des cellules impliquées dans la cytotoxicité à médiation cellulaire dépendante des anticorps (\gls{ADCC} pour \textit{Antibody-Dependent Cell-mediated Cytotoxicity})~\citep{REF83, REF84}. L'influence de ce polymorphisme sur l'efficacité du rituximab a été confirmée par d'autres études~\citep{REF85, REF86} et a également été mis en évidence pour d'autres anticorps thérapeutiques agissant au moins en partie par \gls{ADCC}, comme un anticorps anti-D~\citep{REF87}, l'infliximab~\citep{REF88} et le trastuzumab~\citep{REF89}.
 
 Comme ce polymorphisme entraîne une différence d'affinité du récepteur Fc$\gamma$RIIIA pour la portion Fc des anticorps thérapeutiques, il était logique de penser qu'il n'influence pas la pharmacocinétique des anticorps mais plutôt leur relation concentration-effet. Ceci a été confirmé pour le rituximab par un modèle \textit{in vitro}~\citep{REF83}, puis chez l'Homme par la modélisation de la relation concentration-effet de la Lymphoglobuline~\citep{REF86}.
 

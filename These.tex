@@ -1,4 +1,10 @@
 \documentclass[a4paper,11pt,twoside]{book} %,openany
+
+\pdfinfo{ 
+/Author (Nicolas Azzopardi) 
+/Title (Apport de la modélisation pharmacocinétique à l'étude de la variabilité de réponse aux anticorps monoclonaux antitumoraux: Application au cetuximab) 
+} 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Packages utilisés :
 \usepackage[T1]{fontenc}		%codage de caractres T1
@@ -8,14 +14,12 @@
 %\usepackage{fouriernc}
 \usepackage{kpfonts}
 \usepackage[utf8x]{inputenc}	%caractres accentus
-\usepackage[frenchb]{babel}	%adaptation de LaTeX au franÃ§ais
+\usepackage[frenchb]{babel}	%adaptation de LaTeX au français
 \usepackage{amsmath}			%complement mathematique
 \usepackage{amssymb}			%ajoute des symboles
-	\DeclareMathOperator{\AUC}{\textit{AUC}}
 	\DeclareMathOperator{\EV}{\textit{EV}}
 	\DeclareMathOperator{\IV}{\textit{IV}}
 	\DeclareMathOperator{\MRT}{\textit{MRT}}
-	\DeclareMathOperator{\AUMC}{\textit{AUMC}}
 	\DeclareMathOperator{\MAT}{\textit{MAT}}
 	\DeclareMathOperator{\CL}{\textit{CL}}
 	\DeclareMathOperator{\off}{\textit{off}}
@@ -76,6 +80,16 @@
 {\newpage\vspace*{\fill}}
 {\vspace*{\fill}\par\pagebreak}
 \makeindex
+
+%%%%%%%%%%% Abréviations
+%\usepackage[nonumberlist]{glossaries}
+\usepackage{glossaries}
+\makeglossaries
+
+
+
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %DEBUT DU DOCUMENT
 \begin{document}
@@ -83,7 +97,10 @@
 %Propiete du document :
 \hypersetup{
 pdfauthor = {Nicolas Azzopardi},
-pdftitle = {Apport de la modélisation pharmacocinétique à l'étude de la variabilité de réponse aux anticorps monoclonaux antitumoraux : Application au cetuximab}
+pdftitle = {Apport de la modélisation pharmacocinétique à l'étude de la variabilité de réponse aux anticorps monoclonaux antitumoraux : Application au cetuximab},
+pdfkeywords = {anticorps monoclonaux}{cetuximab},%{ELISA}{pharmacocinétique}{relation dose-réponse}{survie sans progression}{polymorphisme génétique}{récepteurs Fc}, 
+pdfsubject = {Thèse soutenue le 7 décembre 2011},
+colorlinks=false,
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Page de garde :
