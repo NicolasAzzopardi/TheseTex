@@ -10,7 +10,7 @@ L'utilisation du cetuximab en association à la radiothérapie est approuvée po
 L'objectif de l'étude était d'étudier la pharmacocinétique du cetuximab chez un patient hémodialysé. Ce patient, âgé de 57~ans, mesurait 1,76~m pour 86~kg. Il était traité par cetuximab pour un carcinome épidermoïde infiltrant du sinus piriforme gauche T3N2bM0. Pour ce patient, la chirurgie et la chimiothérapie d'induction type TPF avaient été réfutées. Il recevait des doses de cetuximab de 250 mg/m$^2$ toutes les semaines et était hémodialysé trois fois par semaine, pendant cinq heures. Les concentrations sériques de cetuximab ont été mesurées au cours du temps par méthode ELISA (Publication~II) et la pharmacocinétique a été décrite par un modèle bi-compartimental avec constantes de distribution et d'élimination d'ordre~1 (Figure~\ref{fig:18}). Les volumes de distribution $V_1$ et $V_2$ ainsi que les clairances d'élimination et de distribution étaient respectivement estimés à 3,8~L ; 3,77~L ; 0,6 L$\cdot$jour$^{-1}$ et 0,53 L$\cdot$jour$^{-1}$. 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=10cm]{figures/raster/FIG_18}
 	\caption[Concentration de cetuximab au cours du temps chez un patient hémodialysé.]{Concentration de cetuximab au cours du temps chez un patient hémodialysé. Les points sont les concentrations observées; la ligne, les concentrations prédites par un modèle à deux compartiments. Dans l'encadré, concentrations prédites vs concentrations observées.}
 	\label{fig:18}
 \end{figure}
@@ -29,11 +29,49 @@ Un total de 1322 concentrations sériques de cetuximab a été mesuré avec un n
 
 La pharmacocinétique du cetuximab a été décrite au moyen d'un modèle à 2~compartiments combinant une élimination d'ordre~1 et une élimination d'ordre~0 (Figure~\ref{fig:19}D). Le modèle d'erreur était proportionnel et les 13~concentrations inférieures à la LLOQ ont été censurées. Ce modèle a permis une description satisfaisante des concentrations et notamment des résiduelles très basses (graphiques diagnostiques Figures~\ref{fig:20}-\ref{fig:22}). Le remplacement de l'élimination d'ordre~0 par une élimination de type Michaelis-Menten ne diminuait pas significativement la valeur de la fonction objective. De plus, la valeur de $k_M$ obtenue était inférieure à la LLOQ et n'était donc pas pertinente. Les valeurs de population des cinq paramètres du modèle final étaient correctement estimées avec un CV inférieur à 10\%. Ces valeurs sont présentées dans le Tableau~\textbf{3}. La surface corporelle est apparue comme étant une covariable significative de $V_1$, $V_2$ et $k_0$, ces paramètres augmentant avec sa valeur. L'albuminémie initiale était une covariable significative de $\CL$ : la clairance était d'autant plus importante que l'albuminémie était faible.
 
-\begin{figure}[htbp]
-	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
-	\caption[Profils PK d'un patient avec les différents modèles]{Exemples de profils pharmacocinétiques d'un patient obtenus avec les différents modèles testés. \textbf{A} et \textbf{B} : modèles à un et deux compartiments avec élimination d'ordre~1 ($\CL$). \textbf{C} : modèle à deux compartiments avec élimination d'ordre 0 ($k_0$). La meilleure description des concentrations observées est obtenue avec le dernier modèle (\textbf{D}) combinant une élimination d'ordre~0 et une élimination d'ordre~1.}
-	\label{fig:19}
+
+\begin{figure}[htbp] 
+
+  \begin{subfigure}[b]{0.75\linewidth}
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/raster/FIG_19a1} 
+  \end{subfigure}%% 
+  \begin{subfigure}[b]{0.25\linewidth}
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/raster/FIG_19a2} 
+  \end{subfigure} 
+  
+  \begin{subfigure}[b]{0.75\linewidth}
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/raster/FIG_19b1} 
+  \end{subfigure}%%
+  \begin{subfigure}[b]{0.25\linewidth}
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/raster/FIG_19b2} 
+  \end{subfigure} 
+  
+  
+  \begin{subfigure}[b]{0.75\linewidth}
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/raster/FIG_19c1} 
+  \end{subfigure}%%
+  \begin{subfigure}[b]{0.25\linewidth}
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/raster/FIG_19c2} 
+  \end{subfigure} 
+  
+  
+  \begin{subfigure}[b]{0.75\linewidth}
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/raster/FIG_19d1} 
+  \end{subfigure}%%
+  \begin{subfigure}[b]{0.25\linewidth}
+    \centering
+    \includegraphics[width=0.75\linewidth]{figures/raster/FIG_19d2} 
+  \end{subfigure} 
+  
+  \caption[Profils PK d'un patient avec les différents modèles]{Exemples de profils pharmacocinétiques d'un patient obtenus avec les différents modèles testés. \textbf{A} et \textbf{B} : modèles à un et deux compartiments avec élimination d'ordre~1 ($\CL$). \textbf{C} : modèle à deux compartiments avec élimination d'ordre 0 ($k_0$). La meilleure description des concentrations observées est obtenue avec le dernier modèle (\textbf{D}) combinant une élimination d'ordre~0 et une élimination d'ordre~1.}
+  \label{fig:19} 
 \end{figure}
 
 \begin{table}[!ht]
@@ -70,20 +108,20 @@ La pharmacocinétique du cetuximab a été décrite au moyen d'un modèle à 2~c
  
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=10cm]{figures/raster/FIG_20}
 	\caption{Concentrations de cetuximab observées chez des patients traités pour cancer colorectal métastatique vs. concentrations prédites au moyen d'un modèle à 2 compartiments combinant une élimination d'ordre~1 et une élimination d'ordre~0.}
 	\label{fig:20}
 \end{figure}
 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=10cm]{figures/raster/FIG_21}
 	\caption{Distribution normalisée des résidus (Normalized prediction distribution errors, NPDE). (A) : distribution (histogramme) et densité de probabilité de la loi normale centrée réduite (courbe). (B) : quantiles des NPDE \textit{vs.} quantiles de la loi normale centrée réduite. En rouge, les 5éme et 95éme percentiles.}
 	\label{fig:21}
 \end{figure}
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=10cm]{figures/raster/FIG_22}
 	\caption{Clairance d'élimination en fonction de la concentration de cetuximab. L'élimination globale du cetuximab (en noir) a été décrite comme la combinaison d'une élimination d'ordre~1 (pointillés) et d'une élimination d'ordre 0 (tirets).}
 	\label{fig:22}
 \end{figure}
@@ -102,7 +140,7 @@ La recherche d'un modèle PK-PD stable avec prise en compte ou non des doses de 
 Dans la cohorte de la publication III, la médiane de survie sans progression (PFS) était de 6,5 mois pour l'ensemble des 96~patients inclus (Figure~\ref{fig:23}). 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=6cm]{figures/raster/FIG_23}
 	\caption[PFS de 96 patients]{Survie sans progression (PFS) des 96 patients traités par cetuximab pour cancer colorectal métastatique.}
 	\label{fig:23}
 \end{figure}
@@ -120,28 +158,31 @@ L'$\AUC$ est le meilleur reflet de l'exposition. Cependant, c'est une valeur qui
 Les patients dont la clairance globale était inférieure à la valeur médiane (0,66~L/jour) avaient un temps de progression médian plus long que ceux dont la clairance globale était supérieure à la valeur médiane (8,9 mois vs 3,3 mois) et un risque relatif de progression 2,6 fois moins élevé (p < 5 $\cdot$ 10$^{-5}$) (Figure~\ref{fig:24}). 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=6cm]{figures/raster/FIG_24}
 	\caption{Survie sans progression (PFS) selon la clairance globale médiane (0,66 L/jour). En bleu, le groupe des patients ayant une clairance globale inférieure à la médiane ($n = 48$) ; en rouge le groupe des patients ayant une clairance globale supérieure à la médiane ($n = 48$) ($p < 0,00005$).}
 	\label{fig:24}
 \end{figure}
 Le statut \textit{KRAS} de la tumeur des patients inclus dans l'étude a pu être déterminé rétrospectivement chez 51 patients et la tumeur était non mutée \textit{KRAS} chez 32 d'entre eux. Dans cette étude, la PFS n'était pas influencée par le statut \textit{KRAS} tumoral ($p = 0,66$) (Figure~\ref{fig:25}).
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=6cm]{figures/raster/FIG_25}
 	\caption{Survie sans progression (PFS) selon le statut \textit{KRAS} tumoral. En bleu, le groupe des patients portant une tumeur non mutés \textit{KRAS} ; en rouge le groupe des patients porteur de tumeur mutée \textit{KRAS} ($p = 0,66$).}
 	\label{fig:25}
 \end{figure}
 Parmi les patients avec une tumeur non mutée \textit{KRAS}, ceux dont la clairance globale était inférieure à la valeur médiane avaient un temps de progression médian plus long que les autres (10,1 mois \textit{vs.} 2,8 mois). Ces patients avaient également un risque de progression 2,8 fois moins élevé ($p = 0,014$). Cette différence n'était pas significative chez les patients ayant une tumeur mutée \textit{KRAS} ($p = 0,21$) (Figure~\ref{fig:26}).
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=6cm]{figures/raster/FIG_26a}
+		\includegraphics[width=6cm]{figures/raster/FIG_26b}
 	\caption{Survie sans progression (PFS) selon la clairance globale médiane. A gauche, le groupe des patients portant une tumeur non mutés \textit{KRAS} ($p = 0,014$); A droite, le groupe des patients porteur de tumeur mutée \textit{KRAS} ($p = 0,21$) - En bleu, le groupe des patients ayant une clairance globale inférieure ou égale à la médiane ; en rouge le groupe des patients ayant une clairance globale supérieure à la médiane.}
 	\label{fig:26}
 \end{figure} 
 Dans cette étude, le polymorphisme \textit{FCGR3A}-V158F n'influençait pas significativement la PFS. Dans le sous-groupe des patients \textit{KRAS} non mutés, six patients étaient homozygotes \textit{FCGR3A}-V/V. Cependant, parmi ces six patients, trois n'ont plus reçu de cetuximab après 6 mois de traitement, ce qui pourrait expliquer la perte de l'avantage d'être \textit{FCGR3A}-V/V (Figure~\ref{fig:27}). 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=6cm]{figures/raster/FIG_27a}
+		\includegraphics[width=6cm]{figures/raster/FIG_27b}
+		\includegraphics[width=6cm]{figures/raster/FIG_27c}
 	\caption{Survie sans progression (PFS) selon le polymorphisme \textit{FCGR3A}-V158F. A gauche, chez les 96 patients ; au milieu, chez les patients porteurs de tumeur non mutée \textit{KRAS} ; à droite, chez les patients porteur de tumeur mutée \textit{KRAS} - En rouge, patients homozygotes \textit{FCGR3A}-V/V ; en bleu, patients porteurs de l'allèle \textit{FCGR3A}-F.}
 	\label{fig:27}
 \end{figure}
@@ -150,7 +191,7 @@ Nous avons étudié la relation entre la PFS et la présence/absence de toxicit�
 Cependant, $k_0$ était significativement plus important chez les patients ayant présenté une toxicité cutanée pendant les 21 premiers jours de traitement ($p = 0,04$). De plus, les valeurs de $k_0$ étaient significativement plus élevées chez les patients ayant présenté un grade de toxicité cutanée supérieur à 1 avant J7 et J14 (respectivement $p = 0,014$ et $p = 0,04$).
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=6cm]{figures/raster/FIG_28}
 	\caption{Survie sans progression (PFS) selon la toxicité cutanée à 21 jours. En bleu, groupe des patients n'ayant pas présenté de toxicité cutanée les 21 premiers jours ($n = 21$) ; en rouge le groupe des patients ayant présenté une toxicité cutanée pendant cet intervalle de temps ($n = 69$) ($p = 0,077$).}
 	\label{fig:28}
 \end{figure}
@@ -158,20 +199,21 @@ Cependant, $k_0$ était significativement plus important chez les patients ayant
 Pour que l'influence de la pharmacocinétique du cetuximab sur la PFS puisse être estimée le plus tôt possible après l'initiation du traitement en clinique, nous avons étudié la relation entre les concentrations résiduelles avant réinjection et la clairance globale. Les patients du groupe dont la clairance globale était supérieure à la valeur médiane avaient des concentrations résiduelles de l'ordre de 30~mg/L, inférieures à celles de l'autre groupe qui étaient de l'ordre de 60~mg/L (Figure~\ref{fig:29}). La seule étude décrivant la relation concentration-effet in vivo du cetuximab montre que les patients en progression ont des concentrations résiduelles moyennes autour de 30~mg/L alors que les patients stables ou répondeurs ont des concentrations résiduelles moyennes autour de 60 mg/L~\citep{REF122}. Il semblait donc exister un lien entre concentration résiduelle et survie sans progression. 
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=6cm]{figures/raster/FIG_29}
 	\caption{Concentrations résiduelles au cours du temps, en fonction de la clairance globale. En bleu, clairance globale supérieure à la valeur médiane ; En rouge, clairance globale inférieure. Les lignes correspondent aux 5éme, 50éme et 95éme percentiles dans les deux groupes.}
 	\label{fig:29}
 \end{figure}
 Dans notre étude, les concentrations résiduelles les plus nombreuses étaient celles de J14 (avant la troisième injection de cetuximab, $n = 71$) et J28 (avant la cinquième injection, $n = 62$). Après avoir contrôlé la corrélation entre ces concentrations et les valeurs de clairance globale (Figure~\ref{fig:33}), nous avons quantifié leur relation  avec la PFS. Les patients dont la concentration résiduelle à J14 était supérieure à la valeur médiane avaient un risque relatif de progression 1,9 fois plus faible que les autres patients ($p = 0,014$). Les patients dont la concentration résiduelle à J28 était supérieure à la valeur médiane avaient un risque relatif de progression également 1,9 fois plus faible que les autres patients ($p = 0,025$) (Figure~\ref{fig:31}).
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=6cm]{figures/raster/FIG_30}
 	\caption{Clairances globales des patients représentées en fonction des concentrations résiduelles à J14 (en haut) et à J28 (en bas). Les courbes représentent des régressions exponentielles, les droites en pointillés représentent le 25éme, 50éme et 75éme percentile des clairances globales.}
 	\label{fig:30}
 \end{figure}
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=6cm]{figures/raster/FIG_31a}
+		\includegraphics[width=6cm]{figures/raster/FIG_31b}
 	\caption{Survie sans progression (PFS) selon la concentration résiduelle de cetuximab avant réinjection. A gauche, concentration résiduelle à J14 ($p = 0,014$) ; a droite, concentration résiduelle à J28 ($p = 0,025$) - En rouge, patients ayant une concentration résiduelle supérieure ou égale à la médiane ; en bleu, patients ayant une concentration résiduelle inférieure à la médiane.}
 	\label{fig:31}
 \end{figure}
@@ -225,7 +267,8 @@ Les trois différents profils pharmacocinétiques obtenus avec les différentes 
 Nos résultats objectivent les conséquences potentielles de la non-linéarité du cetuximab sur ses concentrations sériques lors de l'espacement des injections. Bien que les différences observées en termes d'$\AUC$ ne soient pas cliniquement pertinentes, les différences en termes de concentrations résiduelles à l'équilibre sont importantes et leur pertinence doit être étudiée. De plus, l'espacement des injections associé à une augmentation proportionnelle de la dose des perfusions entraine de grands écarts entre les concentrations avant et après injection (pic). Nos résultats donnent des outils pour une adaptation posologique raisonnée lors de l'augmentation des intervalles de perfusion. Nos résultats doivent bien entendu être confirmés par des études pharmacocinétiques prospectives.
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=10cm]{figures/raster/FIG_32a}
+		\includegraphics[width=10cm]{figures/raster/FIG_32b}
 	\caption{Concentrations de cetuximab simulées avec trois différentes posologies ayant la même dose cumulée sur trois semaines.(Médiane et 90\% \textbf{interval of the patients}) – En rouge, 400~mg/m$^2$ suivie de 250~mg/m$^2$ toute les semaines – En vert, 500~mg/m$^2$ toute les deux semaines – En bleu, 750~mg/m$^2$ toute les trois semaines.}
 	\label{fig:32}
 \end{figure}
@@ -241,7 +284,7 @@ En ce qui concerne l'approche non-compartimentale, l'$\AUC$ de chaque souris a �
 L'approche compartimentale a d'abord été réalisée en séparant les groupes. Cependant, la vitesse d'absorption ne permettant pas de bien identifier les paramètres de distribution après nébulisation, les deux voies d'administration ont été analysées de façon conjointe. Le modèle utilisé était bicompartimental avec un compartiment d'absorption pour les souris du groupe nébulisation (équation 19). Les valeurs initiales des paramètres ka et F ont été obtenues par les équations 23 et 5 grâce aux résultats de l'analyse non-compartimentale. Ce modèle a permis une description satisfaisante des concentrations. Les estimations des paramètres et leurs CV interindividuels était $V_1$ = 5,73~mL (6,3\%), $\CL$ = 0,12~mL$\cdot$h$^{-1}$ (13\%) $V_2$ = 9,16~mL (9,6\%), $Q$ = 0,63~mL$\cdot$h$^{-1}$ (16\%) et pour le groupe nébulisation, $k_a$ = 0,04~h$^{-1}$ (25\%). Le poids des souris n'influençait pas significativement les paramètres du modèle.
 \begin{figure}[htbp]
 	\centering
-		\includegraphics[width=10cm]{images/essai001.pdf}
+		\includegraphics[width=10cm]{figures/raster/FIG_33}
 	\caption{Pharmacocinétique du cetuximab chez la Souris, administré par voie nébulisée (A) et par voie IV (B). Les points représentent les concentrations moyennes ainsi que les écart-types observées pour les souris de chaque groupe. Les traits représentent les concentrations prédites par le modèle final. A noter : l'échelle des concentrations est différente selon la voie d'administration.}
 	\label{fig:33}
 \end{figure}

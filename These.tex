@@ -37,7 +37,14 @@
 \usepackage{tabularx}
 \citeindextrue
 
+\usepackage{graphicx}
+\usepackage{subcaption}
+
 \usepackage{lscape} % Paysage
+
+\usepackage{chngcntr}
+\counterwithout{figure}{chapter}
+\counterwithout{equation}{chapter}
 
 %\usepackage[distance=5mm]{thumbs}
 
@@ -144,17 +151,13 @@ pdftitle = {Apport de la modélisation pharmacocinétique à l'étude de la vari
 %\addtitlethumb{V}{\space\Huge{\textbf{V}}}{white}{gray}{none}
 \input{./inputs/discussion} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Les annexes :
-%\appendix
-\input{./inputs/PageAnnexes} 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %\stopthumb
 %La biblio :
 %\newpage
 \end{spacing}
 %\addtitlethumb{biblio}{\space\Huge{\textbf{B}}}{white}{gray}{none}
 %\bibliographystyle{apalike-fr}  % Auteur Date 
-\bibliographystyle{unsrtnat}      % Numero
+\bibliographystyle{unsrt}      % Numero
 
 %\bibliography{biblio_endnote}
 \bibliography{./Biblio/BiblioThese2}

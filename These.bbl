@@ -1,0 +1,1111 @@
+\begin{thebibliography}{142}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Savic et~al.(2007)Savic, Jonker, Kerbusch, and Karlsson]{REF1}
+R.~M. Savic, D.~M. Jonker, T.~Kerbusch, and M.~O. Karlsson.
+\newblock Implementation of a transit compartment model for describing drug
+  absorption in pharmacokinetic studies.
+\newblock \emph{J Pharmacokinet Pharmacodyn}, 34\penalty0 (5):\penalty0
+  711--26, 2007.
+
+\bibitem[Bonate(2006)]{REF2}
+P.~L. Bonate, editor.
+\newblock \emph{Pharmacokinetic-Pharmacodynamic Modeling and Simulation}.
+\newblock Springer, springer science edition, 2006.
+
+\bibitem[Yan et~al.(2009)Yan, Mager, and Krzyzanski]{REF3}
+X.~Yan, D.~E. Mager, and W.~Krzyzanski.
+\newblock Selection between michaelis-menten and target-mediated drug
+  disposition pharmacokinetic models.
+\newblock \emph{J Pharmacokinet Pharmacodyn}, 37\penalty0 (1):\penalty0 25--47,
+  2009.
+
+\bibitem[Grimm(2009)]{REF4}
+H.~P. Grimm.
+\newblock Gaining insights into the consequences of target-mediated drug
+  disposition of monoclonal antibodies using quasi-steady-state approximations.
+\newblock \emph{J Pharmacokinet Pharmacodyn}, 36\penalty0 (5):\penalty0
+  407--20, 2009.
+
+\bibitem[Michaelis and Menten(1913)]{REF5}
+L.~Michaelis and M.~L. Menten.
+\newblock Kinetics on invertase action.
+\newblock \emph{Biochem. Z.}, 49:\penalty0 333--369, 1913.
+
+\bibitem[Mager and Jusko(2001)]{REF6}
+D.~E. Mager and W.~J. Jusko.
+\newblock General pharmacokinetic model for drugs exhibiting target-mediated
+  drug disposition.
+\newblock \emph{J Pharmacokinet Pharmacodyn}, 28\penalty0 (6):\penalty0
+  507--32, 2001.
+
+\bibitem[Ternant and Paintaud(2005)]{REF7}
+D.~Ternant and G.~Paintaud.
+\newblock Pharmacokinetics and concentration-effect relationships of
+  therapeutic monoclonal antibodies and fusion proteins.
+\newblock \emph{Expert Opin Biol Ther}, 5 Suppl 1:\penalty0 S37--47, 2005.
+
+\bibitem[Sheiner et~al.(1977)Sheiner, Rosenberg, and Marathe]{REF8}
+L.~B. Sheiner, B.~Rosenberg, and V.~V. Marathe.
+\newblock Estimation of population characteristics of pharmacokinetic
+  parameters from routine clinical data.
+\newblock \emph{J Pharmacokinet Biopharm}, 5\penalty0 (5):\penalty0 445--79,
+  1977.
+
+\bibitem[FDA()]{REF9}
+FDA.
+\newblock Guidance for industry : population pharmacokinetics. 1999.
+  www.fda.gov/cder/guidance/1852fnl.pdf accessed at 2005/05/08.
+\newblock Technical report.
+
+\bibitem[Davidian and Giltinan(1995)]{REF10}
+M.~Davidian and D~Giltinan.
+\newblock \emph{Nonlinear models for repeated measurement data}.
+\newblock Chapman \& Hall/CRC, 1995.
+
+\bibitem[Bonate(1999)]{REF11}
+P.~L. Bonate.
+\newblock The effect of collinearity on parameter estimates in nonlinear mixed
+  effect models.
+\newblock \emph{Pharm Res}, 16\penalty0 (5):\penalty0 709--17, 1999.
+
+\bibitem[Kowalski and Hutmacher(2001)]{REF12}
+K.~G. Kowalski and M.~M. Hutmacher.
+\newblock Efficient screening of covariates in population models using wald's
+  approximation to the likelihood ratio test.
+\newblock \emph{J Pharmacokinet Pharmacodyn}, 28\penalty0 (3):\penalty0
+  253--75, 2001.
+
+\bibitem[Kohler and Milstein(1975)]{REF13}
+G.~Kohler and C.~Milstein.
+\newblock Continuous cultures of fused cells secreting antibody of predefined
+  specificity.
+\newblock \emph{J Immunol}, 174\penalty0 (5):\penalty0 2453--5, 1975.
+
+\bibitem[Wurm(2004)]{REF14}
+F.~M. Wurm.
+\newblock Production of recombinant protein therapeutics in cultivated
+  mammalian cells.
+\newblock \emph{Nat Biotechnol}, 22\penalty0 (11):\penalty0 1393--8, 2004.
+
+\bibitem[Andersen and Reilly(2004)]{REF15}
+D.~C. Andersen and D.~E. Reilly.
+\newblock Production technologies for monoclonal antibodies and their
+  fragments.
+\newblock \emph{Curr Opin Biotechnol}, 15\penalty0 (5):\penalty0 456--62, 2004.
+
+\bibitem[Congy-Jolivet et~al.(2007)Congy-Jolivet, Probst, Watier, and
+  Thibault]{REF16}
+N.~Congy-Jolivet, A.~Probst, H.~Watier, and G.~Thibault.
+\newblock Recombinant therapeutic monoclonal antibodies: mechanisms of action
+  in relation to structural and functional duality.
+\newblock \emph{Crit Rev Oncol Hematol}, 64\penalty0 (3):\penalty0 226--33,
+  2007.
+
+\bibitem[Breedveld(2000)]{REF17}
+F.~C. Breedveld.
+\newblock Therapeutic monoclonal antibodies.
+\newblock \emph{Lancet}, 355\penalty0 (9205):\penalty0 735--40, 2000.
+
+\bibitem[Paintaud(2009)]{REF18}
+G.~Paintaud.
+\newblock [pharmacokinetics (pk) of mabs].
+\newblock \emph{Med Sci (Paris)}, 25\penalty0 (12):\penalty0 1057--62, 2009.
+
+\bibitem[Garg and Balthasar(2007)]{REF19}
+A.~Garg and J.~P. Balthasar.
+\newblock Physiologically-based pharmacokinetic (pbpk) model to predict igg
+  tissue kinetics in wild-type and fcrn-knockout mice.
+\newblock \emph{J Pharmacokinet Pharmacodyn}, 18:\penalty0 18, 2007.
+
+\bibitem[Morell et~al.(1970)Morell, Terry, and Waldmann]{REF20}
+A.~Morell, W.~D. Terry, and T.~A. Waldmann.
+\newblock Metabolic properties of igg subclasses in man.
+\newblock \emph{J Clin Invest}, 49\penalty0 (4):\penalty0 673--80., 1970.
+
+\bibitem[Anderson et~al.(2006)Anderson, Chaudhury, Kim, Bronson, Wani, and
+  Mohanty]{REF21}
+C.~L. Anderson, C.~Chaudhury, J.~Kim, C.~L. Bronson, M.~A. Wani, and
+  S.~Mohanty.
+\newblock Perspective-- fcrn transports albumin: relevance to immunology and
+  medicine.
+\newblock \emph{Trends Immunol}, 27\penalty0 (7):\penalty0 343--8, 2006.
+
+\bibitem[Spiegelberg and Weigle(1965)]{REF22}
+H.~L. Spiegelberg and W.~O. Weigle.
+\newblock The catabolism of homologous and heterologous 7s gamma globulin
+  fragments.
+\newblock \emph{J Exp Med.}, 121:\penalty0 323--38., 1965.
+
+\bibitem[Kuester and Kloft(2006)]{REF23}
+Katharina Kuester and Charlotte Kloft.
+\newblock \emph{Pharmacokinetics of Monoclonal Antibodies}.
+\newblock Pharmacokinetics and Pharmacodynamics of Biotech Drugs. Wiley-VCH
+  Verlag GmbH \& Co. KGaA, 2006.
+
+\bibitem[Brambell et~al.(1964)Brambell, Hemmings, and Morris]{REF24}
+F.~W. Brambell, W.~A. Hemmings, and I.~G. Morris.
+\newblock A theoretical model of gamma-globulin catabolism.
+\newblock \emph{Nature}, 203:\penalty0 1352--4, 1964.
+
+\bibitem[Simister and Mostov(1989)]{REF25}
+N.~E. Simister and K.~E. Mostov.
+\newblock An fc receptor structurally related to mhc class i antigens.
+\newblock \emph{Nature}, 337\penalty0 (6203):\penalty0 184--7, 1989.
+
+\bibitem[Israel et~al.(1997)Israel, Taylor, Wu, Mizoguchi, Blumberg, Bhan, and
+  Simister]{REF26}
+E.~J. Israel, S.~Taylor, Z.~Wu, E.~Mizoguchi, R.~S. Blumberg, A.~Bhan, and
+  N.~E. Simister.
+\newblock Expression of the neonatal fc receptor, fcrn, on human intestinal
+  epithelial cells.
+\newblock \emph{Immunology}, 92\penalty0 (1):\penalty0 69--74, 1997.
+
+\bibitem[Kim and Malik(2003)]{REF27}
+K.~J. Kim and A.~B. Malik.
+\newblock Protein transport across the lung epithelial barrier.
+\newblock \emph{Am J Physiol Lung Cell Mol Physiol}, 284\penalty0 (2):\penalty0
+  L247--59, 2003.
+
+\bibitem[Telleman and Junghans(2000)]{REF28}
+P.~Telleman and R.~P. Junghans.
+\newblock The role of the brambell receptor (fcrb) in liver: protection of
+  endocytosed immunoglobulin g (igg) from catabolism in hepatocytes rather than
+  transport of igg to bile.
+\newblock \emph{Immunology}, 100\penalty0 (2):\penalty0 245--51, 2000.
+
+\bibitem[Spiekermann et~al.(2002)Spiekermann, Finn, Ward, Dumont, Dickinson,
+  Blumberg, and Lencer]{REF29}
+G.~M. Spiekermann, P.~W. Finn, E.~S. Ward, J.~Dumont, B.~L. Dickinson, R.~S.
+  Blumberg, and W.~I. Lencer.
+\newblock Receptor-mediated immunoglobulin g transport across mucosal barriers
+  in adult life: functional expression of fcrn in the mammalian lung.
+\newblock \emph{J Exp Med}, 196\penalty0 (3):\penalty0 303--10, 2002.
+
+\bibitem[Junghans(1997)]{REF30}
+R.~P. Junghans.
+\newblock Finally! the brambell receptor (fcrb). mediator of transmission of
+  immunity and protection from catabolism for igg.
+\newblock \emph{Immunol Res}, 16\penalty0 (1):\penalty0 29--57., 1997.
+
+\bibitem[Roopenian et~al.(2003)Roopenian, Christianson, Sproule, Brown,
+  Akilesh, Jung, Petkova, Avanessian, Choi, Shaffer, Eden, and Anderson]{REF31}
+D.~C. Roopenian, G.~J. Christianson, T.~J. Sproule, A.~C. Brown, S.~Akilesh,
+  N.~Jung, S.~Petkova, L.~Avanessian, E.~Y. Choi, D.~J. Shaffer, P.~A. Eden,
+  and C.~L. Anderson.
+\newblock The mhc class i-like igg receptor controls perinatal igg transport,
+  igg homeostasis, and fate of igg-fc-coupled drugs.
+\newblock \emph{J Immunol}, 170\penalty0 (7):\penalty0 3528--33., 2003.
+
+\bibitem[Firan et~al.(2001)Firan, Bawdon, Radu, Ober, Eaken, Antohe, Ghetie,
+  and Ward]{REF32}
+M.~Firan, R.~Bawdon, C.~Radu, R.~J. Ober, D.~Eaken, F.~Antohe, V.~Ghetie, and
+  E.~S. Ward.
+\newblock The mhc class i-related receptor, fcrn, plays an essential role in
+  the maternofetal transfer of gamma-globulin in humans.
+\newblock \emph{Int Immunol}, 13\penalty0 (8):\penalty0 993--1002., 2001.
+
+\bibitem[Decker et~al.(2006)Decker, Rothermundt, Hollander, Tichelli, and
+  Rochlitz]{REF33}
+M.~Decker, C.~Rothermundt, G.~Hollander, A.~Tichelli, and C.~Rochlitz.
+\newblock Rituximab plus chop for treatment of diffuse large b-cell lymphoma
+  during second trimester of pregnancy.
+\newblock \emph{Lancet Oncol}, 7\penalty0 (8):\penalty0 693--4, 2006.
+
+\bibitem[Popov et~al.(1996)Popov, Hubbard, Kim, Ober, Ghetie, and Ward]{REF34}
+S.~Popov, J.~G. Hubbard, J.~Kim, B.~Ober, V.~Ghetie, and E.~S. Ward.
+\newblock The stoichiometry and affinity of the interaction of murine fc
+  fragments with the mhc class i-related receptor, fcrn.
+\newblock \emph{Mol Immunol}, 33\penalty0 (6):\penalty0 521--30., 1996.
+
+\bibitem[Reff and Heard(2001)]{REF35}
+M.~E. Reff and C.~Heard.
+\newblock A review of modifications to recombinant antibodies: attempt to
+  increase efficacy in oncology applications.
+\newblock \emph{Crit Rev Oncol Hematol}, 40\penalty0 (1):\penalty0 25--35.,
+  2001.
+
+\bibitem[Ober et~al.(2004)Ober, Martinez, Vaccaro, Zhou, and Ward]{REF36}
+R.~J. Ober, C.~Martinez, C.~Vaccaro, J.~Zhou, and E.~S. Ward.
+\newblock Visualizing the site and dynamics of igg salvage by the mhc class
+  i-related receptor, fcrn.
+\newblock \emph{J Immunol}, 172\penalty0 (4):\penalty0 2021--9., 2004.
+
+\bibitem[Ward et~al.(2003)Ward, Zhou, Ghetie, and Ober]{REF37}
+E.~S. Ward, J.~Zhou, V.~Ghetie, and R.~J. Ober.
+\newblock Evidence to support the cellular mechanism involved in serum igg
+  homeostasis in humans.
+\newblock \emph{Int Immunol}, 15\penalty0 (2):\penalty0 187--95., 2003.
+
+\bibitem[Chaudhury et~al.(2003)Chaudhury, Mehnaz, Robinson, Hayton, Pearl,
+  Roopenian, and Anderson]{REF38}
+C.~Chaudhury, S.~Mehnaz, J.~M. Robinson, W.~L. Hayton, D.~K. Pearl, D.~C.
+  Roopenian, and C.~L. Anderson.
+\newblock The major histocompatibility complex-related fc receptor for igg
+  (fcrn) binds albumin and prolongs its lifespan.
+\newblock \emph{J Exp Med}, 197\penalty0 (3):\penalty0 315--22, 2003.
+
+\bibitem[Mould and Sweeney(2007{\natexlab{a}})]{REF39}
+D.~R. Mould and K.~R. Sweeney.
+\newblock The pharmacokinetics and pharmacodynamics of monoclonal
+  antibodies--mechanistic modeling applied to drug development.
+\newblock \emph{Curr Opin Drug Discov Devel}, 10\penalty0 (1):\penalty0 84--96,
+  2007{\natexlab{a}}.
+
+\bibitem[Sachs et~al.(2006)Sachs, Socher, Braeunlich, Kroll, Bein, and
+  Santoso]{REF40}
+Ulrich J~H Sachs, Ines Socher, Christian~G Braeunlich, Hartmut Kroll, Gregor
+  Bein, and Sentot Santoso.
+\newblock {A variable number of tandem repeats polymorphism influences the
+  transcriptional activity of the neonatal Fc receptor alpha-chain promoter.}
+\newblock \emph{Immunology}, 119\penalty0 (1):\penalty0 83--9, September 2006.
+
+\bibitem[Israel et~al.(1996)Israel, Wilsker, Hayes, Schoenfeld, and
+  Simister]{REF41}
+E.~J. Israel, D.~F. Wilsker, K.~C. Hayes, D.~Schoenfeld, and N.~E. Simister.
+\newblock Increased clearance of igg in mice that lack beta 2-microglobulin:
+  possible protective role of fcrn.
+\newblock \emph{Immunology}, 89\penalty0 (4):\penalty0 573--8., 1996.
+
+\bibitem[Coffey et~al.(2004)Coffey, Stefanich, Palmieri, Eckert, Padilla-Eagar,
+  Fielder, and Pippig]{REF42}
+G.~P. Coffey, E.~Stefanich, S.~Palmieri, R.~Eckert, J.~Padilla-Eagar, P.~J.
+  Fielder, and S.~Pippig.
+\newblock In vitro internalization, intracellular transport, and clearance of
+  an anti-cd11a antibody (raptiva) by human t-cells.
+\newblock \emph{J Pharmacol Exp Ther}, 310\penalty0 (3):\penalty0 896--904.
+  Epub 2004 Jun 09., 2004.
+
+\bibitem[Harding and Burtness(2005)]{REF43}
+J.~Harding and B.~Burtness.
+\newblock Cetuximab: an epidermal growth factor receptor chemeric human-murine
+  monoclonal antibody.
+\newblock \emph{Drugs Today (Barc).}, 41\penalty0 (2):\penalty0 107--27., 2005.
+
+\bibitem[Rebello et~al.(1999)Rebello, Hale, Friend, Cobbold, and
+  Waldmann]{REF44}
+P.~R. Rebello, G.~Hale, P.~J. Friend, S.~P. Cobbold, and H.~Waldmann.
+\newblock Anti-globulin responses to rat and humanized campath-1 monoclonal
+  antibody used to treat transplant rejection.
+\newblock \emph{Transplantation.}, 68\penalty0 (9):\penalty0 1417--20., 1999.
+
+\bibitem[Cartron and Rossi(2009)]{REF45}
+G.~Cartron and J.~F. Rossi.
+\newblock [therapeutic monoclonal antibodies in onco-hematology].
+\newblock \emph{Med Sci (Paris)}, 25\penalty0 (12):\penalty0 1085--9, 2009.
+
+\bibitem[Dayde et~al.(2009)Dayde, Ternant, Ohresser, Lerondel, Pesnel, Watier,
+  Le~Pape, Bardos, Paintaud, and Cartron]{REF46}
+D.~Dayde, D.~Ternant, M.~Ohresser, S.~Lerondel, S.~Pesnel, H.~Watier,
+  A.~Le~Pape, P.~Bardos, G.~Paintaud, and G.~Cartron.
+\newblock Tumor burden influences exposure and response to rituximab:
+  pharmacokinetic-pharmacodynamic modeling using a syngeneic bioluminescent
+  murine model expressing human cd20.
+\newblock \emph{Blood}, 113\penalty0 (16):\penalty0 3765--72, 2009.
+
+\bibitem[Cartron(2005)]{REF47}
+G.~Cartron.
+\newblock Immunologic effects of anti-b-lymphocyte antibodies.
+\newblock \emph{Rev Med Interne}, 26 Spec No 1:\penalty0 42--6, 2005.
+
+\bibitem[Bauer et~al.(1999)Bauer, Dedrick, White, Murray, and Garovoy]{REF48}
+R.~J. Bauer, R.~L. Dedrick, M.~L. White, M.~J. Murray, and M.~R. Garovoy.
+\newblock Population pharmacokinetics and pharmacodynamics of the anti-cd11a
+  antibody hu1124 in human subjects with psoriasis.
+\newblock \emph{J Pharmacokinet Biopharm.}, 27\penalty0 (4):\penalty0
+  397--420., 1999.
+
+\bibitem[Mortensen et~al.(2005)Mortensen, Walicke, Wang, Kwon, Kuebler,
+  Gottlieb, Krueger, Leonardi, Miller, and Joshi]{REF49}
+D.~L. Mortensen, P.~A. Walicke, X.~Wang, P.~Kwon, P.~Kuebler, A.~B. Gottlieb,
+  J.~G. Krueger, C.~Leonardi, B.~Miller, and A.~Joshi.
+\newblock Pharmacokinetics and pharmacodynamics of multiple weekly subcutaneous
+  efalizumab doses in patients with plaque psoriasis.
+\newblock \emph{J Clin Pharmacol.}, 45\penalty0 (3):\penalty0 286--98., 2005.
+
+\bibitem[Ng et~al.(2005{\natexlab{a}})Ng, Joshi, Dedrick, Garovoy, and
+  Bauer]{REF50}
+C.~M. Ng, A.~Joshi, R.~L. Dedrick, M.~R. Garovoy, and R.~J. Bauer.
+\newblock Pharmacokinetic-pharmacodynamic-efficacy analysis of efalizumab in
+  patients with moderate to severe psoriasis.
+\newblock \emph{Pharm Res.}, 22\penalty0 (7):\penalty0 1088--100. Epub 2005 Jul
+  22., 2005{\natexlab{a}}.
+
+\bibitem[Iacona et~al.(2000)Iacona, Lazzarino, Avanzini, Rupolo, Arcaini,
+  Astori, Lunghi, Orlandi, Morra, Zagonel, and Regazzi]{REF51}
+I.~Iacona, M.~Lazzarino, M.~A. Avanzini, M.~Rupolo, L.~Arcaini, C.~Astori,
+  F.~Lunghi, E.~Orlandi, E.~Morra, V.~Zagonel, and M.~B. Regazzi.
+\newblock Rituximab (idec-c2b8): validation of a sensitive enzyme-linked
+  immunoassay applied to a clinical pharmacokinetic study.
+\newblock \emph{Ther Drug Monit.}, 22\penalty0 (3):\penalty0 295--301., 2000.
+
+\bibitem[Ng et~al.(2005{\natexlab{b}})Ng, Bruno, Combs, and Davies]{REF52}
+C.~M. Ng, R.~Bruno, D.~Combs, and B.~Davies.
+\newblock Population pharmacokinetics of rituximab (anti-cd20 monoclonal
+  antibody) in rheumatoid arthritis patients during a phase ii clinical trial.
+\newblock \emph{J Clin Pharmacol.}, 45\penalty0 (7):\penalty0 792--801.,
+  2005{\natexlab{b}}.
+
+\bibitem[Maloney et~al.(1997)Maloney, Grillo-Lopez, White, Bodkin, Schilder,
+  Neidhart, Janakiraman, Foon, Liles, Dallaire, Wey, Royston, Davis, and
+  Levy]{REF53}
+D.~G. Maloney, A.~J. Grillo-Lopez, C.~A. White, D.~Bodkin, R.~J. Schilder,
+  J.~A. Neidhart, N.~Janakiraman, K.~A. Foon, T.~M. Liles, B.~K. Dallaire,
+  K.~Wey, I.~Royston, T.~Davis, and R.~Levy.
+\newblock Idec-c2b8 (rituximab) anti-cd20 monoclonal antibody therapy in
+  patients with relapsed low-grade non-hodgkin's lymphoma.
+\newblock \emph{Blood}, 90\penalty0 (6):\penalty0 2188--95., 1997.
+
+\bibitem[Maloney et~al.(1994)Maloney, Liles, Czerwinski, Waldichuk, Rosenberg,
+  Grillo-Lopez, and Levy]{REF54}
+D.~G. Maloney, T.~M. Liles, D.~K. Czerwinski, C.~Waldichuk, J.~Rosenberg,
+  A.~Grillo-Lopez, and R.~Levy.
+\newblock Phase i clinical trial using escalating single-dose infusion of
+  chimeric anti-cd20 monoclonal antibody (idec-c2b8) in patients with recurrent
+  b-cell lymphoma.
+\newblock \emph{Blood}, 84\penalty0 (8):\penalty0 2457--66., 1994.
+
+\bibitem[Miescher et~al.(2004{\natexlab{a}})Miescher, Spycher, Amstutz,
+  De~Haas, Kleijer, Kalus, Radtke, Hubsch, Andresen, Martin, and
+  Bichler]{REF55}
+S.~Miescher, M.~O. Spycher, H.~Amstutz, M.~De~Haas, M.~Kleijer, U.~J. Kalus,
+  H.~Radtke, A.~Hubsch, I.~Andresen, R.~M. Martin, and J.~Bichler.
+\newblock A single recombinant anti-rhd igg prevents rhd immunization:
+  association of rhd-positive red blood cell clearance rate with polymorphisms
+  in the fcgammariia and fcgammaiiia genes.
+\newblock \emph{Blood}, 103\penalty0 (11):\penalty0 4028--35. Epub 2004 Feb
+  19., 2004{\natexlab{a}}.
+
+\bibitem[Morris et~al.(2003)Morris, Rebello, Thomson, Peggs, Kyriakou,
+  Goldstone, Mackinnon, and Hale]{REF56}
+E.~C. Morris, P.~Rebello, K.~J. Thomson, K.~S. Peggs, C.~Kyriakou, A.~H.
+  Goldstone, S.~Mackinnon, and G.~Hale.
+\newblock Pharmacokinetics of alemtuzumab used for in vivo and in vitro t-cell
+  depletion in allogeneic transplantations: relevance for early adoptive
+  immunotherapy and infectious complications.
+\newblock \emph{Blood}, 102\penalty0 (1):\penalty0 404--6. Epub 2003 Mar 06.,
+  2003.
+
+\bibitem[Oberneder et~al.(2006)Oberneder, Weckermann, Ebner, Quadt, Kirchinger,
+  Raum, Locher, Prang, Baeuerle, and Leo]{REF57}
+R.~Oberneder, D.~Weckermann, B.~Ebner, C.~Quadt, P.~Kirchinger, T.~Raum,
+  M.~Locher, N.~Prang, P.~A. Baeuerle, and E.~Leo.
+\newblock A phase i study with adecatumumab, a human antibody directed against
+  epithelial cell adhesion molecule, in hormone refractory prostate cancer
+  patients.
+\newblock \emph{Eur J Cancer.}, 42\penalty0 (15):\penalty0 2530--8. Epub 2006
+  Aug 23., 2006.
+
+\bibitem[Stephens et~al.(1995)Stephens, Emtage, Vetterlein, Chaplin,
+  Bebbington, Nesbitt, Sopwith, Athwal, Novak, and Bodmer]{REF58}
+S.~Stephens, S.~Emtage, O.~Vetterlein, L.~Chaplin, C.~Bebbington, A.~Nesbitt,
+  M.~Sopwith, D.~Athwal, C.~Novak, and M.~Bodmer.
+\newblock Comprehensive pharmacokinetics of a humanized antibody and analysis
+  of residual anti-idiotypic responses.
+\newblock \emph{Immunology.}, 85\penalty0 (4):\penalty0 668--74., 1995.
+
+\bibitem[Tan et~al.(2006{\natexlab{a}})Tan, Moore, Hidalgo, Doroshow, Poplin,
+  Goodin, Mauro, and Rubin]{REF59}
+A.~R. Tan, D.~F. Moore, M.~Hidalgo, J.~H. Doroshow, E.~A. Poplin, S.~Goodin,
+  D.~Mauro, and E.~H. Rubin.
+\newblock Pharmacokinetics of cetuximab after administration of escalating
+  single dosing and weekly fixed dosing in patients with solid tumors.
+\newblock \emph{Clin Cancer Res}, 12\penalty0 (21):\penalty0 6517--22,
+  2006{\natexlab{a}}.
+
+\bibitem[St~Clair et~al.(2002)St~Clair, Wagner, Fasanmade, Wang, Schaible,
+  Kavanaugh, and Keystone]{REF60}
+E.~W. St~Clair, C.~L. Wagner, A.~A. Fasanmade, B.~Wang, T.~Schaible,
+  A.~Kavanaugh, and E.~C. Keystone.
+\newblock The relationship of serum infliximab concentrations to clinical
+  improvement in rheumatoid arthritis: results from attract, a multicenter,
+  randomized, double-blind, placebo-controlled trial.
+\newblock \emph{Arthritis Rheum}, 46\penalty0 (6):\penalty0 1451--9., 2002.
+
+\bibitem[Hayashi et~al.(2007)Hayashi, Tsukamoto, Sallas, and Lowe]{REF61}
+N.~Hayashi, Y.~Tsukamoto, W.~M. Sallas, and P.~J. Lowe.
+\newblock A mechanism-based binding model for the population pharmacokinetics
+  and pharmacodynamics of omalizumab.
+\newblock \emph{Br J Clin Pharmacol.}, 63\penalty0 (5):\penalty0 548--61. Epub
+  2006 Nov 10., 2007.
+
+\bibitem[Mould and Sweeney(2007{\natexlab{b}})]{REF62}
+D.~R. Mould and K.~R. Sweeney.
+\newblock The pharmacokinetics and pharmacodynamics of monoclonal
+  antibodies--mechanistic modeling applied to drug development.
+\newblock \emph{Curr Opin Drug Discov Devel.}, 10\penalty0 (1):\penalty0
+  84--96., 2007{\natexlab{b}}.
+
+\bibitem[Kloft et~al.(2004{\natexlab{a}})Kloft, Graefe, Tanswell, Scott,
+  Hofheinz, Amelsberg, and Karlsson]{REF63}
+C.~Kloft, E.~U. Graefe, P.~Tanswell, A.~M. Scott, R.~Hofheinz, A.~Amelsberg,
+  and M.~O. Karlsson.
+\newblock Population pharmacokinetics of sibrotuzumab, a novel therapeutic
+  monoclonal antibody, in cancer patients.
+\newblock \emph{Invest New Drugs}, 22\penalty0 (1):\penalty0 39--52,
+  2004{\natexlab{a}}.
+
+\bibitem[Sharma et~al.(2000)Sharma, Davis, Tobia, Kwok, Tucci, Gore, Herzyk,
+  and Hart]{REF64}
+A.~Sharma, C.~B. Davis, L.~A. Tobia, D.~C. Kwok, M.~G. Tucci, E.~R. Gore, D.~J.
+  Herzyk, and T.~K. Hart.
+\newblock Comparative pharmacodynamics of keliximab and clenoliximab in
+  transgenic mice bearing human cd4.
+\newblock \emph{J Pharmacol Exp Ther}, 293\penalty0 (1):\penalty0 33--41, 2000.
+
+\bibitem[Mager et~al.(2003)Mager, Mascelli, Kleiman, Fitzgerald, and
+  Abernethy]{REF65}
+D.~E. Mager, M.~A. Mascelli, N.~S. Kleiman, D.~J. Fitzgerald, and D.~R.
+  Abernethy.
+\newblock Simultaneous modeling of abciximab plasma concentrations and ex vivo
+  pharmacodynamics in patients undergoing coronary angioplasty.
+\newblock \emph{J Pharmacol Exp Ther}, 307\penalty0 (3):\penalty0 969--76,
+  2003.
+
+\bibitem[Weisman et~al.(2003)Weisman, Moreland, Furst, Weinblatt, Keystone,
+  Paulus, Teoh, Velagapudi, Noertersheuser, Granneman, Fischkoff, and
+  Chartash]{REF66}
+M.~H. Weisman, L.~W. Moreland, D.~E. Furst, M.~E. Weinblatt, E.~C. Keystone,
+  H.~E. Paulus, L.~S. Teoh, R.~B. Velagapudi, P.~A. Noertersheuser, G.~R.
+  Granneman, S.~A. Fischkoff, and E.~K. Chartash.
+\newblock Efficacy, pharmacokinetic, and safety assessment of adalimumab, a
+  fully human anti-tumor necrosis factor-alpha monoclonal antibody, in adults
+  with rheumatoid arthritis receiving concomitant methotrexate: a pilot study.
+\newblock \emph{Clin Ther}, 25\penalty0 (6):\penalty0 1700--21, 2003.
+
+\bibitem[Mould et~al.(2007)Mould, Baumann, Kuhlmann, Keating, Weitman, Hillmen,
+  Brettman, Reif, and Bonate]{REF67}
+D.~R. Mould, A.~Baumann, J.~Kuhlmann, M.~J. Keating, S.~Weitman, P.~Hillmen,
+  L.~R. Brettman, S.~Reif, and P.~L. Bonate.
+\newblock Population pharmacokinetics-pharmacodynamics of alemtuzumab (campath)
+  in patients with chronic lymphocytic leukaemia and its link to treatment
+  response.
+\newblock \emph{Br J Clin Pharmacol.}, 64\penalty0 (3):\penalty0 278--91. Epub
+  2007 May 16., 2007.
+
+\bibitem[Dirks et~al.(2008)Dirks, Nolting, Kovar, and Meibohm]{REF68}
+N.~L. Dirks, A.~Nolting, A.~Kovar, and B.~Meibohm.
+\newblock Population pharmacokinetics of cetuximab in patients with squamous
+  cell carcinoma of the head and neck.
+\newblock \emph{J Clin Pharmacol}, 48\penalty0 (3):\penalty0 267--78, 2008.
+
+\bibitem[Mould et~al.(1999)Mould, Davis, Minthorn, Kwok, Elliott, Luggen, and
+  Totoritis]{REF69}
+D.~R. Mould, C.~B. Davis, E.~A. Minthorn, D.~C. Kwok, M.~J. Elliott, M.~E.
+  Luggen, and M.~C. Totoritis.
+\newblock A population pharmacokinetic-pharmacodynamic analysis of single doses
+  of clenoliximab in patients with rheumatoid arthritis.
+\newblock \emph{Clin Pharmacol Ther}, 66\penalty0 (3):\penalty0 246--57., 1999.
+
+\bibitem[Dartois et~al.(2007)Dartois, Freyer, Michallet, Henin, You, Darlavoix,
+  Vermot-Desroches, Tranchand, and Girard]{REF70}
+C.~Dartois, G.~Freyer, M.~Michallet, E.~Henin, B.~You, I.~Darlavoix,
+  C.~Vermot-Desroches, B.~Tranchand, and P.~Girard.
+\newblock Exposure-effect population model of inolimomab, a monoclonal antibody
+  administered in first-line treatment for acute graft-versus-host disease.
+\newblock \emph{Clin Pharmacokinet}, 46\penalty0 (5):\penalty0 417--32, 2007.
+
+\bibitem[Ternant et~al.(2008{\natexlab{a}})Ternant, Aubourg,
+  Magdelaine-Beuzelin, Degenne, Watier, Picon, and Paintaud]{REF71}
+D.~Ternant, A.~Aubourg, C.~Magdelaine-Beuzelin, D.~Degenne, H.~Watier,
+  L.~Picon, and G.~Paintaud.
+\newblock Infliximab pharmacokinetics in inflammatory bowel disease patients.
+\newblock \emph{Ther Drug Monit}, 30\penalty0 (4):\penalty0 523--9,
+  2008{\natexlab{a}}.
+
+\bibitem[Kuester et~al.(2009)Kuester, Kovar, Lupfert, Brockhaus, and
+  Kloft]{REF72}
+K.~Kuester, A.~Kovar, C.~Lupfert, B.~Brockhaus, and C.~Kloft.
+\newblock Refinement of the population pharmacokinetic model for the monoclonal
+  antibody matuzumab: external model evaluation and simulations.
+\newblock \emph{Clin Pharmacokinet}, 48\penalty0 (7):\penalty0 477--87, 2009.
+
+\bibitem[Ma et~al.(2009)Ma, Yang, Wang, Peterson, Narayanan, Sutjandra,
+  Rodriguez, and Chow]{REF73}
+P.~Ma, B.~B. Yang, Y.~M. Wang, M.~Peterson, A.~Narayanan, L.~Sutjandra,
+  R.~Rodriguez, and A.~Chow.
+\newblock Population pharmacokinetic analysis of panitumumab in patients with
+  advanced solid tumors.
+\newblock \emph{J Clin Pharmacol}, 49\penalty0 (10):\penalty0 1142--56, 2009.
+
+\bibitem[Kloft et~al.(2004{\natexlab{b}})Kloft, Graefe, Tanswell, Scott,
+  Hofheinz, Amelsberg, and Karlsson]{REF74}
+C.~Kloft, E.~U. Graefe, P.~Tanswell, A.~M. Scott, R.~Hofheinz, A.~Amelsberg,
+  and M.~O. Karlsson.
+\newblock Population pharmacokinetics of sibrotuzumab, a novel therapeutic
+  monoclonal antibody, in cancer patients.
+\newblock \emph{Invest New Drugs}, 22\penalty0 (1):\penalty0 39--52.,
+  2004{\natexlab{b}}.
+
+\bibitem[Frey et~al.(2010)Frey, Grange, and Woodworth]{REF75}
+N.~Frey, S.~Grange, and T.~Woodworth.
+\newblock Population pharmacokinetic analysis of tocilizumab in patients with
+  rheumatoid arthritis.
+\newblock \emph{J Clin Pharmacol}, 50\penalty0 (7):\penalty0 754--66, 2010.
+
+\bibitem[Bruno et~al.(2005)Bruno, Washington, Lu, Lieberman, Banken, and
+  Klein]{REF76}
+R.~Bruno, C.~B. Washington, J.~F. Lu, G.~Lieberman, L.~Banken, and P.~Klein.
+\newblock Population pharmacokinetics of trastuzumab in patients with her2+
+  metastatic breast cancer.
+\newblock \emph{Cancer Chemother Pharmacol.}, 56\penalty0 (4):\penalty0 361--9.
+  Epub 2005 May 3., 2005.
+
+\bibitem[Zhu et~al.(2009)Zhu, Hu, Lu, Liao, Marini, Yohrling, Yeilding, Davis,
+  and Zhou]{REF77}
+Y.~Zhu, C.~Hu, M.~Lu, S.~Liao, J.~C. Marini, J.~Yohrling, N.~Yeilding, H.~M.
+  Davis, and H.~Zhou.
+\newblock Population pharmacokinetic modeling of ustekinumab, a human
+  monoclonal antibody targeting il-12/23p40, in patients with moderate to
+  severe plaque psoriasis.
+\newblock \emph{J Clin Pharmacol}, 49\penalty0 (2):\penalty0 162--75, 2009.
+
+\bibitem[Dirks and Meibohm(2010)]{REF78}
+N.~L. Dirks and B.~Meibohm.
+\newblock Population pharmacokinetics of therapeutic monoclonal antibodies.
+\newblock \emph{Clin Pharmacokinet}, 49\penalty0 (10):\penalty0 633--59, 2010.
+
+\bibitem[Zhou et~al.(2007)Zhou, Jang, Fleischmann, Bouman-Thio, Xu, Marini,
+  Pendley, Jiao, Shankar, Marciniak, Cohen, Rahman, Baker, Mascelli, Davis, and
+  Everitt]{REF80}
+H.~Zhou, H.~Jang, R.~M. Fleischmann, E.~Bouman-Thio, Z.~Xu, J.~C. Marini,
+  C.~Pendley, Q.~Jiao, G.~Shankar, S.~J. Marciniak, S.~B. Cohen, M.~U. Rahman,
+  D.~Baker, M.~A. Mascelli, H.~M. Davis, and D.~E. Everitt.
+\newblock Pharmacokinetics and safety of golimumab, a fully human
+  anti-tnf-alpha monoclonal antibody, in subjects with rheumatoid arthritis.
+\newblock \emph{J Clin Pharmacol}, 47\penalty0 (3):\penalty0 383--96, 2007.
+
+\bibitem[Fasanmade et~al.(2009)Fasanmade, Adedokun, Ford, Hernandez, Johanns,
+  Hu, Davis, and Zhou]{REF81}
+A.~A. Fasanmade, O.~J. Adedokun, J.~Ford, D.~Hernandez, J.~Johanns, C.~Hu,
+  H.~M. Davis, and H.~Zhou.
+\newblock Population pharmacokinetic analysis of infliximab in patients with
+  ulcerative colitis.
+\newblock \emph{Eur J Clin Pharmacol}, 65\penalty0 (12):\penalty0 1211--28,
+  2009.
+
+\bibitem[Cartron et~al.(2002)Cartron, Dacheux, Salles, Solal-Celigny, Bardos,
+  Colombat, and Watier]{REF82}
+G.~Cartron, L.~Dacheux, G.~Salles, P.~Solal-Celigny, P.~Bardos, P.~Colombat,
+  and H.~Watier.
+\newblock Therapeutic activity of humanized anti-cd20 monoclonal antibody and
+  polymorphism in igg fc receptor fcgammariiia gene.
+\newblock \emph{Blood}, 99\penalty0 (3):\penalty0 754--8, 2002.
+
+\bibitem[Dall'Ozzo et~al.(2004)Dall'Ozzo, Tartas, Paintaud, Cartron, Colombat,
+  Bardos, Watier, and Thibault]{REF83}
+S.~Dall'Ozzo, S.~Tartas, G.~Paintaud, G.~Cartron, P.~Colombat, P.~Bardos,
+  H.~Watier, and G.~Thibault.
+\newblock Rituximab-dependent cytotoxicity by natural killer cells: influence
+  of fcgr3a polymorphism on the concentration-effect relationship.
+\newblock \emph{Cancer Res}, 64\penalty0 (13):\penalty0 4664--9, 2004.
+
+\bibitem[Congy-Jolivet et~al.(2008)Congy-Jolivet, Bolzec, Ternant, Ohresser,
+  Watier, and Thibault]{REF84}
+N.~Congy-Jolivet, A.~Bolzec, D.~Ternant, M.~Ohresser, H.~Watier, and
+  G.~Thibault.
+\newblock Fc gamma riiia expression is not increased on natural killer cells
+  expressing the fc gamma riiia-158v allotype.
+\newblock \emph{Cancer Res}, 68\penalty0 (4):\penalty0 976--80, 2008.
+
+\bibitem[Weng et~al.(2009)Weng, Negrin, Lavori, and Horning]{REF85}
+W.~K. Weng, R.~S. Negrin, P.~Lavori, and S.~J. Horning.
+\newblock Immunoglobulin g fc receptor fcgammariiia 158 v/f polymorphism
+  correlates with rituximab-induced neutropenia after autologous
+  transplantation in patients with non-hodgkin's lymphoma.
+\newblock \emph{J Clin Oncol}, 28\penalty0 (2):\penalty0 279--84, 2009.
+
+\bibitem[Ternant et~al.(2008{\natexlab{b}})Ternant, Buchler, Beneton, Alvan,
+  Ohresser, Touchard, Hurault~de Ligny, Toupance, Watier, Lebranchu, and
+  Paintaud]{REF86}
+D.~Ternant, M.~Buchler, M.~Beneton, G.~Alvan, M.~Ohresser, G.~Touchard,
+  B.~Hurault~de Ligny, O.~Toupance, H.~Watier, Y.~Lebranchu, and G.~Paintaud.
+\newblock Interindividual variability in the concentration-effect relationship
+  of antilymphocyte globulins - a possible influence of fcgammariiia genetic
+  polymorphism.
+\newblock \emph{Br J Clin Pharmacol}, 65\penalty0 (1):\penalty0 60--8,
+  2008{\natexlab{b}}.
+
+\bibitem[Miescher et~al.(2004{\natexlab{b}})Miescher, Spycher, Amstutz,
+  De~Haas, Kleijer, Kalus, Radtke, Hubsch, Andresen, Martin, and
+  Bichler]{REF87}
+S.~Miescher, M.~O. Spycher, H.~Amstutz, M.~De~Haas, M.~Kleijer, U.~J. Kalus,
+  H.~Radtke, A.~Hubsch, I.~Andresen, R.~M. Martin, and J.~Bichler.
+\newblock A single recombinant anti-rhd igg prevents rhd immunization:
+  association of rhd-positive red blood cell clearance rate with polymorphisms
+  in the fcgammariia and fcgammaiiia genes.
+\newblock \emph{Blood}, 103\penalty0 (11):\penalty0 4028--35,
+  2004{\natexlab{b}}.
+
+\bibitem[Louis et~al.(2006)Louis, Watier, Schreiber, Hampe, Taillard, Olson,
+  Thorne, Zhang, and Colombel]{REF88}
+E.~J. Louis, H.~E. Watier, S.~Schreiber, J.~Hampe, F.~Taillard, A.~Olson,
+  N.~Thorne, H.~Zhang, and J.~F. Colombel.
+\newblock Polymorphism in igg fc receptor gene fcgr3a and response to
+  infliximab in crohn's disease: a subanalysis of the accent i study.
+\newblock \emph{Pharmacogenet Genomics}, 16\penalty0 (12):\penalty0 911--4,
+  2006.
+
+\bibitem[Musolino et~al.(2008)Musolino, Naldi, Bortesi, Pezzuolo, Capelletti,
+  Missale, Laccabue, Zerbini, Camisa, Bisagni, Neri, and Ardizzoni]{REF89}
+A.~Musolino, N.~Naldi, B.~Bortesi, D.~Pezzuolo, M.~Capelletti, G.~Missale,
+  D.~Laccabue, A.~Zerbini, R.~Camisa, G.~Bisagni, T.~M. Neri, and A.~Ardizzoni.
+\newblock Immunoglobulin g fragment c receptor polymorphisms and clinical
+  efficacy of trastuzumab-based therapy in patients with her-2/neu-positive
+  metastatic breast cancer.
+\newblock \emph{J Clin Oncol}, 26\penalty0 (11):\penalty0 1789--96, 2008.
+
+\bibitem[Male et~al.(2006)Male, Brostoff, Roth, and Roitt]{REF90}
+D.~Male, J.~Brostoff, D.~B. Roth, and I.~Roitt.
+\newblock \emph{Immunology, 7th Edition}.
+\newblock 7th edition, 2006.
+
+\bibitem[Kelley and DeSilva(2007)]{REF91}
+M.~Kelley and B.~DeSilva.
+\newblock Key elements of bioanalytical method validation for macromolecules.
+\newblock \emph{Aaps J}, 9\penalty0 (2):\penalty0 E156--63, 2007.
+
+\bibitem[Stubenrauch et~al.(2009)Stubenrauch, Wessels, Vogel, and
+  Schleypen]{REF92}
+K.~Stubenrauch, U.~Wessels, R.~Vogel, and J.~Schleypen.
+\newblock Evaluation of a biosensor immunoassay for simultaneous
+  characterization of isotype and binding region of human anti-tocilizumab
+  antibodies with control by surrogate standards.
+\newblock \emph{Anal Biochem}, 390\penalty0 (2):\penalty0 189--96, 2009.
+
+\bibitem[Yang et~al.(2007)Yang, Hayes, Fang, Daley, Ettenberg, and Tse]{REF93}
+Z.~Yang, M.~Hayes, X.~Fang, M.~P. Daley, S.~Ettenberg, and F.~L. Tse.
+\newblock Lc-ms/ms approach for quantification of therapeutic proteins in
+  plasma using a protein internal standard and 2d-solid-phase extraction
+  cleanup.
+\newblock \emph{Anal Chem}, 79\penalty0 (24):\penalty0 9294--301, 2007.
+
+\bibitem[Dubois et~al.(2008)Dubois, Fenaille, Clement, Lechmann, Tabet, Ezan,
+  and Becher]{REF94}
+M.~Dubois, F.~Fenaille, G.~Clement, M.~Lechmann, J.~C. Tabet, E.~Ezan, and
+  F.~Becher.
+\newblock Immunopurification and mass spectrometric quantification of the
+  active form of a chimeric therapeutic antibody in human serum.
+\newblock \emph{Anal Chem}, 80\penalty0 (5):\penalty0 1737--45, 2008.
+
+\bibitem[Engvall and Perlmann(1971)]{REF95}
+E.~Engvall and P.~Perlmann.
+\newblock Enzyme-linked immunosorbent assay (elisa). quantitative assay of
+  immunoglobulin g.
+\newblock \emph{Immunochemistry}, 8\penalty0 (9):\penalty0 871--4, 1971.
+
+\bibitem[Damen et~al.(2009)Damen, Schellens, and Beijnen]{REF96}
+C.~W. Damen, J.~H. Schellens, and J.~H. Beijnen.
+\newblock Bioanalytical methods for the quantification of therapeutic
+  monoclonal antibodies and their application in clinical pharmacokinetic
+  studies.
+\newblock \emph{Hum Antibodies}, 18\penalty0 (3):\penalty0 47--73, 2009.
+
+\bibitem[Wells(1999)]{REF97}
+A.~Wells.
+\newblock Egf receptor.
+\newblock \emph{Int J Biochem Cell Biol}, 31\penalty0 (6):\penalty0 637--43,
+  1999.
+
+\bibitem[Nyati et~al.(2006)Nyati, Morgan, Feng, and Lawrence]{REF98}
+M.~K. Nyati, M.~A. Morgan, F.~Y. Feng, and T.~S. Lawrence.
+\newblock Integration of egfr inhibitors with radiochemotherapy.
+\newblock \emph{Nat Rev Cancer}, 6\penalty0 (11):\penalty0 876--85, 2006.
+
+\bibitem[Nishinaka and Yabe-Nishimura(2001)]{REF99}
+T.~Nishinaka and C.~Yabe-Nishimura.
+\newblock Egf receptor-erk pathway is the major signaling pathway that mediates
+  upregulation of aldose reductase expression under oxidative stress.
+\newblock \emph{Free Radic Biol Med}, 31\penalty0 (2):\penalty0 205--16, 2001.
+
+\bibitem[Vivanco and Sawyers(2002)]{REF100}
+I.~Vivanco and C.~L. Sawyers.
+\newblock The phosphatidylinositol 3-kinase akt pathway in human cancer.
+\newblock \emph{Nat Rev Cancer}, 2\penalty0 (7):\penalty0 489--501, 2002.
+
+\bibitem[Bowman et~al.(2000)Bowman, Garcia, Turkson, and Jove]{REF101}
+T.~Bowman, R.~Garcia, J.~Turkson, and R.~Jove.
+\newblock Stats in oncogenesis.
+\newblock \emph{Oncogene}, 19\penalty0 (21):\penalty0 2474--88, 2000.
+
+\bibitem[Gschwind et~al.(2004)Gschwind, Fischer, and Ullrich]{REF102}
+A.~Gschwind, O.~M. Fischer, and A.~Ullrich.
+\newblock The discovery of receptor tyrosine kinases: targets for cancer
+  therapy.
+\newblock \emph{Nat Rev Cancer}, 4\penalty0 (5):\penalty0 361--70, 2004.
+
+\bibitem[Schiff et~al.(2004)Schiff, Massarweh, Shou, Bharwani, Mohsin, and
+  Osborne]{REF103}
+R.~Schiff, S.~A. Massarweh, J.~Shou, L.~Bharwani, S.~K. Mohsin, and C.~K.
+  Osborne.
+\newblock Cross-talk between estrogen receptor and growth factor pathways as a
+  molecular target for overcoming endocrine resistance.
+\newblock \emph{Clin Cancer Res}, 10\penalty0 (1 Pt 2):\penalty0 331S--6S,
+  2004.
+
+\bibitem[Van~Cutsem et~al.(2009)Van~Cutsem, Kohne, Hitre, Zaluski, Chang~Chien,
+  Makhson, D'Haens, Pinter, Lim, Bodoky, Roh, Folprecht, Ruff, Stroh, Tejpar,
+  Schlichting, Nippgen, and Rougier]{REF104}
+E.~Van~Cutsem, C.~H. Kohne, E.~Hitre, J.~Zaluski, C.~R. Chang~Chien,
+  A.~Makhson, G.~D'Haens, T.~Pinter, R.~Lim, G.~Bodoky, J.~K. Roh,
+  G.~Folprecht, P.~Ruff, C.~Stroh, S.~Tejpar, M.~Schlichting, J.~Nippgen, and
+  P.~Rougier.
+\newblock Cetuximab and chemotherapy as initial treatment for metastatic
+  colorectal cancer.
+\newblock \emph{N Engl J Med}, 360\penalty0 (14):\penalty0 1408--17, 2009.
+
+\bibitem[Bonner et~al.(2006)Bonner, Harari, Giralt, Azarnia, Shin, Cohen,
+  Jones, Sur, Raben, Jassem, Ove, Kies, Baselga, Youssoufian, Amellal,
+  Rowinsky, and Ang]{REF105}
+J.~A. Bonner, P.~M. Harari, J.~Giralt, N.~Azarnia, D.~M. Shin, R.~B. Cohen,
+  C.~U. Jones, R.~Sur, D.~Raben, J.~Jassem, R.~Ove, M.~S. Kies, J.~Baselga,
+  H.~Youssoufian, N.~Amellal, E.~K. Rowinsky, and K.~K. Ang.
+\newblock Radiotherapy plus cetuximab for squamous-cell carcinoma of the head
+  and neck.
+\newblock \emph{N Engl J Med}, 354\penalty0 (6):\penalty0 567--78, 2006.
+
+\bibitem[Vermorken et~al.(2008)Vermorken, Mesia, Rivera, Remenar, Kawecki,
+  Rottey, Erfan, Zabolotnyy, Kienzer, Cupissol, Peyrade, Benasso, Vynnychenko,
+  De~Raucourt, Bokemeyer, Schueler, Amellal, and Hitt]{REF106}
+J.~B. Vermorken, R.~Mesia, F.~Rivera, E.~Remenar, A.~Kawecki, S.~Rottey,
+  J.~Erfan, D.~Zabolotnyy, H.~R. Kienzer, D.~Cupissol, F.~Peyrade, M.~Benasso,
+  I.~Vynnychenko, D.~De~Raucourt, C.~Bokemeyer, A.~Schueler, N.~Amellal, and
+  R.~Hitt.
+\newblock Platinum-based chemotherapy plus cetuximab in head and neck cancer.
+\newblock \emph{N Engl J Med}, 359\penalty0 (11):\penalty0 1116--27, 2008.
+
+\bibitem[Lievre et~al.(2006)Lievre, Bachet, Le~Corre, Boige, Landi, Emile,
+  Cote, Tomasic, Penna, Ducreux, Rougier, Penault-Llorca, and
+  Laurent-Puig]{REF110}
+A.~Lievre, J.~B. Bachet, D.~Le~Corre, V.~Boige, B.~Landi, J.~F. Emile, J.~F.
+  Cote, G.~Tomasic, C.~Penna, M.~Ducreux, P.~Rougier, F.~Penault-Llorca, and
+  P.~Laurent-Puig.
+\newblock Kras mutation status is predictive of response to cetuximab therapy
+  in colorectal cancer.
+\newblock \emph{Cancer Res}, 66\penalty0 (8):\penalty0 3992--5, 2006.
+
+\bibitem[Benvenuti et~al.(2007)Benvenuti, Sartore-Bianchi, Di~Nicolantonio,
+  Zanon, Moroni, Veronese, Siena, and Bardelli]{REF111}
+S.~Benvenuti, A.~Sartore-Bianchi, F.~Di~Nicolantonio, C.~Zanon, M.~Moroni,
+  S.~Veronese, S.~Siena, and A.~Bardelli.
+\newblock Oncogenic activation of the ras/raf signaling pathway impairs the
+  response of metastatic colorectal cancers to anti-epidermal growth factor
+  receptor antibody therapies.
+\newblock \emph{Cancer Res}, 67\penalty0 (6):\penalty0 2643--8, 2007.
+
+\bibitem[Di~Fiore et~al.(2007)Di~Fiore, Blanchard, Charbonnier, Le~Pessot,
+  Lamy, Galais, Bastit, Killian, Sesboue, Tuech, Queuniet, Paillot, Sabourin,
+  Michot, Michel, and Frebourg]{REF112}
+F.~Di~Fiore, F.~Blanchard, F.~Charbonnier, F.~Le~Pessot, A.~Lamy, M.~P. Galais,
+  L.~Bastit, A.~Killian, R.~Sesboue, J.~J. Tuech, A.~M. Queuniet, B.~Paillot,
+  J.~C. Sabourin, F.~Michot, P.~Michel, and T.~Frebourg.
+\newblock Clinical relevance of kras mutation detection in metastatic
+  colorectal cancer treated by cetuximab plus chemotherapy.
+\newblock \emph{Br J Cancer}, 96\penalty0 (8):\penalty0 1166--9, 2007.
+
+\bibitem[De~Roock et~al.(2008)De~Roock, Piessevaux, De~Schutter, Janssens,
+  De~Hertogh, Personeni, Biesmans, Van~Laethem, Peeters, Humblet, Van~Cutsem,
+  and Tejpar]{REF113}
+W.~De~Roock, H.~Piessevaux, J.~De~Schutter, M.~Janssens, G.~De~Hertogh,
+  N.~Personeni, B.~Biesmans, J.~L. Van~Laethem, M.~Peeters, Y.~Humblet,
+  E.~Van~Cutsem, and S.~Tejpar.
+\newblock Kras wild-type state predicts survival and is associated to early
+  radiological response in metastatic colorectal cancer treated with cetuximab.
+\newblock \emph{Ann Oncol}, 19\penalty0 (3):\penalty0 508--15, 2008.
+
+\bibitem[De~Roock et~al.(2010)De~Roock, Jonker, Di~Nicolantonio,
+  Sartore-Bianchi, Tu, Siena, Lamba, Arena, Frattini, Piessevaux, Van~Cutsem,
+  O'Callaghan, Khambata-Ford, Zalcberg, Simes, Karapetis, Bardelli, and
+  Tejpar]{REF114}
+W.~De~Roock, D.~J. Jonker, F.~Di~Nicolantonio, A.~Sartore-Bianchi, D.~Tu,
+  S.~Siena, S.~Lamba, S.~Arena, M.~Frattini, H.~Piessevaux, E.~Van~Cutsem,
+  C.~J. O'Callaghan, S.~Khambata-Ford, J.~R. Zalcberg, J.~Simes, C.~S.
+  Karapetis, A.~Bardelli, and S.~Tejpar.
+\newblock Association of kras p.g13d mutation with outcome in patients with
+  chemotherapy-refractory metastatic colorectal cancer treated with cetuximab.
+\newblock \emph{Jama}, 304\penalty0 (16):\penalty0 1812--20, 2010.
+
+\bibitem[Watanabe et~al.(2011)Watanabe, Kobunai, Yamamoto, Matsuda, Ishihara,
+  Nozawa, Iinuma, Shibuya, and Eshima]{REF115}
+T.~Watanabe, T.~Kobunai, Y.~Yamamoto, K.~Matsuda, S.~Ishihara, K.~Nozawa,
+  H.~Iinuma, H.~Shibuya, and K.~Eshima.
+\newblock Heterogeneity of kras status may explain the subset of discordant
+  kras status between primary and metastatic colorectal cancer.
+\newblock \emph{Dis Colon Rectum}, 54\penalty0 (9):\penalty0 1170--8, 2011.
+
+\bibitem[Laurent-Puig et~al.(2009)Laurent-Puig, Cayre, Manceau, Buc, Bachet,
+  Lecomte, Rougier, Lievre, Landi, Boige, Ducreux, Ychou, Bibeau, Bouche, Reid,
+  Stone, and Penault-Llorca]{REF116}
+P.~Laurent-Puig, A.~Cayre, G.~Manceau, E.~Buc, J.~B. Bachet, T.~Lecomte,
+  P.~Rougier, A.~Lievre, B.~Landi, V.~Boige, M.~Ducreux, M.~Ychou, F.~Bibeau,
+  O.~Bouche, J.~Reid, S.~Stone, and F.~Penault-Llorca.
+\newblock Analysis of pten, braf, and egfr status in determining benefit from
+  cetuximab therapy in wild-type kras metastatic colon cancer.
+\newblock \emph{J Clin Oncol}, 27\penalty0 (35):\penalty0 5924--30, 2009.
+
+\bibitem[Mao et~al.(2010)Mao, Liao, and Chen]{REF117}
+C.~Mao, R.~Y. Liao, and Q.~Chen.
+\newblock Braf mutation predicts resistance to anti-egfr monoclonal antibodies
+  in wild-type kras metastatic colorectal cancer.
+\newblock \emph{J Cancer Res Clin Oncol}, 136\penalty0 (8):\penalty0 1293--4,
+  2010.
+
+\bibitem[Tabernero et~al.(2010)Tabernero, Ciardiello, Rivera, Rodriguez-Braun,
+  Ramos, Martinelli, Vega-Villegas, Rosello, Liebscher, Kisker, Macarulla,
+  Baselga, and Cervantes]{REF118}
+J.~Tabernero, F.~Ciardiello, F.~Rivera, E.~Rodriguez-Braun, F.~J. Ramos,
+  E.~Martinelli, M.~E. Vega-Villegas, S.~Rosello, S.~Liebscher, O.~Kisker,
+  T.~Macarulla, J.~Baselga, and A.~Cervantes.
+\newblock Cetuximab administered once every second week to patients with
+  metastatic colorectal cancer: a two-part pharmacokinetic/pharmacodynamic
+  phase i dose-escalation study.
+\newblock \emph{Ann Oncol}, 21\penalty0 (7):\penalty0 1537--45, 2010.
+
+\bibitem[Maubec et~al.(2011)Maubec, Petrow, Scheer-Senyarich, Duvillard,
+  Lacroix, Gelly, Certain, Duval, Crickx, Buffard, Basset-Seguin, Saez,
+  Duval-Modeste, Adamski, Mansard, Grange, Dompmartin, Faivre, Mentre, and
+  Avril]{REF119}
+E.~Maubec, P.~Petrow, I.~Scheer-Senyarich, P.~Duvillard, L.~Lacroix, J.~Gelly,
+  A.~Certain, X.~Duval, B.~Crickx, V.~Buffard, N.~Basset-Seguin, P.~Saez, A.~B.
+  Duval-Modeste, H.~Adamski, S.~Mansard, F.~Grange, A.~Dompmartin, S.~Faivre,
+  F.~Mentre, and M.~F. Avril.
+\newblock Phase ii study of cetuximab as first-line single-drug therapy in
+  patients with unresectable squamous cell carcinoma of the skin.
+\newblock \emph{J Clin Oncol}, 2011.
+
+\bibitem[Rosell et~al.(2008)Rosell, Robinet, Szczesna, Ramlau, Constenla,
+  Mennecier, Pfeifer, O'Byrne, Welte, Kolb, Pirker, Chemaissani, Perol, Ranson,
+  Ellis, Pilz, and Reck]{REF120}
+R.~Rosell, G.~Robinet, A.~Szczesna, R.~Ramlau, M.~Constenla, B.~C. Mennecier,
+  W.~Pfeifer, K.~J. O'Byrne, T.~Welte, R.~Kolb, R.~Pirker, A.~Chemaissani,
+  M.~Perol, M.~R. Ranson, P.~A. Ellis, K.~Pilz, and M.~Reck.
+\newblock Randomized phase ii study of cetuximab plus cisplatin/vinorelbine
+  compared with cisplatin/vinorelbine alone as first-line therapy in
+  egfr-expressing advanced non-small-cell lung cancer.
+\newblock \emph{Ann Oncol}, 19\penalty0 (2):\penalty0 362--9, 2008.
+
+\bibitem[Butts et~al.(2007)Butts, Bodkin, Middleman, Englund, Ellison, Alam,
+  Kreisman, Graze, Maher, Ross, Ellis, McNulty, Kaplan, Pautret, Weber, and
+  Shepherd]{REF121}
+C.~A. Butts, D.~Bodkin, E.~L. Middleman, C.~W. Englund, D.~Ellison, Y.~Alam,
+  H.~Kreisman, P.~Graze, J.~Maher, H.~J. Ross, P.~M. Ellis, W.~McNulty,
+  E.~Kaplan, V.~Pautret, M.~R. Weber, and F.~A. Shepherd.
+\newblock Randomized phase ii study of gemcitabine plus cisplatin or
+  carboplatin [corrected], with or without cetuximab, as first-line therapy for
+  patients with advanced or metastatic non small-cell lung cancer.
+\newblock \emph{J Clin Oncol}, 25\penalty0 (36):\penalty0 5777--84, 2007.
+
+\bibitem[Fracasso et~al.(2007)Fracasso, Burris, Arquette, Govindan, Gao,
+  Wright, Goodner, Greco, Jones, Willcut, Chodkiewicz, Pathak, Springett,
+  Simon, Sullivan, Marcelpoil, Mayfield, Mauro, and Garrett]{REF122}
+P.~M. Fracasso, 3rd Burris, H., M.~A. Arquette, R.~Govindan, F.~Gao, L.~P.
+  Wright, S.~A. Goodner, F.~A. Greco, S.~F. Jones, N.~Willcut, C.~Chodkiewicz,
+  A.~Pathak, G.~M. Springett, G.~R. Simon, D.~M. Sullivan, R.~Marcelpoil, S.~D.
+  Mayfield, D.~Mauro, and C.~R. Garrett.
+\newblock A phase 1 escalating single-dose and weekly fixed-dose study of
+  cetuximab: pharmacokinetic and pharmacodynamic rationale for dosing.
+\newblock \emph{Clin Cancer Res}, 13\penalty0 (3):\penalty0 986--93, 2007.
+
+\bibitem[Tan et~al.(2006{\natexlab{b}})Tan, Moore, Hidalgo, Doroshow, Poplin,
+  Goodin, Mauro, and Rubin]{REF123}
+A.~R. Tan, D.~F. Moore, M.~Hidalgo, J.~H. Doroshow, E.~A. Poplin, S.~Goodin,
+  D.~Mauro, and E.~H. Rubin.
+\newblock Pharmacokinetics of cetuximab after administration of escalating
+  single dosing and weekly fixed dosing in patients with solid tumors.
+\newblock \emph{Clin Cancer Res.}, 12\penalty0 (21):\penalty0 6517--22. Epub
+  2006 Oct 25., 2006{\natexlab{b}}.
+
+\bibitem[Zhu et~al.(2007)Zhu, Stuart, Blaszkowsky, Muzikansky, Reitberg, Clark,
+  Enzinger, Bhargava, Meyerhardt, Horgan, Fuchs, and Ryan]{REF124}
+A.~X. Zhu, K.~Stuart, L.~S. Blaszkowsky, A.~Muzikansky, D.~P. Reitberg, J.~W.
+  Clark, P.~C. Enzinger, P.~Bhargava, J.~A. Meyerhardt, K.~Horgan, C.~S. Fuchs,
+  and D.~P. Ryan.
+\newblock Phase 2 study of cetuximab in patients with advanced hepatocellular
+  carcinoma.
+\newblock \emph{Cancer}, 110\penalty0 (3):\penalty0 581--9, 2007.
+
+\bibitem[Che et~al.(2009)Che, Wang, Chen, Li, Hou, Shan, and Cheng]{REF125}
+J.~Che, H.~Wang, Z.~Chen, X.~Li, Y.~Hou, C.~Shan, and Y.~Cheng.
+\newblock A new approach for pharmacokinetics of single-dose cetuximab in
+  rhesus monkeys by surface plasmon resonance biosensor.
+\newblock \emph{J Pharm Biomed Anal}, 50\penalty0 (2):\penalty0 183--8, 2009.
+
+\bibitem[Delbaldo et~al.(2005)Delbaldo, Pierga, Dieras, Faivre, Laurence,
+  Vedovato, Bonnay, Mueser, Nolting, Kovar, and Raymond]{REF126}
+C.~Delbaldo, J.~Y. Pierga, V.~Dieras, S.~Faivre, V.~Laurence, J.~C. Vedovato,
+  M.~Bonnay, M.~Mueser, A.~Nolting, A.~Kovar, and E.~Raymond.
+\newblock Pharmacokinetic profile of cetuximab (erbitux) alone and in
+  combination with irinotecan in patients with advanced egfr-positive
+  adenocarcinoma.
+\newblock \emph{Eur J Cancer}, 41\penalty0 (12):\penalty0 1739--45, 2005.
+
+\bibitem[Baselga et~al.(2000)Baselga, Pfister, Cooper, Cohen, Burtness, Bos,
+  D'Andrea, Seidman, Norton, Gunnett, Falcey, Anderson, Waksal, and
+  Mendelsohn]{REF127}
+J.~Baselga, D.~Pfister, M.~R. Cooper, R.~Cohen, B.~Burtness, M.~Bos,
+  G.~D'Andrea, A.~Seidman, L.~Norton, K.~Gunnett, J.~Falcey, V.~Anderson,
+  H.~Waksal, and J.~Mendelsohn.
+\newblock Phase i studies of anti-epidermal growth factor receptor chimeric
+  antibody c225 alone and in combination with cisplatin.
+\newblock \emph{J Clin Oncol}, 18\penalty0 (4):\penalty0 904--14, 2000.
+
+\bibitem[Robert et~al.(2001)Robert, Ezekiel, Spencer, Meredith, Bonner,
+  Khazaeli, Saleh, Carey, LoBuglio, Wheeler, Cooper, and Waksal]{REF128}
+F.~Robert, M.~P. Ezekiel, S.~A. Spencer, R.~F. Meredith, J.~A. Bonner, M.~B.
+  Khazaeli, M.~N. Saleh, D.~Carey, A.~F. LoBuglio, R.~H. Wheeler, M.~R. Cooper,
+  and H.~W. Waksal.
+\newblock Phase i study of anti--epidermal growth factor receptor antibody
+  cetuximab in combination with radiation therapy in patients with advanced
+  head and neck cancer.
+\newblock \emph{J Clin Oncol}, 19\penalty0 (13):\penalty0 3234--43, 2001.
+
+\bibitem[Kuester et~al.(2008)Kuester, Kovar, Lupfert, Brockhaus, and
+  Kloft]{REF129}
+K.~Kuester, A.~Kovar, C.~Lupfert, B.~Brockhaus, and C.~Kloft.
+\newblock Population pharmacokinetic data analysis of three phase i studies of
+  matuzumab, a humanised anti-egfr monoclonal antibody in clinical cancer
+  development.
+\newblock \emph{Br J Cancer}, 98\penalty0 (5):\penalty0 900--6, 2008.
+
+\bibitem[Zhang et~al.(2007)Zhang, Gordon, Schultheis, Yang, Nagashima, Azuma,
+  Chang, Borucka, Lurje, Sherrod, Iqbal, Groshen, and Lenz]{REF130}
+W.~Zhang, M.~Gordon, A.~M. Schultheis, D.~Y. Yang, F.~Nagashima, M.~Azuma,
+  H.~M. Chang, E.~Borucka, G.~Lurje, A.~E. Sherrod, S.~Iqbal, S.~Groshen, and
+  H.~J. Lenz.
+\newblock Fcgr2a and fcgr3a polymorphisms associated with clinical outcome of
+  epidermal growth factor receptor expressing metastatic colorectal cancer
+  patients treated with single-agent cetuximab.
+\newblock \emph{J Clin Oncol}, 25\penalty0 (24):\penalty0 3712--8, 2007.
+
+\bibitem[Bibeau et~al.(2009)Bibeau, Lopez-Crapez, Di~Fiore, Thezenas, Ychou,
+  Blanchard, Lamy, Penault-Llorca, Frebourg, Michel, Sabourin, and
+  Boissiere-Michot]{REF131}
+F.~Bibeau, E.~Lopez-Crapez, F.~Di~Fiore, S.~Thezenas, M.~Ychou, F.~Blanchard,
+  A.~Lamy, F.~Penault-Llorca, T.~Frebourg, P.~Michel, J.~C. Sabourin, and
+  F.~Boissiere-Michot.
+\newblock Impact of fc{gamma}riia-fc{gamma}riiia polymorphisms and kras
+  mutations on the clinical outcome of patients with metastatic colorectal
+  cancer treated with cetuximab plus irinotecan.
+\newblock \emph{J Clin Oncol}, 27\penalty0 (7):\penalty0 1122--9, 2009.
+
+\bibitem[Cunningham et~al.(2004)Cunningham, Humblet, Siena, Khayat, Bleiberg,
+  Santoro, Bets, Mueser, Harstrick, Verslype, Chau, and Van~Cutsem]{REF132}
+D.~Cunningham, Y.~Humblet, S.~Siena, D.~Khayat, H.~Bleiberg, A.~Santoro,
+  D.~Bets, M.~Mueser, A.~Harstrick, C.~Verslype, I.~Chau, and E.~Van~Cutsem.
+\newblock Cetuximab monotherapy and cetuximab plus irinotecan in
+  irinotecan-refractory metastatic colorectal cancer.
+\newblock \emph{N Engl J Med}, 351\penalty0 (4):\penalty0 337--45, 2004.
+
+\bibitem[DeSilva et~al.(2003)DeSilva, Smith, Weiner, Kelley, Smolec, Lee, Khan,
+  Tacey, Hill, and Celniker]{REF133}
+B.~DeSilva, W.~Smith, R.~Weiner, M.~Kelley, J.~Smolec, B.~Lee, M.~Khan,
+  R.~Tacey, H.~Hill, and A.~Celniker.
+\newblock Recommendations for the bioanalytical method validation of
+  ligand-binding assays to support pharmacokinetic assessments of
+  macromolecules.
+\newblock \emph{Pharm Res}, 20\penalty0 (11):\penalty0 1885--900, 2003.
+
+\bibitem[{R Core Team}(2011)]{REF134}
+{R Core Team}.
+\newblock \emph{R: A Language and Environment for Statistical Computing}.
+\newblock R Foundation for Statistical Computing, Vienna, Austria, 2011.
+\newblock URL \url{http://www.R-project.org/}.
+\newblock {ISBN} 3-900051-07-0.
+
+\bibitem[Therneau(2011)]{REF134surv}
+Terry Therneau.
+\newblock \emph{survival: A Package for Survival Analysis in R}, 2011.
+\newblock URL \url{http://CRAN.R-project.org/package=survival}.
+
+\bibitem[Broström(2011)]{REF134eha}
+Göran Broström.
+\newblock \emph{eha: A Package for Event History Analysis in R}, 2011.
+\newblock URL \url{http://CRAN.R-project.org/package=eha}.
+
+\bibitem[Inauen et~al.(2007)Inauen, Cathomas, Boehm, Koeberle, Pestalozzi,
+  Gillessen, and von Moos]{REF135}
+R.~Inauen, R.~Cathomas, T.~Boehm, D.~Koeberle, B.~C. Pestalozzi, S.~Gillessen,
+  and R.~von Moos.
+\newblock Feasibility of using cetuximab and bevacizumab in a patient with
+  colorectal cancer and terminal renal failure.
+\newblock \emph{Oncology}, 72\penalty0 (3-4):\penalty0 209--10, 2007.
+
+\bibitem[Shitara et~al.(2010)Shitara, Yuki, Yoshida, Takahari, Utsunomiya,
+  Yokota, Sato, Inaba, Tajika, Kawai, Yamaura, Kato, Yamazaki, Komatsu, and
+  Muro]{REF136}
+K.~Shitara, S.~Yuki, M.~Yoshida, D.~Takahari, S.~Utsunomiya, T.~Yokota,
+  Y.~Sato, Y.~Inaba, M.~Tajika, H.~Kawai, H.~Yamaura, M.~Kato, K.~Yamazaki,
+  Y.~Komatsu, and K.~Muro.
+\newblock Phase ii study of combination chemotherapy with biweekly cetuximab
+  and irinotecan for wild-type kras metastatic colorectal cancer refractory to
+  irinotecan, oxaliplatin, and fluoropyrimidines.
+\newblock \emph{Invest New Drugs}, 2010:\penalty0 22, 2010.
+
+\bibitem[Schoennemann et~al.(2011)Schoennemann, Bjerregaard, Hansen,
+  De~Stricker, Gjerstorff, Jensen, Vestermark, and Pfeiffer]{REF137}
+K.~R. Schoennemann, J.~K. Bjerregaard, T.~P. Hansen, K.~De~Stricker, M.~F.
+  Gjerstorff, H.~A. Jensen, L.~W. Vestermark, and P.~Pfeiffer.
+\newblock Biweekly cetuximab and irinotecan as second-line therapy in patients
+  with gastro-esophageal cancer previously treated with platinum.
+\newblock \emph{Gastric Cancer}, 14\penalty0 (3):\penalty0 219--25, 2011.
+
+\bibitem[Kang et~al.(2011)Kang, Hong, Kim, Kim, Baek, Ryu, Lee, Chang, Kim,
+  Chang, Kang, and Kim]{REF138}
+M.~J. Kang, Y.~S. Hong, K.~P. Kim, S.~Y. Kim, J.~Y. Baek, M.~H. Ryu, J.~L. Lee,
+  H.~M. Chang, M.~J. Kim, H.~J. Chang, Y.~K. Kang, and T.~W. Kim.
+\newblock Biweekly cetuximab plus irinotecan as second-line chemotherapy for
+  patients with irinotecan-refractory and kras wild-type metastatic colorectal
+  cancer according to epidermal growth factor receptor expression status.
+\newblock \emph{Invest New Drugs}, 2011:\penalty0 25, 2011.
+
+\bibitem[Maillet et~al.(2008)Maillet, Congy-Jolivet, Le~Guellec, Vecellio,
+  Hamard, Courty, Courtois, Gauthier, Diot, Thibault, Lemarie, and
+  Heuze-Vourc'h]{REF140}
+A.~Maillet, N.~Congy-Jolivet, S.~Le~Guellec, L.~Vecellio, S.~Hamard, Y.~Courty,
+  A.~Courtois, F.~Gauthier, P.~Diot, G.~Thibault, E.~Lemarie, and
+  N.~Heuze-Vourc'h.
+\newblock Aerodynamical, immunological and pharmacological properties of the
+  anticancer antibody cetuximab following nebulization.
+\newblock \emph{Pharm Res}, 25\penalty0 (6):\penalty0 1318--26, 2008.
+
+\bibitem[Saleh et~al.(1999)Saleh, Raisch, Stackhouse, Grizzle, Bonner, Mayo,
+  Kim, Meredith, Wheeler, and Buchsbaum]{REF141}
+M.~N. Saleh, K.~P. Raisch, M.~A. Stackhouse, W.~E. Grizzle, J.~A. Bonner, M.~S.
+  Mayo, H.~G. Kim, R.~F. Meredith, R.~H. Wheeler, and D.~J. Buchsbaum.
+\newblock Combined modality therapy of a431 human epidermoid cancer using
+  anti-egfr antibody c225 and radiation.
+\newblock \emph{Cancer Biother Radiopharm}, 14\penalty0 (6):\penalty0 451--63,
+  1999.
+
+\bibitem[Bergstrand and Karlsson(2009)]{REF142}
+M.~Bergstrand and M.~O. Karlsson.
+\newblock Handling data below the limit of quantification in mixed effect
+  models.
+\newblock \emph{Aaps J}, 11\penalty0 (2):\penalty0 371--80, 2009.
+
+\bibitem[Byon et~al.(2008)Byon, Fletcher, and Brundage]{REF143}
+W.~Byon, C.~V. Fletcher, and R.~C. Brundage.
+\newblock Impact of censoring data below an arbitrary quantification limit on
+  structural model misspecification.
+\newblock \emph{J Pharmacokinet Pharmacodyn}, 35\penalty0 (1):\penalty0
+  101--16, 2008.
+
+\bibitem[Alvarenga et~al.(2011)Alvarenga, Kikhney, Hannewald, Metzger,
+  Steffens, Bomke, Krah, and Wegener]{REF144}
+M.~L. Alvarenga, J.~Kikhney, J.~Hannewald, A.~U. Metzger, K.~J. Steffens,
+  J.~Bomke, A.~Krah, and A.~Wegener.
+\newblock In-depth biophysical analysis of interactions between therapeutic
+  antibodies and the extracellular domain of the epidermal growth factor
+  receptor.
+\newblock \emph{Anal Biochem}, 2011:\penalty0 28, 2011.
+
+\bibitem[Baselga(2001)]{REF145}
+J.~Baselga.
+\newblock Phase i and ii clinical trials of trastuzumab.
+\newblock \emph{Ann Oncol}, 12 Suppl 1\penalty0 (1):\penalty0 S49--55, 2001.
+
+\end{thebibliography}
