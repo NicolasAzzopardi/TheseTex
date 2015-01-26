@@ -33,8 +33,9 @@
 \usepackage{pdfpages}			%Ajout de PDF
 \usepackage[comma,sort&compress,super]{natbib}
 \usepackage{tabularx}
-\citeindextrue
 \usepackage{glossaries}
+\makeglossaries
+%\citeindextrue
 \usepackage{graphicx}
 \usepackage{subcaption}
 \usepackage{lscape} % Paysage
@@ -117,6 +118,7 @@ hidelinks
 %Page Resume fr et en:
 \input{./inputs/resume} 
 \input{./inputs/abstract} 
+\printglossaries
 \end{spacing}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Les sommaires :
@@ -139,6 +141,7 @@ hidelinks
 \end{spacing}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %La biblio :
+\addcontentsline{toc}{chapter}{Bibliographie}
 %\bibliographystyle{apalike-fr}  % Auteur Date 
 \bibliographystyle{unsrt}      % Numero
 \bibliography{./Biblio/BiblioThese2}
@@ -147,6 +150,7 @@ hidelinks
 \listoffigures 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Les glossaire :
+\addcontentsline{toc}{chapter}{Glossaire}
 \input{./inputs/abreviations} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Articles

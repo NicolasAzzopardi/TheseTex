@@ -21,7 +21,7 @@ Chacune de ces deux étapes a des sources spécifiques de variabilité, inter-- 
 
 L'évolution des concentrations d'un médicament dans l'organisme au cours du temps dépend des modalités d'administration (forme galénique, posologie) et du devenir du médicament dans l'organisme, qui peut être décrit schématiquement par les étapes suivantes :
 \begin{description}
-\item[Absorption -] Une phase d'absorption existe lorsqu'un médicament est d'administré par voie extravasculaire (EV). Seule une fraction de la dose (D) de médicament atteint alors la circulation générale. La biodisponibilité est définie à la fois par cette fraction de la dose de médicament et par la vitesse d'absorption. La fraction biodisponible est calculée par rapport à celle de la voie intraveineuse (IV), qui est par définition de 1.
+\item[Absorption -] Une phase d'absorption existe lorsqu'un médicament est d'administré par voie extravasculaire (\gls{EV}). Seule une fraction de la dose (D) de médicament atteint alors la circulation générale. La biodisponibilité est définie à la fois par cette fraction de la dose de médicament et par la vitesse d'absorption. La fraction biodisponible est calculée par rapport à celle de la voie intraveineuse (\gls{IV}), qui est par définition de 1.
 \item[Distribution -] La distribution correspond au passage du médicament dans les différents tissus et liquides biologiques de l'organisme.
 \item[Élimination -] Les mécanismes d'élimination du médicament dépendent de sa nature. Dans le cas des médicaments "classiques" (petites molécules, souvent obtenues par synthèse chimique), l'élimination est due à leur métabolisme (biotransformation) ou à leur excrétion, c'est-à-dire leur élimination sous forme inchangée, par voie rénale ou biliaire notamment. Les mécanismes d'élimination des biomédicaments sont ceux des molécules endogènes dont ils sont proches. Le cas des anticorps thérapeutiques sera décrit plus loin.
 \end{description}
@@ -64,22 +64,22 @@ La fraction extrapolée ne doit pas être trop importante, si possible inférieu
 L'\gls{AUC} est souvent le meilleur critère pour l'étude des relations entre l'exposition et l'effet du médicament mais elle ne permet généralement pas d'étudier la relation concentration-effet individuelle et ses sources de variabilité. L'\gls{AUC} est un indice pharmacocinétique dose-dépendant et la cinétique est dite linéaire lorsque l'\gls{AUC} augmente proportionnellement à la dose.
 
 \subsubsection{Fraction biodisponible}
-Si un médicament est administré par voie~IV et par voie~EV, à deux moments différents suffisamment espacés pour que la première dose soit complètement éliminée, on peut calculer la fraction biodisponible $F$ :
+Si un médicament est administré par voie~\gls{IV} et par voie~\gls{EV}, à deux moments différents suffisamment espacés pour que la première dose soit complètement éliminée, on peut calculer la fraction biodisponible $F$ :
 
 \begin{equation}
-F = \frac{\gls{AUC}_{EV}}{\gls{AUC}_{IV}} \cdot \frac{D_{IV}}{D_{EV}}
+F = \frac{\gls{AUC}_{\gls{EV}}}{\gls{AUC}_{\gls{IV}}} \cdot \frac{D_{\gls{IV}}}{D_{\gls{EV}}}
 \label{eq:5}
 \end{equation}
 
-où $\gls{AUC}_{EV}$ et $\gls{AUC}_{IV}$ sont respectivement les \gls{AUC} après administrationé~EV et après administration~IV, et $D_{IV}$ et $D_{EV}$ sont les doses respectives de la voie~IV et de la voie~EV. La condition nécessaire est que la clairance ne se soit pas modifiée entre les deux études pharmacocinétiques. S'il n'y a pas de phénomènes saturables intervenant dans l'absorption, $F$ est indépendant de la dose.
+où $\gls{AUC}_{\gls{EV}}$ et $\gls{AUC}_{\gls{IV}}$ sont respectivement les \gls{AUC} après administrationé~\gls{EV} et après administration~\gls{IV}, et $D_{\gls{IV}}$ et $D_{\gls{EV}}$ sont les doses respectives de la voie~\gls{IV} et de la voie~\gls{EV}. La condition nécessaire est que la clairance ne se soit pas modifiée entre les deux études pharmacocinétiques. S'il n'y a pas de phénomènes saturables intervenant dans l'absorption, $F$ est indépendant de la dose.
 
 \subsubsection{Temps de résidence moyen} 
 La demi-vie $t_{1/2}$ est le paramètre le plus souvent utilisé pour quantifier l'élimination des médicaments. C'est le temps nécessaire pour que la concentration du médicament diminue de moitié. Lors de l'administration répétée d'un médicament, la $t_{1/2}$ permet de déterminer le temps nécessaire à l'obtention de l'état d'équilibre. Cependant, la $t_{1/2}$ ne peut être estimée s'il n'y a pas de phase log-linéaire de décroissance terminale des concentrations.
 
-Le calcul du "temps de résidence moyen" ($\MRT$ pour \textit{Mean Residence Time}) est un autre moyen de mesurer le temps passé par un médicament dans l'organisme. Il peut être calculé quelle que soit l'allure de la cinétique des concentrations. Ce paramètre est particulièrement utile lorsqu'il s'agit de médicaments administrés par voie~EV et ayant une absorption lente (médicament à libération prolongée ou biomédicaments administrés par voie sous-cutanée) ou irrégulière. En pratique, le $\MRT$, qui a la dimension d'un temps, est calculé après administration~IV rapide (bolus) par :
+Le calcul du "temps de résidence moyen" ($\MRT$ pour \textit{Mean Residence Time}) est un autre moyen de mesurer le temps passé par un médicament dans l'organisme. Il peut être calculé quelle que soit l'allure de la cinétique des concentrations. Ce paramètre est particulièrement utile lorsqu'il s'agit de médicaments administrés par voie~\gls{EV} et ayant une absorption lente (médicament à libération prolongée ou biomédicaments administrés par voie sous-cutanée) ou irrégulière. En pratique, le $\MRT$, qui a la dimension d'un temps, est calculé après administration~\gls{IV} rapide (bolus) par :
 
 \begin{equation}
-\MRT_{IV} = \frac{\gls{AUMC}}{\gls{AUC}}
+\MRT_{\gls{IV}} = \frac{\gls{AUMC}}{\gls{AUC}}
 \label{eq:6}
 \end{equation}
 
@@ -99,15 +99,15 @@ La fraction extrapolée à l'infini est obtenue par :
 
 Le $\MRT$ et les paramètres qui en sont dérivés ont l'avantage de pouvoir être additionnés. Par exemple, après administration extra vasculaire :
 \begin{equation}
-\MRT_{EV} = \MAT + \, \MRT_{IV}
+\MRT_{\gls{EV}} = \MAT + \, \MRT_{\gls{IV}}
 \label{eq:9}
 \end{equation}
-où $\MAT$ (\textit{Mean Absorption Time}) est le temps d'absorption moyen qui reflète la vitesse d'absorption globale quelles que soient ses caractéristiques cinétiques. De plus, si $\MAT > \MRT_{IV}$, il s'agit d'une cinétique absorption-dépendante, comme dans le cas des médicaments à libération prolongée : la vitesse d'absorption va limiter la vitesse d'élimination.
+où $\MAT$ (\textit{Mean Absorption Time}) est le temps d'absorption moyen qui reflète la vitesse d'absorption globale quelles que soient ses caractéristiques cinétiques. De plus, si $\MAT > \MRT_{\gls{IV}}$, il s'agit d'une cinétique absorption-dépendante, comme dans le cas des médicaments à libération prolongée : la vitesse d'absorption va limiter la vitesse d'élimination.
 
 Si la décroissance terminale des concentrations est log-linéaire, la $t_{1/2}$ peut être estimée et sa relation avec le $\MRT$ est la suivante :
 
 \begin{equation}
-t_{1/2} = \ln(2)\cdot \MRT_{IV}
+t_{1/2} = \ln(2)\cdot \MRT_{\gls{IV}}
 \label{eq:10}
 \end{equation}
 
@@ -118,7 +118,7 @@ La clairance ($\CL$) quantifie la capacité d'élimination du médicament par l'
 \textit{Vitesse d'élimination = $\CL \, \times$ concentration}
 \end{center}
 
-La $\CL$ peut être calculée, après administration~IV, par :
+La $\CL$ peut être calculée, après administration~\gls{IV}, par :
 
 \begin{equation}
 \CL = \frac{D}{\gls{AUC}}
@@ -128,7 +128,7 @@ La $\CL$ peut être calculée, après administration~IV, par :
 La capacité d'élimination du médicament par le patient peut donc être quantifiée quelle que soit l'allure de la courbe des concentrations en fonction du temps. S'il n'y a pas de phénomènes saturables intervenant dans l'élimination, la clairance $\CL$ ne change pas avec la dose $D$.
 
 \subsubsection{Volume de distribution}
-Après une injection~IV, le volume de distribution à l'état d'équilibre ($V_{SS}$) peut être estimé grâce à la clairance $\CL$ et au temps de résidence moyen $\MRT$ par la formule suivante :
+Après une injection~\gls{IV}, le volume de distribution à l'état d'équilibre ($V_{SS}$) peut être estimé grâce à la clairance $\CL$ et au temps de résidence moyen $\MRT$ par la formule suivante :
 
 \begin{equation}
 V_{SS} = \CL \cdot \MRT
@@ -148,7 +148,7 @@ Contrairement à l'approche non-compartimentale, l'approche compartimentale impo
 \subsubsection{Modèle mono-compartimental avec élimination d'ordre~1}
 Ce type de modèle pharmacocinétique est paramétré par un volume de distribution unique et par une constante d'élimination d'ordre 1 (Figure~\ref{fig:2}).
 
-Après administration en bolus~IV, la variation des concentrations du médicament au cours du temps est décrite par l'équation différentielle suivante :
+Après administration en bolus~\gls{IV}, la variation des concentrations du médicament au cours du temps est décrite par l'équation différentielle suivante :
 
 \begin{equation}
 \frac{dC}{dt} = -k_{10} \cdot C(t)
@@ -197,11 +197,15 @@ C(t) = \frac{D}{V} \cdot e^{-\frac{\CL}{V}\cdot t}
 	\label{fig:2}
 \end{figure}
 
-\subsubsection{Modèle mono-compartimental avec administration~EV}
-Lorsque le médicament est administré par voie~EV, l'absorption peut le plus souvent être prise en compte en ajoutant un compartiment d'absorption A, sans volume, et en estimant une constante d'absorption $k_{a}$ d'ordre 1 (Figure~\ref{fig:3}). Dans le cas d'une distribution mono-compartimentale, la pharmacocinétique du médicament administré par voie~EV peut être décrite par le système d'équations différentielles suivant :
+\subsubsection{Modèle mono-compartimental avec administration~\gls{EV}}
+Lorsque le médicament est administré par voie~\gls{EV}, l'absorption peut le plus souvent être prise en compte en ajoutant un compartiment d'absorption A, sans volume, et en estimant une constante d'absorption $k_{a}$ d'ordre 1 (Figure~\ref{fig:3}). Dans le cas d'une distribution mono-compartimentale, la pharmacocinétique du médicament administré par voie~\gls{EV} peut être décrite par le système d'équations différentielles suivant :
+
 
 \begin{equation}
-x
+\left| \begin{matrix}
+\frac{dA}{dt} = & -k_{a}\cdot A &                & avec & A(0)&=&D\\ 
+\frac{dC}{dt} = &  k_{a}\cdot A & -k_{10}\cdot C & avec & C(0)&=&0\\ 
+\end{matrix}\right.
 \label{eq:19}
 \end{equation}
 
@@ -212,9 +216,9 @@ x
 	\label{fig:3}
 \end{figure}
 
-Si le début de l'absorption est décalé par rapport au temps d'administration~EV, comme cela est fréquemment le cas après administration orale, un temps de retard appelé \textit{lag-time} (noté $t_{lag}$) peut être pris en compte et estimé. Ce décalage de l'absorption peut également être décrit à l'aide de compartiments de transit. Ce type de modèle décrit le retard de l'absorption par le passage du médicament par une série de compartiments de transit an sans volume, avec une constante de transfert unique $k_t$.
+Si le début de l'absorption est décalé par rapport au temps d'administration~\gls{EV}, comme cela est fréquemment le cas après administration orale, un temps de retard appelé \textit{lag-time} (noté $t_{lag}$) peut être pris en compte et estimé. Ce décalage de l'absorption peut également être décrit à l'aide de compartiments de transit. Ce type de modèle décrit le retard de l'absorption par le passage du médicament par une série de compartiments de transit an sans volume, avec une constante de transfert unique $k_t$.
 
-Dans le cas d'un modèle à un compartiment, la pharmacocinétique du médicament administré par voie~EV avec retard d'absorption peut être décrite par le système de $n+2$ équations différentielles suivant :
+Dans le cas d'un modèle à un compartiment, la pharmacocinétique du médicament administré par voie~\gls{EV} avec retard d'absorption peut être décrite par le système de $n+2$ équations différentielles suivant :
 
 \begin{equation}
 x
@@ -234,7 +238,7 @@ Cette simplification permet d'estimer le nombre de compartiments $n$ comme un pa
 Il existe une correspondance entre les paramètres de l'analyse mono-compartimentale et les paramètres de l'analyse non-compartimentale :
 
 \begin{equation}
-\MRT_{IV} = \frac{1}{k_{10}}
+\MRT_{\gls{IV}} = \frac{1}{k_{10}}
 \label{eq:22}
 \end{equation}
 
@@ -244,17 +248,20 @@ Il existe une correspondance entre les paramètres de l'analyse mono-compartimen
 \label{eq:23}
 \end{equation}
 
-En pratique, $k_a$ est souvent difficile à estimer, surtout si l'absorption est lente, alors que le $\MAT$ peut toujours être calculé si l'on dispose de données après voie~IV et voie~EV.
+En pratique, $k_a$ est souvent difficile à estimer, surtout si l'absorption est lente, alors que le $\MAT$ peut toujours être calculé si l'on dispose de données après voie~\gls{IV} et voie~\gls{EV}.
 
 \subsubsection{Modèle bicompartimental avec constantes de transfert d'ordre~1}
 Dans la plupart des cas, les médicaments ne sont pas instantanément distribués de façon homogène dans tout l'organisme. Le modèle bi-compartimental permet de décrire le fait que les concentrations dans deux groupes de tissus ou de fluides biologiques ne s'équilibrent pas immédiatement. Les échanges entre ces compartiments sont le plus souvent décrits par des constantes de transfert d'ordre~1. Le compartiment "central" correspond au sang et aux tissus dans lesquels les concentrations s'équilibrent rapidement avec celles du sang. Le compartiment périphérique correspond aux tissus et organes dans lesquels la concentration du médicament s'équilibre plus lentement avec celle du compartiment central. Pour des raisons d'identifiabilité, l'élimination du médicament de l'organisme est le plus souvent décrite comme se faisant à partir du compartiment central.
 
 Comme le modèle mono-compartimental, le modèle bi-compartimental peut être paramétré de plusieurs façons :
 
-\paragraph*{Paramétrisation à l'aide de "micro-constantes":} Après administration par voie~IV bolus, le modèle est décrit à l'aide du volume du compartiment central ($V_1$), des constantes de distribution $k_{12}$ et $k_{21}$ (d'ordre~1) et de la constante d'élimination $k_{10}$ (Figure~\ref{fig:4}) :
+\paragraph*{Paramétrisation à l'aide de "micro-constantes":} Après administration par voie~\gls{IV} bolus, le modèle est décrit à l'aide du volume du compartiment central ($V_1$), des constantes de distribution $k_{12}$ et $k_{21}$ (d'ordre~1) et de la constante d'élimination $k_{10}$ (Figure~\ref{fig:4}) :
 
 \begin{equation}
-x
+\left| \begin{matrix}
+\frac{dC_1}{dt} = & k_{10}\cdot C_1 &- &k_{12}\cdot C_1 & + & k_{21}\cdot C_2 & avec & C_1(0)&=&\frac{D}{V_1}\\ 
+\frac{dC_2}{dt} = &                 &  &k_{12}\cdot C_1 & - & k_{21}\cdot C_2 & avec & C_2(0)&=&0 \\ 
+\end{matrix}\right.
 \label{eq:24}
 \end{equation}
 
@@ -265,17 +272,17 @@ où $C_1$ et $C_2$ sont les concentrations du médicament, respectivement dans l
 Les relations entre les micro-constantes et les constantes physiologiques sont les suivantes :
 
 \begin{equation}
-x
+k_{10}  =  \frac{CL}{V_1}
 \label{eq:25}
 \end{equation}
 
 \begin{equation}
-x
+k_{12}  =  \frac{Q}{V_1}
 \label{eq:26}
 \end{equation}
 
 \begin{equation}
-x
+k_{21}  =  \frac{Q}{V_2}
 \label{eq:27}
 \end{equation}
 
@@ -288,52 +295,36 @@ x
 	\label{fig:5}
 \end{figure}
 
-%\begin{figure}[h!]
-%\begin{minipage}[b]{0.48\textwidth}
-%        \centering \includegraphics[4cm]{figures/raster/Figure4_2comp}
-%        \caption[Modèle à deux compartiments (micro constantes]{Modèle à deux compartiments où $D$ est la dose de médicament administrée, $V_1$ et $V_2$ les volumes de distribution, $k_{10}$ la constante d'élimination d'ordre~1, $k_{12}$ et $k_{21}$ les constantes de distribution.}
-%	\label{fig:4}
-%\end{minipage}\hfill
-%\begin{minipage}[b]{0.48\textwidth}
-%        \centering \includegraphics[0.4\linewidth]{figures/raster/Figure5_2comp_phy}
-%        \caption[Modèle à deux compartiments (constantes "physiologiques")]{Modèle à deux compartiments où $D$ est la dose de médicament administrée, $V_1$ et $V_2$ les volumes de distribution, $CL$ et $Q$ les clairances d'élimination et de distribution.}
-%	\label{fig:5}
-%\end{minipage}
-%\end{figure}
-%
 \paragraph*{Paramétrisation à l'aide de "macro-constantes":} Celle-ci permet de faire une description graphique de l'évolution des concentrations et d'estimer les demi-vies de distribution et d'élimination. Ainsi la cinétique de décroissance des concentrations de médicament s'écrit :
 
 \begin{equation}
-x
+C(t) = A \cdot e^{-\gls{alpha}\cdot t}+B \cdot e^{-\gls{beta}\cdot t}
 \label{eq:28}
 \end{equation}
 
-où $A$ et $B$ sont respectivement les concentrations de distribution et d'élimination, extrapolées au temps $0$ ("à l'origine") par approche "graphique", analogues au $C_0$ du modèle mono-compartimental, et $\alpha$ et $\beta$ sont respectivement les macro-constantes de distribution et d'élimination définies par :
+où $A$ et $B$ sont respectivement les concentrations de distribution et d'élimination, extrapolées au temps $0$ ("à l'origine") par approche "graphique", analogues au $C_0$ du modèle mono-compartimental, et \gls{alpha} et \gls{beta} sont respectivement les macro-constantes de distribution et d'élimination définies par :
 
 \begin{equation}
-\alpha = \frac{1}{2}\cdot[k_{12}+k_{21}+k_{10}+\sqrt{(k_{12}+k_{21}+k_{10})^2-4\cdot k_{21}\cdot k_{10}}]
+\gls{alpha} = \frac{1}{2}\cdot[k_{12}+k_{21}+k_{10}+\sqrt{(k_{12}+k_{21}+k_{10})^2-4\cdot k_{21}\cdot k_{10}}]
 \label{eq:29}
 \end{equation}
 
 \begin{equation}
-\beta = \frac{1}{2}\cdot[k_{12}+k_{21}+k_{10}-\sqrt{(k_{12}+k_{21}+k_{10})^2-4\cdot k_{21}\cdot k_{10}}]
+\gls{beta} = \frac{1}{2}\cdot[k_{12}+k_{21}+k_{10}-\sqrt{(k_{12}+k_{21}+k_{10})^2-4\cdot k_{21}\cdot k_{10}}]
 \label{eq:30}
 \end{equation}
 
-On note que l'équation~\ref{eq:15} de calcul de la demi-vie pour le modèle mono-compartimental ne s'applique pas au modèle bi-compartimental. En revanche à l'aide des paramètres $\alpha$ et $\beta$, il est possible de calculer :
+On note que l'équation~\ref{eq:15} de calcul de la demi-vie pour le modèle mono-compartimental ne s'applique pas au modèle bi-compartimental. En revanche à l'aide des paramètres \gls{alpha} et \gls{beta}, il est possible de calculer :
 
 \begin{equation}
-x
+t_{1/2}\gls{alpha} = \frac{ln(2)}{\gls{alpha}}
 \label{eq:31}
 \end{equation}
-
 et
-
 \begin{equation}
-x
+t_{1/2}\gls{beta}  = \frac{ln(2)}{\gls{beta}} 
 \label{eq:32}
 \end{equation}
-
 qui sont respectivement les demi-vies de distribution et d'élimination~\citep{REF2}.
 
 \subsubsection{Modèles avec élimination saturable}
@@ -363,7 +354,7 @@ Un tel modèle doit être couplé à un modèle compartimental classique qui dé
 \paragraph{Élimination de type Michaelis-Menten} L'équation de Michaelis-Menten a été initialement proposée pour décrire la saturation de la cinétique enzymatique~\citep{REF5}. Elle est maintenant couramment utilisée pour décrire, entre autres, la cinétique d'élimination saturable de certains médicaments. D'après le modèle de Michaelis-Menten, ce type d'élimination est décrit par l'équation différentielle suivante :
 
 \begin{equation}
-x
+\frac{dC}{dt}=-\frac{V_{max}\cdot C}{k_M + C}
 \label{eq:34}
 \end{equation}
 où $V_{max}$ est la vitesse maximale d'élimination du médicament et $k_M$ est la constante dite de Michaelis, qui correspond à la concentration de médicament pour laquelle la vitesse d'élimination est égale à la moitié de $V_{max}$ (Figure~\ref{fig:7}).
@@ -384,7 +375,7 @@ Dans ces conditions, les paramètres de Michaelis-Menten sont définis par : $V_
 \paragraph{Élimination d'ordre~0} Ce modèle est le plus simple pour décrire une élimination saturable. L'élimination n'est pas dépendante de la concentration et la vitesse d'élimination (quantité de médicament éliminée par unité de temps) est constante (Figure~\ref{fig:8}). Ce type d'élimination est décrit par l'équation différentielle suivante :
 
 \begin{equation}
-x
+\frac{dC}{dt}=-k_0
 \label{eq:35}
 \end{equation}
 
@@ -439,7 +430,7 @@ et/ou de la taille de ces lésions.}
 Le but d'un traitement anticancéreux est de maximiser le temps pendant lequel la maladie ne progresse pas. Ce temps est appelé le temps de survie sans progression (PFS pour \textit{progression-free survival}).
 
 \subsection{Principes de l'estimation des paramètres d'un modèle pharmacocinétique}
-Avant d'estimer les paramètres d'un système d'équations différentielles, il est important de s'assurer de leur identifiabilité ; c'est-à-dire qu'à partir des données expérimentales, le système d'équations admet une solution unique pour chaque paramètre. Par exemple, la pharmacocinétique d'un médicament administré de façon régulière en bolus~IV avec un intervalle de temps $\tau$ ne peut être décrite par un modèle à deux compartiments (équation~\ref{eq:24}) si les concentrations disponibles ne sont que des concentrations résiduelles (avant réinjection). En effet, dans ce cas, les paramètres correspondant au compartiment périphérique $Q$ et $V_2$ ne sont généralement pas identifiables.
+Avant d'estimer les paramètres d'un système d'équations différentielles, il est important de s'assurer de leur identifiabilité ; c'est-à-dire qu'à partir des données expérimentales, le système d'équations admet une solution unique pour chaque paramètre. Par exemple, la pharmacocinétique d'un médicament administré de façon régulière en bolus~\gls{IV} avec un intervalle de temps $\tau$ ne peut être décrite par un modèle à deux compartiments (équation~\ref{eq:24}) si les concentrations disponibles ne sont que des concentrations résiduelles (avant réinjection). En effet, dans ce cas, les paramètres correspondant au compartiment périphérique $Q$ et $V_2$ ne sont généralement pas identifiables.
 
 La modélisation pharmacocinétique s'inscrit dans le cadre de la régression non-linéaire sur mesures répétées. Comme pour de nombreux types de modélisation, la qualité d'un modèle pharmacocinétique est quantifiée par la "-2ln-vraisemblance" ($-2LL$) ou par le critère d'information d'Akaïke (AIC). La $-2LL$ est couramment appelée fonction objective (FO). Les paramètres sont estimés en minimisant la FO. 
 
@@ -644,10 +635,10 @@ Les progrès en biotechnologie ont permis de développer des anticorps chimériq
 \end{figure}
 
 \subsection{Mécanismes impliqués dans la pharmacocinétique des anticorps monoclonaux}
-Ne serait-ce que parce que ce sont des protéines de haute masse moléculaire (environ 150 kDa), les anticorps monoclonaux ont des sources de variabilité pharmacocinétique différentes de celles des médicaments "classiques", molécules généralement issues d'une synthèse chimique et d'une masse moléculaire faible. Cependant, on peut décrire des phases d'absorption (pour les administrations par voie~EV), de distribution et d'élimination.
+Ne serait-ce que parce que ce sont des protéines de haute masse moléculaire (environ 150 kDa), les anticorps monoclonaux ont des sources de variabilité pharmacocinétique différentes de celles des médicaments "classiques", molécules généralement issues d'une synthèse chimique et d'une masse moléculaire faible. Cependant, on peut décrire des phases d'absorption (pour les administrations par voie~\gls{EV}), de distribution et d'élimination.
 
 \subsubsection{Absorption des anticorps monoclonaux}
-La majorité des anticorps monoclonaux est administrée par voie~IV, ce qui permet une exposition rapide et complète. Cependant, certains d'entre eux, comme l'adalimumab, un anti-TNF$\alpha$, sont administrés par voie sous cutanée (SC). L'administration~EV représente un confort pour le patient puisque qu'elle est moins invasive et peut se faire à domicile. Cependant, l'absorption des anticorps monoclonaux est lente et donc difficile à quantifier précisément. Elle est par ailleurs incomplète. Nous verrons dans la discussion que ces voies d'administration sont une source de variabilité pharmacocinétique supplémentaire qu'il faut prendre en compte. Les mécanismes d'absorption des IgG après administration SC et~EV en général n'ont jamais été directement étudiés~\citep{REF18}. 
+La majorité des anticorps monoclonaux est administrée par voie~\gls{IV}, ce qui permet une exposition rapide et complète. Cependant, certains d'entre eux, comme l'adalimumab, un anti-TNF$\alpha$, sont administrés par voie sous cutanée (SC). L'administration~\gls{EV} représente un confort pour le patient puisque qu'elle est moins invasive et peut se faire à domicile. Cependant, l'absorption des anticorps monoclonaux est lente et donc difficile à quantifier précisément. Elle est par ailleurs incomplète. Nous verrons dans la discussion que ces voies d'administration sont une source de variabilité pharmacocinétique supplémentaire qu'il faut prendre en compte. Les mécanismes d'absorption des IgG après administration SC et~\gls{EV} en général n'ont jamais été directement étudiés~\citep{REF18}. 
 
 \subsubsection{Élimination des anticorps monoclonaux}
 Les anticorps sont principalement éliminés par deux mécanismes associés : un catabolisme non spécifique suivant leur endocytose passive et une élimination faisant suite à leur fixation sur l'antigène cible. Lorsqu'une immunisation survient les anticorps peuvent également être éliminés par la formation de complexes immuns.
@@ -700,9 +691,9 @@ La structure des anticorps thérapeutiques n'est cependant pas le seul facteur i
 \subsection{Modélisation pharmacocinétique des anticorps monoclonaux}
 Comme pour les médicaments "classiques", la pharmacocinétique des anticorps monoclonaux est principalement étudiée lors des phases initiales de leur développement clinique (phases~I et II) pour déterminer les doses qui seront testées en phase~III. Cependant, pour de nombreux anticorps monoclonaux actuellement sur le marché, la relation entre la concentration et l'effet in vivo est mal connue et/ou peu décrite dans la littérature et les données pharmacocinétiques sont insuffisamment utilisées lors du choix des doses à administrer. Une meilleure connaissance de la pharmacocinétique est donc une étape indispensable pour l'optimisation de l'utilisation thérapeutique des anticorps monoclonaux. Ce besoin d'amélioration du schéma posologique est particulièrement net en cancérologie. Il y a au moins deux raisons à cela : d'une part, au moment de la mise sur le marché, la connaissance de l'anticorps monoclonal est souvent incomplète car son développement clinique a été accéléré compte tenu de la gravité de la pathologie. D'autre part, une influence de la masse tumorale sur la pharmacocinétique des anticorps monoclonaux est suspectée~\citep{REF45, REF46, REF47}. Si cette influence est confirmée, ce facteur devrait être pris en compte pour améliorer l'adaptation posologique individuelle. De plus, l'analyse de la pharmacocinétique clinique des anticorps thérapeutiques est une étape nécessaire à l'étude de leur relation concentration-effet, outil indispensable à la fois pour un choix raisonné de la posologie et pour la compréhension de leur mécanisme d'action chez l'Homme. 
 
-La pharmacocinétique n'a pas été étudiée avec le même niveau de détail pour tous les anticorps thérapeutiques. La pharmacocinétique de l'efalizumab (anti-CD11a) a été bien décrite~\citep{REF48, REF49, REF50}. La pharmacocinétique du rituximab a été assez bien étudiée~\citep{REF51, REF52}, mais la connaissance de la pharmacocinétique d'anticorps comme l'adalimumab et le bevacizumab, utilisés pourtant depuis plusieurs années, reste insuffisante. Les études de la pharmacocinétique des anticorps monoclonaux chez l'Homme ont utilisé l'approche non-compartimentale~\citep{REF53,REF54, REF55, REF56, REF57, REF58, REF59} et l'approche compartimentale. Dans ce cas, les modèles étaient parfois mono-compartimentaux~\citep{REF60} mais le plus souvent, bi-compartimentaux (tableau~\ref{tab:2}). Après administration~IV, les concentrations d'anticorps monoclonaux décroissent en effet généralement de façon bi-exponentielle. Les anticorps se distribuent donc dans deux types de tissus, respectivement modélisés par un volume central de distribution $V_1$ et un volume périphérique $V_2$ avec une clairance de distribution $Q$ et une clairance d'élimination $\CL$. 
+La pharmacocinétique n'a pas été étudiée avec le même niveau de détail pour tous les anticorps thérapeutiques. La pharmacocinétique de l'efalizumab (anti-CD11a) a été bien décrite~\citep{REF48, REF49, REF50}. La pharmacocinétique du rituximab a été assez bien étudiée~\citep{REF51, REF52}, mais la connaissance de la pharmacocinétique d'anticorps comme l'adalimumab et le bevacizumab, utilisés pourtant depuis plusieurs années, reste insuffisante. Les études de la pharmacocinétique des anticorps monoclonaux chez l'Homme ont utilisé l'approche non-compartimentale~\citep{REF53,REF54, REF55, REF56, REF57, REF58, REF59} et l'approche compartimentale. Dans ce cas, les modèles étaient parfois mono-compartimentaux~\citep{REF60} mais le plus souvent, bi-compartimentaux (tableau~\ref{tab:2}). Après administration~\gls{IV}, les concentrations d'anticorps monoclonaux décroissent en effet généralement de façon bi-exponentielle. Les anticorps se distribuent donc dans deux types de tissus, respectivement modélisés par un volume central de distribution $V_1$ et un volume périphérique $V_2$ avec une clairance de distribution $Q$ et une clairance d'élimination $\CL$. 
 
-La description compartimentale de la pharmacocinétique des anticorps administrés par voie~EV peut être réalisée en intégrant un compartiment d'absorption et une constante d'absorption $k_{a}$ d'ordre~1. Hayashi~\textit{et al.} ont par exemple décrit l'absorption de l'omalizumab (anti IgE) administré par voie sous cutanée (SC) à l'aide de ce modèle~\citep{REF61}. aucune modélisation de l'absorption d'un anticorps monoclonal reposant sur des compartiments de transit n'a pour l'instant été publiée. Compte tenu de la lenteur de l'absorption, la distribution de l'anticorps dans le compartiment périphérique est rarement identifiable ; pour cette raison, un modèle mono-compartimental est souvent utilisé.
+La description compartimentale de la pharmacocinétique des anticorps administrés par voie~\gls{EV} peut être réalisée en intégrant un compartiment d'absorption et une constante d'absorption $k_{a}$ d'ordre~1. Hayashi~\textit{et al.} ont par exemple décrit l'absorption de l'omalizumab (anti IgE) administré par voie sous cutanée (SC) à l'aide de ce modèle~\citep{REF61}. aucune modélisation de l'absorption d'un anticorps monoclonal reposant sur des compartiments de transit n'a pour l'instant été publiée. Compte tenu de la lenteur de l'absorption, la distribution de l'anticorps dans le compartiment périphérique est rarement identifiable ; pour cette raison, un modèle mono-compartimental est souvent utilisé.
 
 \subsubsection{Dose-dépendance et élimination non-linéaire}
 Des phénomènes d'éliminations saturables ont été décrits pour près de la moitié des anticorps monoclonaux commercialisés~\citep{REF62}. Leur clairance étant en partie due à leur fixation sur l'antigène-cible, un modèle mécanistique de type TMDD peut être utilisé si les données sont suffisamment riches. Les données disponibles étant rarement très riches, la description de ces phénomènes d'élimination saturable est souvent réalisée par une équation de type Michaelis-Menten~\citep{REF3}. Mould~\textit{et al.} ont par exemple décrit l'élimination de l'alemtuzumab par une équation de type Michaelis-Menten reliée au compartiment central. Kloft~\textit{et al.} ont décrit l'élimination du sibrotuzumab par une équation combinant clairance (élimination non saturable) et élimination de type Michaelis-Menten à partir du compartiment central~\citep{REF63}. Sharma~\textit{et al.} ont quant à eux décrit la pharmacocinétique du keliximab et du clenoliximab (deux anticorps anti CD4)  par un modèle à deux compartiments avec élimination de type Michaelis-Menten appliquée aux deux compartiments~\citep{REF64}.
@@ -720,22 +711,22 @@ Bien que les modèles de type TMDD soient théoriquement les mieux adaptés à l
 \textbf{Étude} & \textbf{Anticorps} & \textbf{Cible} & \textbf{Pathologie} & \textbf{Voie} & \textbf{Sujets (n)} & \textbf{Comp.} & \textbf{F} & \textbf{Élim.} & \textbf{Covariables} \\
       \hline
       \hline
-      Mager 2003~\citep{REF65} & Abciximab & GpIIb/IIIa & Angioplastie coronaire & IV perf & 47 & 2 & - & 1 & - \\
-      Weisman 2003~\citep{REF66} & Adalimumab & TNF$\alpha$ & PR & IV perf & 9 & 2 & - & 1 & $\CL$ : sexe \\
-      Mould 2007~\citep{REF67} & Alemtuzumab & CD52 & Leucémie lymphoïde chronique & IV perf & 67 & 2 & - & MM & - \\
-      Dirks 2008~\citep{REF68} & Cetuximab & EGFR & Cancer de la tête et du cou & IV perf & 143 & 2 & - & MM & - \\
-      Mould 2007~\citep{REF69} & Clenoliximab & CD4 & PR & IV perf & 32 & 2 & - & MM & - \\
+      Mager 2003~\citep{REF65} & Abciximab & GpIIb/IIIa & Angioplastie coronaire & \gls{IV} perf & 47 & 2 & - & 1 & - \\
+      Weisman 2003~\citep{REF66} & Adalimumab & TNF$\alpha$ & PR & \gls{IV} perf & 9 & 2 & - & 1 & $\CL$ : sexe \\
+      Mould 2007~\citep{REF67} & Alemtuzumab & CD52 & Leucémie lymphoïde chronique & \gls{IV} perf & 67 & 2 & - & MM & - \\
+      Dirks 2008~\citep{REF68} & Cetuximab & EGFR & Cancer de la tête et du cou & \gls{IV} perf & 143 & 2 & - & MM & - \\
+      Mould 2007~\citep{REF69} & Clenoliximab & CD4 & PR & \gls{IV} perf & 32 & 2 & - & MM & - \\
       Ng 2005~\citep{REF50} & Efalizumab & CD11a & Psoriasis modéré et sévère & SC & 240 & 2 & 56\% & 1+MM & - \\
-      Dartois 2007~\citep{REF70} & Ilonimomab & CD25 & Maladie du greffon contre l'hôte & IV perf & 21 & 2 & - & 1 & - \\
-      Ternant 2008~\citep{REF71} & Infliximab & TNF$\alpha$ & maladies inflammatoires de l'intestin & IV perf & 33 & 2 & - & 1 & V1 : Poids et sexe immunisation sur $\CL$ \\
-      Kuester 2009~\citep{REF72} & Matuzumab & EGFR & Cancer colorectal & IV perf & 90+81 & 2 & - & 1+MM & $\CL$ : Poids sec \\
+      Dartois 2007~\citep{REF70} & Ilonimomab & CD25 & Maladie du greffon contre l'hôte & \gls{IV} perf & 21 & 2 & - & 1 & - \\
+      Ternant 2008~\citep{REF71} & Infliximab & TNF$\alpha$ & maladies inflammatoires de l'intestin & \gls{IV} perf & 33 & 2 & - & 1 & V1 : Poids et sexe immunisation sur $\CL$ \\
+      Kuester 2009~\citep{REF72} & Matuzumab & EGFR & Cancer colorectal & \gls{IV} perf & 90+81 & 2 & - & 1+MM & $\CL$ : Poids sec \\
       Hayashi 2007~\citep{REF61} & Omalizumab & IgE & Syndromes atopiques & SC & 910 & 1 & 62\% & 1 & $V_1/F$ : Poids,  âge et sexe \\
-      Ma 2008~\citep{REF73} & Panitumumab & EGFR & Cancer colorectal & IV perf & 1200 & 2 & - & 1+MM & Poids sur $V_1$, $\CL$ et $V_{max}$ \\
-      Iacona 2000~\citep{REF51} & Rituximab & CD20 & Lymphome NHF & IV perf & 7 & 2 & - & 1 & - \\
-      Ng 2005~\citep{REF52} & Rituximab & CD20 & PR & IV perf & 102 & 2 & - & 1 & BSA et sexe sur $V_1$ et $\CL$ \\
-      Kloft 2004~\citep{REF74} & Sibrotuzumab & FAP & Cancers colorectal et du poumon & IV perf & 60 & 2 & - & 1+MM & Poids sur $V_1$,  $\CL$ et $V_{max}$ \\
-      Frey 2010~\citep{REF75} & Tocilizumab & IL6R & PR & IV perf & 1793 & 2 & - & 1+MM & - \\
-      Bruno 2005~\citep{REF76} & Trastuzumab & HER2 & Cancer du sein métastatique & IV perf & 476 & 2 & - & 1 & $V_1$ : Poids, ECD ; $\CL$ : ECD, MET \\
+      Ma 2008~\citep{REF73} & Panitumumab & EGFR & Cancer colorectal & \gls{IV} perf & 1200 & 2 & - & 1+MM & Poids sur $V_1$, $\CL$ et $V_{max}$ \\
+      Iacona 2000~\citep{REF51} & Rituximab & CD20 & Lymphome NHF & \gls{IV} perf & 7 & 2 & - & 1 & - \\
+      Ng 2005~\citep{REF52} & Rituximab & CD20 & PR & \gls{IV} perf & 102 & 2 & - & 1 & BSA et sexe sur $V_1$ et $\CL$ \\
+      Kloft 2004~\citep{REF74} & Sibrotuzumab & FAP & Cancers colorectal et du poumon & \gls{IV} perf & 60 & 2 & - & 1+MM & Poids sur $V_1$,  $\CL$ et $V_{max}$ \\
+      Frey 2010~\citep{REF75} & Tocilizumab & IL6R & PR & \gls{IV} perf & 1793 & 2 & - & 1+MM & - \\
+      Bruno 2005~\citep{REF76} & Trastuzumab & HER2 & Cancer du sein métastatique & \gls{IV} perf & 476 & 2 & - & 1 & $V_1$ : Poids, ECD ; $\CL$ : ECD, MET \\
       Zhu 2009~\citep{REF77} & Ustekinumab & IL12/23 & Psoriasis sévère & SC & 1937 & 1 & ? & 1 & Poids, diabète et immunisation sur $V_1/F$ et $\CL/F$ \\
       \hline
     \end{tabular}
@@ -800,7 +791,7 @@ Le cetuximab est actuellement indiqué dans le traitement des patients ayant un 
 
 Le cetuximab est également indiqué dans le traitement des patients ayant un carcinome épidermoïde de la tête et du cou, en association avec la radiothérapie en cas de maladie localement avancée~\citep{REF105}, ou en association avec la chimiothérapie à base de platine en cas de maladie récidivante et/ou métastatique~\citep{REF106}.
 
-Dans ces deux indications, le cetuximab est injecté par voie intraveineuse (IV) toutes les semaines. La dose de charge recommandée est de 400 mg/m$^2$ pour la première perfusion qui se déroule sur deux heures. La dose de maintenance hebdomadaire est de 250 mg/m$^2$.
+Dans ces deux indications, le cetuximab est injecté par voie intraveineuse (\gls{IV}) toutes les semaines. La dose de charge recommandée est de 400 mg/m$^2$ pour la première perfusion qui se déroule sur deux heures. La dose de maintenance hebdomadaire est de 250 mg/m$^2$.
 
 Les conditions de prescription dans le cancer colorectal ont évolué au cours du temps. En effet, la surexpression d'EGFR n'est plus un critère strict d'inclusion puisque des études ont montré que le nombre de copies d'EGFR n'influence pas significativement le bénéfice clinique 107-109. De plus, la mutation tumorale de KRAS n'était pas un critère d'exclusion au moment de l'autorisation de mise sur le marché (AMM) du cetuximab en juin 2004. Depuis, plusieurs études ont montré que la réponse au cetuximab est restreinte aux patients porteurs de tumeurs avec KRAS non muté~\citep{REF110, REF111, REF112, REF113}.
 

@@ -1,0 +1,46 @@
+\glossarysection[\glossarytoctitle]{\glossarytitle}\glossarypreamble
+\begin{theglossary}\glossaryheader
+\glsgroupheading{glssymbols}\relax \glsresetentrylist %
+\glossentry{EV}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{13}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{18}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{20\delimN 21}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{24\delimR 26}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{42}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{48}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{60}}}%
+\glossentry{IV}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{18}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{20\delimR 23}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{25\delimN 26}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{33}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{42}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{47}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{54}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{58}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{90\delimN 91}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{117}}}\glsgroupskip
+\glsgroupheading{A}\relax \glsresetentrylist %
+\glossentry{ADCC}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{50}}}%
+\glossentry{alpha}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{27\delimN 28}}}%
+\glossentry{AUC}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{19\delimR 22}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{48}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{79}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{88}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{90}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{95}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{113}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{118}}}%
+\glossentry{AUMC}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{21}}}\glsgroupskip
+\glsgroupheading{B}\relax \glsresetentrylist %
+\glossentry{beta}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{27\delimN 28}}}\glsgroupskip
+\glsgroupheading{N}\relax \glsresetentrylist %
+\glossentry{NPDE}{\glossaryentrynumbers{\relax 
+		\setentrycounter[]{page}\glsnumberformat{75}\delimN 
+		\setentrycounter[]{page}\glsnumberformat{115}}}%
+\end{theglossary}\glossarypostamble

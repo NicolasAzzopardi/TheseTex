@@ -118,6 +118,36 @@ parent={},%
 %
 }%
 }%
+\ifglsentryexists{beta}{}%
+{%
+\gls@defglossaryentry{beta}%
+{%
+name={\ensuremath {\beta }},%
+sort={beta},%
+type={main},%
+first={\protect \ensuremath {\beta }},%
+firstplural={\protect \ensuremath {\beta }s},%
+text={\protect \ensuremath {\beta }},%
+plural={\protect \ensuremath {\beta }s},%
+description={Pente de décroissance de la phase d'élimination d'un modèle bi-compartimental},%
+descriptionplural={Pente de décroissance de la phase d'élimination d'un modèle bi-compartimental},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
 \ifglsentryexists{ADCC}{}%
 {%
 \gls@defglossaryentry{ADCC}%
@@ -161,6 +191,66 @@ text={NPDE},%
 plural={NPDEs},%
 description={Distribution normalisée des résidus (\textit {Normalized prediction distribution error})},%
 descriptionplural={Distribution normalisée des résidus (\textit {Normalized prediction distribution error})},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{IV}{}%
+{%
+\gls@defglossaryentry{IV}%
+{%
+name={\textit {IV}},%
+sort={\textit {IV}},%
+type={main},%
+first={\protect \textit {IV}},%
+firstplural={\protect \textit {IV}s},%
+text={\protect \textit {IV}},%
+plural={\protect \textit {IV}s},%
+description={Intra-veineuse (administration)},%
+descriptionplural={Intra-veineuse (administration)},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{EV}{}%
+{%
+\gls@defglossaryentry{EV}%
+{%
+name={\textit {EV}},%
+sort={\textit {EV}},%
+type={main},%
+first={\protect \textit {EV}},%
+firstplural={\protect \textit {EV}s},%
+text={\protect \textit {EV}},%
+plural={\protect \textit {EV}s},%
+description={Extra-vasculaire (administration)},%
+descriptionplural={Extra-vasculaire (administration)},%
 symbol={\relax },%
 symbolplural={\relax },%
 user1={},%
