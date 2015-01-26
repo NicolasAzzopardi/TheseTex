@@ -1,0 +1,84 @@
+\select@language {french}
+\contentsline {chapter}{\numberline {1}Introduction}{15}{chapter.1}
+\contentsline {section}{\numberline {1.1}Principes de la mod\IeC {\'e}lisation pharmacocin\IeC {\'e}tique}{15}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}G\IeC {\'e}n\IeC {\'e}ralit\IeC {\'e}s}{15}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Mod\IeC {\'e}lisation pharmacocin\IeC {\'e}tique par approche non-compartimentale}{17}{subsection.1.1.2}
+\contentsline {subsubsection}{\numberline {1.1.2.1}Aire sous la courbe}{17}{subsubsection.1.1.2.1}
+\contentsline {subsubsection}{\numberline {1.1.2.2}Fraction biodisponible}{18}{subsubsection.1.1.2.2}
+\contentsline {subsubsection}{\numberline {1.1.2.3}Temps de r\IeC {\'e}sidence moyen}{18}{subsubsection.1.1.2.3}
+\contentsline {subsubsection}{\numberline {1.1.2.4}Clairance}{20}{subsubsection.1.1.2.4}
+\contentsline {subsubsection}{\numberline {1.1.2.5}Volume de distribution}{20}{subsubsection.1.1.2.5}
+\contentsline {subsection}{\numberline {1.1.3}Mod\IeC {\'e}lisation pharmacocin\IeC {\'e}tique par approche compartimentale}{20}{subsection.1.1.3}
+\contentsline {subsubsection}{\numberline {1.1.3.1}Mod\IeC {\`e}le mono-compartimental avec \IeC {\'e}limination d'ordre~1}{21}{subsubsection.1.1.3.1}
+\contentsline {subsubsection}{\numberline {1.1.3.2}Mod\IeC {\`e}le mono-compartimental avec administration~EV}{22}{subsubsection.1.1.3.2}
+\contentsline {subsubsection}{\numberline {1.1.3.3}Correspondance avec l'analyse non-compartimentale}{23}{subsubsection.1.1.3.3}
+\contentsline {subsubsection}{\numberline {1.1.3.4}Mod\IeC {\`e}le bicompartimental avec constantes de transfert d'ordre~1}{24}{subsubsection.1.1.3.4}
+\contentsline {subsubsection}{\numberline {1.1.3.5}Mod\IeC {\`e}les avec \IeC {\'e}limination saturable}{26}{subsubsection.1.1.3.5}
+\contentsline {paragraph}{\numberline {1.1.3.5.1}Mod\IeC {\`e}le m\IeC {\'e}canistique TMDD}{27}{paragraph.1.1.3.5.1}
+\contentsline {paragraph}{\numberline {1.1.3.5.2}\IeC {\'E}limination de type Michaelis-Menten}{28}{paragraph.1.1.3.5.2}
+\contentsline {paragraph}{\numberline {1.1.3.5.3}\IeC {\'E}limination d'ordre~0}{29}{paragraph.1.1.3.5.3}
+\contentsline {subsection}{\numberline {1.1.4}Relation dose-concentration-effet d'un m\IeC {\'e}dicament}{29}{subsection.1.1.4}
+\contentsline {subsection}{\numberline {1.1.5}Principes de l'estimation des param\IeC {\`e}tres d'un mod\IeC {\`e}le pharmacocin\IeC {\'e}tique}{31}{subsection.1.1.5}
+\contentsline {subsubsection}{\numberline {1.1.5.1}Approche individuelle}{33}{subsubsection.1.1.5.1}
+\contentsline {subsubsection}{\numberline {1.1.5.2}Approche de population}{33}{subsubsection.1.1.5.2}
+\contentsline {section}{\numberline {1.2}Les anticorps monoclonaux th\IeC {\'e}rapeutiques}{38}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}G\IeC {\'e}n\IeC {\'e}ralit\IeC {\'e}s}{38}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}M\IeC {\'e}canismes impliqu\IeC {\'e}s dans la pharmacocin\IeC {\'e}tique des anticorps monoclonaux}{40}{subsection.1.2.2}
+\contentsline {subsubsection}{\numberline {1.2.2.1}Absorption des anticorps monoclonaux}{40}{subsubsection.1.2.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2.2}\IeC {\'E}limination des anticorps monoclonaux}{41}{subsubsection.1.2.2.2}
+\contentsline {subsubsection}{\numberline {1.2.2.3}Captation par endocytose}{41}{subsubsection.1.2.2.3}
+\contentsline {subsubsection}{\numberline {1.2.2.4}R\IeC {\^o}le du FcRn dans l'\IeC {\'e}limination et de la distribution des anticorps monoclonaux}{41}{subsubsection.1.2.2.4}
+\contentsline {subsubsection}{\numberline {1.2.2.5}\IeC {\'E}limination apr\IeC {\`e}s fixation sur la cible}{44}{subsubsection.1.2.2.5}
+\contentsline {subsubsection}{\numberline {1.2.2.6}\IeC {\'E}limination li\IeC {\'e}e \IeC {\`a} l'immunisation du sujet trait\IeC {\'e} (immunog\IeC {\'e}nicit\IeC {\'e})}{44}{subsubsection.1.2.2.6}
+\contentsline {subsection}{\numberline {1.2.3}Mod\IeC {\'e}lisation pharmacocin\IeC {\'e}tique des anticorps monoclonaux}{45}{subsection.1.2.3}
+\contentsline {subsubsection}{\numberline {1.2.3.1}Dose-d\IeC {\'e}pendance et \IeC {\'e}limination non-lin\IeC {\'e}aire}{46}{subsubsection.1.2.3.1}
+\contentsline {subsubsection}{\numberline {1.2.3.2}Facteurs de variabilit\IeC {\'e} interindividuelle de la pharmacocin\IeC {\'e}tique des anticorps monoclonaux.}{47}{subsubsection.1.2.3.2}
+\contentsline {paragraph}{\numberline {1.2.3.2.1}Facteurs d\IeC {\'e}mographiques et biochimiques.}{47}{paragraph.1.2.3.2.1}
+\contentsline {paragraph}{\numberline {1.2.3.2.2}Immunisation}{47}{paragraph.1.2.3.2.2}
+\contentsline {subsection}{\numberline {1.2.4}Facteurs de variabilit\IeC {\'e} de la relation dose-concentration-effet des IgG}{48}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}M\IeC {\'e}thodes de mesure des concentrations des anticorps monoclonaux}{48}{subsection.1.2.5}
+\contentsline {section}{\numberline {1.3}Le cetuximab}{50}{section.1.3}
+\contentsline {subsection}{\numberline {1.3.1}Modes d'action du cetuximab}{50}{subsection.1.3.1}
+\contentsline {subsection}{\numberline {1.3.2}Indications et posologie du cetuximab}{52}{subsection.1.3.2}
+\contentsline {subsection}{\numberline {1.3.3}M\IeC {\'e}thodes de mesure des concentrations de cetuximab}{53}{subsection.1.3.3}
+\contentsline {subsection}{\numberline {1.3.4}Pharmacocin\IeC {\'e}tique des anticorps anti-EGFR}{53}{subsection.1.3.4}
+\contentsline {subsection}{\numberline {1.3.5}Relations dose-r\IeC {\'e}ponse et concentration-r\IeC {\'e}ponse du cetuximab}{54}{subsection.1.3.5}
+\contentsline {chapter}{\numberline {2}Objectifs}{57}{chapter.2}
+\contentsline {chapter}{\numberline {3}M\IeC {\'e}thodes}{59}{chapter.3}
+\contentsline {section}{\numberline {3.1}D\IeC {\'e}veloppement et validation de la m\IeC {\'e}thode ELISA de dosage du cetuximab.}{59}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Principes de l'ELISA indirect}{59}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}D\IeC {\'e}veloppement}{61}{subsection.3.1.2}
+\contentsline {subsection}{\numberline {3.1.3}Validation de la m\IeC {\'e}thode}{62}{subsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.3.1}Contr\IeC {\^o}le de dilution}{62}{subsubsection.3.1.3.1}
+\contentsline {subsubsection}{\numberline {3.1.3.2}Sp\IeC {\'e}cificit\IeC {\'e}}{63}{subsubsection.3.1.3.2}
+\contentsline {section}{\numberline {3.2}Mod\IeC {\'e}lisation de la pharmacocin\IeC {\'e}tique}{63}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Choix de l'approche de mod\IeC {\'e}lisation}{63}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Choix du mod\IeC {\`e}le structural et de variabilit\IeC {\'e} interindividuelle}{64}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Choix du mod\IeC {\`e}le d'erreur r\IeC {\'e}siduelle}{64}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}S\IeC {\'e}lection des covariables significatives}{64}{subsection.3.2.4}
+\contentsline {section}{\numberline {3.3}Analyse de survie sans progression}{65}{section.3.3}
+\contentsline {section}{\numberline {3.4}Simulations}{66}{section.3.4}
+\contentsline {section}{\numberline {3.5}Outils informatiques}{67}{section.3.5}
+\contentsline {chapter}{\numberline {4}R\IeC {\'e}sultats}{69}{chapter.4}
+\contentsline {section}{\numberline {4.1}\IeC {\'E}tude de la pharmacocin\IeC {\'e}tique du cetuximab chez l'Homme.}{69}{section.4.1}
+\contentsline {subsection}{\numberline {4.1.1}Introduction}{69}{subsection.4.1.1}
+\contentsline {subsection}{\numberline {4.1.2}Durant la dialyse r\IeC {\'e}nale (publication~I)}{69}{subsection.4.1.2}
+\contentsline {subsection}{\numberline {4.1.3}Dans le cancer colorectal m\IeC {\'e}tastatique (publications~II et III)}{70}{subsection.4.1.3}
+\contentsline {subsection}{\numberline {4.1.4}Conclusion sur la pharmacocin\IeC {\'e}tique du cetuximab chez l'Homme.}{75}{subsection.4.1.4}
+\contentsline {section}{\numberline {4.2}Influence de la pharmacocin\IeC {\'e}tique du cetuximab sur son efficacit\IeC {\'e} (publication~III)}{76}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Mod\IeC {\'e}lisation pharmacocin\IeC {\'e}tique-pharmacodynamique}{76}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Influence de l'exposition au cetuximab sur la PFS}{77}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Relation entre la toxicit\IeC {\'e} et la PFS}{79}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Relation entre les concentrations r\IeC {\'e}siduelles et la PFS}{80}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Conclusion}{82}{subsection.4.2.5}
+\contentsline {section}{\numberline {4.3}Simulation des concentrations obtenues avec diff\IeC {\'e}rentes posologies de cetuximab (manuscrit IV)}{84}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Contexte}{84}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Simulations}{85}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Analyses}{85}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Conclusions}{86}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}\IeC {\'E}tude de l'absorption pulmonaire du cetuximab dans un mod\IeC {\`e}le murin (publication~V)}{86}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Contexte}{86}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Mod\IeC {\`e}le murin}{88}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Mod\IeC {\'e}lisation de la pharmacocin\IeC {\'e}tique}{88}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Conclusions}{89}{subsection.4.4.4}
+\contentsline {chapter}{\numberline {5}Discussion}{91}{chapter.5}

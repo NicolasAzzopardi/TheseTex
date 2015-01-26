@@ -1,10 +1,4 @@
 \documentclass[a4paper,11pt,twoside]{book} %,openany
-
-\pdfinfo{ 
-/Author (Nicolas Azzopardi) 
-/Title (Apport de la modélisation pharmacocinétique à l'étude de la variabilité de réponse aux anticorps monoclonaux antitumoraux: Application au cetuximab) 
-} 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Packages utilisés :
 \usepackage[T1]{fontenc}		%codage de caractres T1
@@ -40,39 +34,37 @@
 \usepackage[comma,sort&compress,super]{natbib}
 \usepackage{tabularx}
 \citeindextrue
-
+\usepackage{glossaries}
 \usepackage{graphicx}
 \usepackage{subcaption}
-
 \usepackage{lscape} % Paysage
-
+%% Numerotation continue des figures, tableaux, équations...
 \usepackage{chngcntr}
 \counterwithout{figure}{chapter}
+\counterwithout{table}{chapter}
 \counterwithout{equation}{chapter}
-
-%\usepackage[distance=5mm]{thumbs}
-
 \usepackage{hyperref}
 \titleformat{\chapter}[hang]{\bf\huge}{\thechapter}{2pc}{} 
-%\usepackage[table]{xcolor}
-%\usepackage{booktabs}
 \newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %en tete et pied de page :
 \usepackage{fancyhdr}
+    \makeatletter
+    \def\cleardoublepage{\clearpage\if@twoside \ifodd\c@page\else
+      \hbox{}
+      \thispagestyle{empty}
+      \newpage
+      \if@twocolumn\hbox{}\newpage\fi\fi\fi}
+    \makeatother
 \fancyhead{}
-
 \fancyhead[L]{\rightmark}	%calle gauche le titre de la section courante en tete de page
 \fancyfoot[C]{\thepage}		%centre LE numero de page en pied de page
-
 \iffloatpage{\pagestyle{empty}}{\pagestyle{fancy}}
 \clearpage{\pagestyle{empty}\cleardoublepage}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %profondeur de numerotation (1.2.1..) :
 \setcounter{tocdepth}{5}
 \setcounter{secnumdepth}{5}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Definition cmd :
 %center verticalement dans une page
@@ -80,19 +72,10 @@
 {\newpage\vspace*{\fill}}
 {\vspace*{\fill}\par\pagebreak}
 \makeindex
-
-%%%%%%%%%%% Abréviations
-%\usepackage[nonumberlist]{glossaries}
-\usepackage{glossaries}
-\makeglossaries
-
-
-
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %DEBUT DU DOCUMENT
 \begin{document}
+\input{./inputs/glossaire} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Propiete du document :
 \hypersetup{
@@ -100,13 +83,12 @@ pdfauthor = {Nicolas Azzopardi},
 pdftitle = {Apport de la modélisation pharmacocinétique à l'étude de la variabilité de réponse aux anticorps monoclonaux antitumoraux : Application au cetuximab},
 pdfkeywords = {anticorps monoclonaux}{cetuximab},%{ELISA}{pharmacocinétique}{relation dose-réponse}{survie sans progression}{polymorphisme génétique}{récepteurs Fc}, 
 pdfsubject = {Thèse soutenue le 7 décembre 2011},
-colorlinks=false,
+hidelinks
 }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Page de garde :
 \include{./inputs/page_garde}
 \thispagestyle{empty}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Definition des dimensions :
 \setlength{\voffset}{0pt} 			% offset vertical
@@ -123,81 +105,53 @@ colorlinks=false,
 \setlength{\marginparwidth}{40pt}	% Largeur de note dans la marge
 \parskip=3pt						% espace additionnel entre deux paragraphes
 %\pagestyle{fancy}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Page de remerciements :
 \input{./inputs/remerciements} %\clearpage{\pagestyle{empty}\cleardoublepage}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Les glossaire :
-\input{./inputs/abreviations} 
-
 \begin{spacing}{1.4}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Les publis :
 \input{./inputs/publications} 
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Page Resume fr et en:
-
 \input{./inputs/resume} 
-\input{./inputs/abstract} %\clearpage{\pagestyle{empty}\cleardoublepage}
+\input{./inputs/abstract} 
 \end{spacing}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Les sommaires :
-%\tableofcontents% 
+\tableofcontents% 
 %L'introduction :
 \begin{spacing}{1.4}
 \input{./inputs/intro} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Les objectifs :
-%\addthumb{II}{\space\Huge{\textbf{\arabic{chapter}}}}{white}{gray}
-%\addtitlethumb{II}{\space\Huge{\textbf{II}}}{white}{gray}{none}
 \input{./inputs/objectifs} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Matériel et Méthodes :
-%\addtitlethumb{III}{\space\Huge{\textbf{III}}}{white}{gray}{none}
 \input{./inputs/MetM} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %RESULTATS :
-%\addtitlethumb{IV}{\space\Huge{\textbf{IV}}}{white}{gray}{none}
 \input{./inputs/resultats} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%PARTIE 2 :
-%\addtitlethumb{V}{\space\Huge{\textbf{V}}}{white}{gray}{none}
+%DISCUSSION :
 \input{./inputs/discussion} 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%\stopthumb
-%La biblio :
-%\newpage
 \end{spacing}
-%\addtitlethumb{biblio}{\space\Huge{\textbf{B}}}{white}{gray}{none}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%La biblio :
 %\bibliographystyle{apalike-fr}  % Auteur Date 
 \bibliographystyle{unsrt}      % Numero
-
-%\bibliography{biblio_endnote}
 \bibliography{./Biblio/BiblioThese2}
-%\markright{\MakeUppercase{Bibliographie}}
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%\addtitlethumb{tabl}{\space\Huge{\textbf{T}}}{white}{gray}{none}
 \listoftables 
-%\addtitlethumb{figs}{\space\Huge{\textbf{F}}}{white}{gray}{none}
 \listoffigures 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%Le indexes :
-%\newpage 
-%\addcontentsline{toc}{chapter}{Index}\printindex
-%\markright{\MakeUppercase{Index}}
-
-%\addtitlethumb{pI}{\space\Huge{\textbf{pI}}}{white}{gray}{none}
+%Les glossaire :
+\input{./inputs/abreviations} 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Articles
 \includepdf[pages=1-3]{./articles/Thariat.pdf}
-%\addtitlethumb{pII}{\space\Huge{\textbf{pII}}}{white}{gray}{none}
 \includepdf[pages=1-5]{./articles/Ceze.pdf}
-%\stopthumb
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %La page de dos :
 \thispagestyle{empty}
