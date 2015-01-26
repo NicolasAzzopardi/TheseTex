@@ -1,0 +1,180 @@
+\ifglsentryexists{5-FU}{}%
+{%
+\gls@defglossaryentry{5-FU}%
+{%
+name={5-FU},%
+sort={aaa},%
+type={main},%
+first={5-FU},%
+firstplural={5-FUs},%
+text={5-FU},%
+plural={5-FUs},%
+description={5-fluorouracile},%
+descriptionplural={5-fluorouracile},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{AUC}{}%
+{%
+\gls@defglossaryentry{AUC}%
+{%
+name={\textit {AUC}},%
+sort={auc},%
+type={main},%
+first={\protect \textit {AUC}},%
+firstplural={\protect \textit {AUC}s},%
+text={\protect \textit {AUC}},%
+plural={\protect \textit {AUC}s},%
+description={Aire sous la courbe des concentrations en fonction du temps (\textit {Area under the concentration-time versus curve})},%
+descriptionplural={Aire sous la courbe des concentrations en fonction du temps (\textit {Area under the concentration-time versus curve})},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{AUMC}{}%
+{%
+\gls@defglossaryentry{AUMC}%
+{%
+name={\textit {AUMC}},%
+sort={aumc},%
+type={main},%
+first={\protect \textit {AUMC}},%
+firstplural={\protect \textit {AUMC}s},%
+text={\protect \textit {AUMC}},%
+plural={\protect \textit {AUMC}s},%
+description={Moment d'ordre 1 de la courbe des concentrations en fonction du temps (\textit {Area under the first moment of the concentration versus time curve})},%
+descriptionplural={Moment d'ordre 1 de la courbe des concentrations en fonction du temps (\textit {Area under the first moment of the concentration versus time curve})},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{alpha}{}%
+{%
+\gls@defglossaryentry{alpha}%
+{%
+name={\ensuremath {\alpha }},%
+sort={alpha},%
+type={main},%
+first={\protect \ensuremath {\alpha }},%
+firstplural={\protect \ensuremath {\alpha }s},%
+text={\protect \ensuremath {\alpha }},%
+plural={\protect \ensuremath {\alpha }s},%
+description={Pente de décroissance de la phase de distribution d'un modèle bi-compartimentale},%
+descriptionplural={Pente de décroissance de la phase de distribution d'un modèle bi-compartimentale},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{ADCC}{}%
+{%
+\gls@defglossaryentry{ADCC}%
+{%
+name={ADCC},%
+sort={ADCC},%
+type={main},%
+first={ADCC},%
+firstplural={ADCCs},%
+text={ADCC},%
+plural={ADCCs},%
+description={Cytotoxicité à médiation cellulaire dépendante des anticorps (\textit {Antibody-dependent cell-mediated cytotoxicity}},%
+descriptionplural={Cytotoxicité à médiation cellulaire dépendante des anticorps (\textit {Antibody-dependent cell-mediated cytotoxicity}},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
+\ifglsentryexists{NPDE}{}%
+{%
+\gls@defglossaryentry{NPDE}%
+{%
+name={NPDE},%
+sort={NPDE},%
+type={main},%
+first={NPDE},%
+firstplural={NPDEs},%
+text={NPDE},%
+plural={NPDEs},%
+description={Distribution normalisée des résidus (\textit {Normalized prediction distribution error})},%
+descriptionplural={Distribution normalisée des résidus (\textit {Normalized prediction distribution error})},%
+symbol={\relax },%
+symbolplural={\relax },%
+user1={},%
+user2={},%
+user3={},%
+user4={},%
+user5={},%
+user6={},%
+long={},%
+longplural={},%
+short={},%
+shortplural={},%
+counter={page},%
+parent={},%
+%
+}%
+}%
