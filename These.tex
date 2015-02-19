@@ -11,11 +11,8 @@
 \usepackage[frenchb]{babel}	%adaptation de LaTeX au français
 \usepackage{amsmath}			%complement mathematique
 \usepackage{amssymb}			%ajoute des symboles
-	\DeclareMathOperator{\EV}{\textit{EV}}
-	\DeclareMathOperator{\IV}{\textit{IV}}
 	\DeclareMathOperator{\MRT}{\textit{MRT}}
 	\DeclareMathOperator{\MAT}{\textit{MAT}}
-	\DeclareMathOperator{\CL}{\textit{CL}}
 	\DeclareMathOperator{\off}{\textit{off}}
 %$k_{\textit{\text{12}}}$
 \usepackage{array}				%Outils supplmentaires pour les tableaux
@@ -33,7 +30,7 @@
 \usepackage{pdfpages}			%Ajout de PDF
 \usepackage[comma,sort&compress,super]{natbib}
 \usepackage{tabularx}
-\usepackage{glossaries}
+\usepackage[toc]{glossaries}
 \makeglossaries
 %\citeindextrue
 \usepackage{graphicx}
@@ -118,7 +115,6 @@ hidelinks
 %Page Resume fr et en:
 \input{./inputs/resume} 
 \input{./inputs/abstract} 
-\printglossaries
 \end{spacing}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Les sommaires :
@@ -148,6 +144,8 @@ hidelinks
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \listoftables 
 \listoffigures 
+\printglossaries
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Les glossaire :
 \addcontentsline{toc}{chapter}{Glossaire}

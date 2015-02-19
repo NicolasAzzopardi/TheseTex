@@ -112,26 +112,26 @@ t_{1/2} = \ln(2)\cdot \MRT_{\gls{IV}}
 \end{equation}
 
 \subsubsection{Clairance} 
-La clairance ($\CL$) quantifie la capacité d'élimination du médicament par l'organisme. Elle correspond au volume de liquide biologique épuré par unité de temps. Elle a donc la dimension d'un débit volume $[L]^3.[T]^{-1}$. La clairance permet de relier à chaque instant la vitesse d'élimination à la concentration :
+La clairance (\gls{CL}) quantifie la capacité d'élimination du médicament par l'organisme. Elle correspond au volume de liquide biologique épuré par unité de temps. Elle a donc la dimension d'un débit volume $[L]^3.[T]^{-1}$. La clairance permet de relier à chaque instant la vitesse d'élimination à la concentration :
 
 \begin{center}
-\textit{Vitesse d'élimination = $\CL \, \times$ concentration}
+\textit{Vitesse d'élimination = $\gls{CL} \, \times$ concentration}
 \end{center}
 
-La $\CL$ peut être calculée, après administration~\gls{IV}, par :
+La \gls{CL} peut être calculée, après administration~\gls{IV}, par :
 
 \begin{equation}
-\CL = \frac{D}{\gls{AUC}}
+\gls{CL} = \frac{D}{\gls{AUC}}
 \label{eq:11}
 \end{equation}
 
-La capacité d'élimination du médicament par le patient peut donc être quantifiée quelle que soit l'allure de la courbe des concentrations en fonction du temps. S'il n'y a pas de phénomènes saturables intervenant dans l'élimination, la clairance $\CL$ ne change pas avec la dose $D$.
+La capacité d'élimination du médicament par le patient peut donc être quantifiée quelle que soit l'allure de la courbe des concentrations en fonction du temps. S'il n'y a pas de phénomènes saturables intervenant dans l'élimination, la clairance \gls{CL} ne change pas avec la dose $D$.
 
 \subsubsection{Volume de distribution}
-Après une injection~\gls{IV}, le volume de distribution à l'état d'équilibre ($V_{SS}$) peut être estimé grâce à la clairance $\CL$ et au temps de résidence moyen $\MRT$ par la formule suivante :
+Après une injection~\gls{IV}, le volume de distribution à l'état d'équilibre ($V_{SS}$) peut être estimé grâce à la clairance \gls{CL} et au temps de résidence moyen $\MRT$ par la formule suivante :
 
 \begin{equation}
-V_{SS} = \CL \cdot \MRT
+V_{SS} = \gls{CL} \cdot \MRT
 \label{eq:12}
 \end{equation}
 
@@ -169,31 +169,31 @@ t_{1/2} = \frac{\ln(2)}{k_{10}}
 \label{eq:15}
 \end{equation}
 
-Le modèle mono-compartimental peut également être exprimé en termes de "paramètres physiologiques" (Figure~\ref{fig:2}), c'est-à-dire du volume de distribution ($V$) et de la clairance systémique ($\CL$). Le volume de distribution est estimé par la relation suivante :
+Le modèle mono-compartimental peut également être exprimé en termes de "paramètres physiologiques" (Figure~\ref{fig:2}), c'est-à-dire du volume de distribution ($V$) et de la clairance systémique (\gls{CL}). Le volume de distribution est estimé par la relation suivante :
 
 \begin{equation}
 V = \frac{D}{C(0)}
 \label{eq:16}
 \end{equation}
 
-$\CL$ est relié à $k_{10}$ et à $V$ par l'équation suivante :
+\gls{CL} est relié à $k_{10}$ et à $V$ par l'équation suivante :
 
 \begin{equation}
-\CL = k_{10} \cdot V
+\gls{CL} = k_{10} \cdot V
 \label{eq:17}
 \end{equation}
 
 L'équation~\ref{eq:14} s'écrit alors :
 
 \begin{equation}
-C(t) = \frac{D}{V} \cdot e^{-\frac{\CL}{V}\cdot t}
+C(t) = \frac{D}{V} \cdot e^{-\frac{\gls{CL}}{V}\cdot t}
 \label{eq:18}
 \end{equation}
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=4cm]{figures/raster/FIG_2}
-	\caption[Modèle à un compartiment]{Modèle à un compartiment où $D$ est la dose de médicament administrée, $V$ le volume de distribution. L'élimination peut être codée par $k_{10}$, une constante d'élimination d'ordre~1 ou par $\CL$, une clairance d'élimination.}
+	\caption[Modèle à un compartiment]{Modèle à un compartiment où $D$ est la dose de médicament administrée, $V$ le volume de distribution. L'élimination peut être codée par $k_{10}$, une constante d'élimination d'ordre~1 ou par \gls{CL}, une clairance d'élimination.}
 	\label{fig:2}
 \end{figure}
 
@@ -267,12 +267,12 @@ Comme le modèle mono-compartimental, le modèle bi-compartimental peut être pa
 
 où $C_1$ et $C_2$ sont les concentrations du médicament, respectivement dans le compartiment central et le compartiment périphérique.
 
-\paragraph*{Paramétrisation "physiologique":} Le modèle est décrit à l'aide des volumes de distribution du compartiment central et périphérique, respectivement $V_1$ et $V_2$, et des clairances systémique $\CL$ et de distribution $Q$ (\ref{fig:5}). 
+\paragraph*{Paramétrisation "physiologique":} Le modèle est décrit à l'aide des volumes de distribution du compartiment central et périphérique, respectivement $V_1$ et $V_2$, et des clairances systémique \gls{CL} et de distribution $Q$ (\ref{fig:5}). 
 
 Les relations entre les micro-constantes et les constantes physiologiques sont les suivantes :
 
 \begin{equation}
-k_{10}  =  \frac{CL}{V_1}
+k_{10}  =  \frac{\gls{CL}}{V_1}
 \label{eq:25}
 \end{equation}
 
@@ -291,7 +291,7 @@ k_{21}  =  \frac{Q}{V_2}
         \caption[Modèle à deux compartiments (micro constantes]{Modèle à deux compartiments où $D$ est la dose de médicament administrée, $V_1$ et $V_2$ les volumes de distribution, $k_{10}$ la constante d'élimination d'ordre~1, $k_{12}$ et $k_{21}$ les constantes de distribution.}
 	\label{fig:4}
         \centering \includegraphics[width=4cm]{figures/raster/FIG_5}
-        \caption[Modèle à deux compartiments (constantes "physiologiques")]{Modèle à deux compartiments où $D$ est la dose de médicament administrée, $V_1$ et $V_2$ les volumes de distribution, $\CL$ et $Q$ les clairances d'élimination et de distribution.}
+        \caption[Modèle à deux compartiments (constantes "physiologiques")]{Modèle à deux compartiments où $D$ est la dose de médicament administrée, $V_1$ et $V_2$ les volumes de distribution, \gls{CL} et $Q$ les clairances d'élimination et de distribution.}
 	\label{fig:5}
 \end{figure}
 
@@ -395,7 +395,7 @@ La relation dose-effet ou dose-réponse décrit l'augmentation de l'effet en fon
 
 Les sources de variabilité de la relation concentration-effet sont multiples. Elles incluent notamment les facteurs génétiques, le stade de la maladie et les traitements associés~\citep{REF7}.
 
-L'étude des sources de variabilité interindividuelle de la relation concentration-effet des médicaments nécessite une mesure quantitative de l'effet, ce qui repose habituellement sur l'utilisation de biomarqueurs. Un biomarqueur est une caractéristique qui est mesurée et évaluée en tant qu'indicateur de processus biologiques normaux, de processus pathogéniques, ou de réponses pharmacologiques. Dans le cas des anticorps utilisés dans les maladies inflammatoires, tels que les anti-TNF$\alpha$, les biomarqueurs utilisés sont par exemple la vitesse de sédimentation, la protéine C-réactive (CRP) et les scores d'activité de la maladie (DAS28, BASDAI, etc.).
+L'étude des sources de variabilité interindividuelle de la relation concentration-effet des médicaments nécessite une mesure quantitative de l'effet, ce qui repose habituellement sur l'utilisation de biomarqueurs. Un biomarqueur est une caractéristique qui est mesurée et évaluée en tant qu'indicateur de processus biologiques normaux, de processus pathogéniques, ou de réponses pharmacologiques. Dans le cas des anticorps utilisés dans les maladies inflammatoires, tels que les anti-TNF$\alpha$, les biomarqueurs utilisés sont par exemple la vitesse de sédimentation, la protéine C-réactive (\gls{CRP}) et les scores d'activité de la maladie (DAS28, BASDAI, etc.).
 
 En cancérologie, il existe de nombreux marqueurs biochimiques, tels que le CA19.9 ou l'ACE, mais leur relation avec la réponse thérapeutique est complexe. La variation de la taille des tumeurs, exprimée par le critère RECIST, qui est devenu le principal critère de réponse, reste la plus pertinente. Cependant, il existe une forte variabilité interindividuelle de l'évolution de ce critère, ce qui rend sa modélisation difficile en pratique. Pour cela, la réponse, qui est une catégorisation des variations du critère RECIST, est souvent utilisée  (Tableau~\ref{tab:1} ci-après). 
 
@@ -442,7 +442,7 @@ La modélisation pharmacocinétique peut être réalisée par approche individue
 L'approche individuelle consiste à étudier le profil des concentrations sanguines du médicament chez chaque sujet, indépendamment des autres sujets. Elle permet une description précise pour chaque sujet, même si la variabilité interindividuelle des paramètres estimés est grande. Cette approche nécessite cependant un grand nombre de données pour chaque sujet.
 
 \subsubsection{Approche de population}
-A l'origine, l'approche de population a été proposée pour analyser des données "pauvres" (faible nombre de données par patient) et "hétérogènes" (posologies et temps d'observation différents d'un patient à l'autre) car provenant de larges cohortes de patients~\citep{REF8}. Elle est maintenant de plus en plus utilisée pour l'analyse de données "riches" recueillies dans le cadre d'études pharmacocinétiques cliniques. Cette approche est recommandée par la Food and Drug Administration (FDA) pour l'obtention de l'autorisation de mise sur le marché (AMM)~\citep{REF9}.
+A l'origine, l'approche de population a été proposée pour analyser des données "pauvres" (faible nombre de données par patient) et "hétérogènes" (posologies et temps d'observation différents d'un patient à l'autre) car provenant de larges cohortes de patients~\citep{REF8}. Elle est maintenant de plus en plus utilisée pour l'analyse de données "riches" recueillies dans le cadre d'études pharmacocinétiques cliniques. Cette approche est recommandée par la Food and Drug Administration (FDA) pour l'obtention de l'autorisation de mise sur le marché (\gls{AMM})~\citep{REF9}.
 
 L'analyse pharmacocinétique de population prend en compte l'ensemble des individus inclus dans l'étude et permet donc d'utiliser l'information de chaque sujet pour estimer des paramètres moyens dans la population considérée.
 
@@ -464,7 +464,7 @@ x
 \label{eq:37}
 \end{equation}
 
-où $C_{ij,pred}$ est la concentration prédite par le modèle pour le sujet $i$ au temps de prélèvement $j$, $D_i$, $V_i$ et $\CL_i$ sont respectivement la dose administrée au sujet $i$, le volume de distribution et la clairance du sujet $i$.
+où $C_{ij,pred}$ est la concentration prédite par le modèle pour le sujet $i$ au temps de prélèvement $j$, $D_i$, $V_i$ et $\gls{CL}_i$ sont respectivement la dose administrée au sujet $i$, le volume de distribution et la clairance du sujet $i$.
 
 \paragraph*{Modèle d'erreur interindividuelle :} Il décrit la variabilité interindividuelle des sujets, c'est-à-dire l'écart entre les paramètres de population et les paramètres individuels estimés. Ce modèle s'écrit :
 \begin{equation}
@@ -535,18 +535,18 @@ où $g$ est le modèle de covariables et $z_{kmi}$ est la valeur de la covariabl
 Exemple : Pour un modèle interindividuel exponentiel, la clairance du sujet $i$ s'écrit :
 
 \begin{equation}
-x
+\gls{CL}_i
 \label{eq:46}
 \end{equation}
 
-Si $\CL_{TV}$ est influencée par la surface corporelle (BSA pour \textit{body surface area}) du patient (Figure~\ref{fig:9}), la valeur typique de $\CL$ peut s'écrire :
+Si $\gls{CL}_{TV}$ est influencée par la surface corporelle (BSA pour \textit{body surface area}) du patient (Figure~\ref{fig:9}), la valeur typique de \gls{CL} peut s'écrire :
 
 \begin{equation}
 x
 \label{eq:47}
 \end{equation}
 
-où $\CL$ est la valeur de population de la clairance, $\beta_{BSA,\CL}$ est une constante, $BSA_i$ la surface corporelle du patient $i$ et $BSA_{med}$ la surface corporelle médiane de la population. Pour un modèle interindividuel exponentiel, la clairance $\CL_i$ du sujet $i$ s'écrit donc :
+où \gls{CL} est la valeur de population de la clairance, $\beta_{BSA,\gls{CL}}$ est une constante, $BSA_i$ la surface corporelle du patient $i$ et $BSA_{med}$ la surface corporelle médiane de la population. Pour un modèle interindividuel exponentiel, la clairance $\gls{CL}_i$ du sujet $i$ s'écrit donc :
 
 \begin{equation}
 x
@@ -610,7 +610,7 @@ x
 \subsection{Généralités}
 Les anticorps sont des glycoprotéines également appelées immunoglobulines (Ig) qui sont produits exclusivement par les lymphocytes B.
 
-Les anticorps thérapeutiques peuvent être classés en trois grands groupes : les Ig polyvalentes, les Ig polyclonales et les anticorps monoclonaux. Les anticorps monoclonaux recombinants, utilisés en thérapeutique depuis les années 1980, ont révolutionné la prise en charge de nombreuses pathologies telles que le cancer, les maladies inflammatoires et certaines maladies immunologiques. En 1975, Kohler et Milstein ont réussi à fusionner une cellule lymphoïde normale et une cellule myélomateuse pour créer un hybridome, lignée cellulaire immortelle capable de produire un anticorps monoclonal de manière durable~\citep{REF13}. Ces anticorps monoclonaux sont tous identiques et reconnaissent le même épitope sur un antigène. Aujourd'hui, la production industrielle d'anticorps monoclonaux utilise des techniques d'expression d'ADN recombinant, le plus souvent dans des cellules de mammifères~\citep{REF14, REF15}. Les anticorps monoclonaux thérapeutiques commercialisés sont principalement des IgG1$\kappa$. Ils sont constitués de quatre chaînes polypeptidiques : deux chaînes lourdes d'isotype $\gamma$ ("H", de 50~kDa) et deux chaînes légères d'isotype $\kappa$ ("L", de 25 kDa), soit une masse moléculaire totale d'environ 150~kDa. Chacune de ces chaînes possède des domaines variables ("V", correspondant à l'extrémité N terminale et se fixant sur l'antigène) et des domaines constants ("C ") . Les IgG sont constituées de deux portions Fab, contenant les parties variables, et d'une portion Fc (Figure~\ref{fig:11}a). La portion Fc a la capacité de fixer le complément (fraction C1q) et de recruter des cellules effectrices porteuses de récepteurs Fc$\gamma$R (Figure~\ref{fig:11}b)~\citep{REF16}.
+Les anticorps thérapeutiques peuvent être classés en trois grands groupes : les Ig polyvalentes, les Ig polyclonales et les anticorps monoclonaux. Les anticorps monoclonaux recombinants, utilisés en thérapeutique depuis les années 1980, ont révolutionné la prise en charge de nombreuses pathologies telles que le cancer, les maladies inflammatoires et certaines maladies immunologiques. En 1975, Kohler et Milstein ont réussi à fusionner une cellule lymphoïde normale et une cellule myélomateuse pour créer un hybridome, lignée cellulaire immortelle capable de produire un anticorps monoclonal de manière durable~\citep{REF13}. Ces anticorps monoclonaux sont tous identiques et reconnaissent le même épitope sur un antigène. Aujourd'hui, la production industrielle d'anticorps monoclonaux utilise des techniques d'expression d'ADN recombinant, le plus souvent dans des cellules de mammifères~\citep{REF14, REF15}. Les anticorps monoclonaux thérapeutiques commercialisés sont principalement des IgG1$\kappa$. Ils sont constitués de quatre chaînes polypeptidiques : deux chaînes lourdes d'isotype $\gamma$ ("H", de 50~k\gls{Da}) et deux chaînes légères d'isotype $\kappa$ ("L", de 25~k\gls{Da}), soit une masse moléculaire totale d'environ 150~k\gls{Da}. Chacune de ces chaînes possède des domaines variables ("V", correspondant à l'extrémité N terminale et se fixant sur l'antigène) et des domaines constants ("C ") . Les IgG sont constituées de deux portions Fab, contenant les parties variables, et d'une portion Fc (Figure~\ref{fig:11}a). La portion Fc a la capacité de fixer le complément (fraction C1q) et de recruter des cellules effectrices porteuses de récepteurs Fc$\gamma$R (Figure~\ref{fig:11}b)~\citep{REF16}.
 
 \begin{figure}[htbp]
 	\centering
@@ -635,7 +635,7 @@ Les progrès en biotechnologie ont permis de développer des anticorps chimériq
 \end{figure}
 
 \subsection{Mécanismes impliqués dans la pharmacocinétique des anticorps monoclonaux}
-Ne serait-ce que parce que ce sont des protéines de haute masse moléculaire (environ 150 kDa), les anticorps monoclonaux ont des sources de variabilité pharmacocinétique différentes de celles des médicaments "classiques", molécules généralement issues d'une synthèse chimique et d'une masse moléculaire faible. Cependant, on peut décrire des phases d'absorption (pour les administrations par voie~\gls{EV}), de distribution et d'élimination.
+Ne serait-ce que parce que ce sont des protéines de haute masse moléculaire (environ 150~k\gls{Da}), les anticorps monoclonaux ont des sources de variabilité pharmacocinétique différentes de celles des médicaments "classiques", molécules généralement issues d'une synthèse chimique et d'une masse moléculaire faible. Cependant, on peut décrire des phases d'absorption (pour les administrations par voie~\gls{EV}), de distribution et d'élimination.
 
 \subsubsection{Absorption des anticorps monoclonaux}
 La majorité des anticorps monoclonaux est administrée par voie~\gls{IV}, ce qui permet une exposition rapide et complète. Cependant, certains d'entre eux, comme l'adalimumab, un anti-TNF$\alpha$, sont administrés par voie sous cutanée (SC). L'administration~\gls{EV} représente un confort pour le patient puisque qu'elle est moins invasive et peut se faire à domicile. Cependant, l'absorption des anticorps monoclonaux est lente et donc difficile à quantifier précisément. Elle est par ailleurs incomplète. Nous verrons dans la discussion que ces voies d'administration sont une source de variabilité pharmacocinétique supplémentaire qu'il faut prendre en compte. Les mécanismes d'absorption des IgG après administration SC et~\gls{EV} en général n'ont jamais été directement étudiés~\citep{REF18}. 
@@ -691,7 +691,7 @@ La structure des anticorps thérapeutiques n'est cependant pas le seul facteur i
 \subsection{Modélisation pharmacocinétique des anticorps monoclonaux}
 Comme pour les médicaments "classiques", la pharmacocinétique des anticorps monoclonaux est principalement étudiée lors des phases initiales de leur développement clinique (phases~I et II) pour déterminer les doses qui seront testées en phase~III. Cependant, pour de nombreux anticorps monoclonaux actuellement sur le marché, la relation entre la concentration et l'effet in vivo est mal connue et/ou peu décrite dans la littérature et les données pharmacocinétiques sont insuffisamment utilisées lors du choix des doses à administrer. Une meilleure connaissance de la pharmacocinétique est donc une étape indispensable pour l'optimisation de l'utilisation thérapeutique des anticorps monoclonaux. Ce besoin d'amélioration du schéma posologique est particulièrement net en cancérologie. Il y a au moins deux raisons à cela : d'une part, au moment de la mise sur le marché, la connaissance de l'anticorps monoclonal est souvent incomplète car son développement clinique a été accéléré compte tenu de la gravité de la pathologie. D'autre part, une influence de la masse tumorale sur la pharmacocinétique des anticorps monoclonaux est suspectée~\citep{REF45, REF46, REF47}. Si cette influence est confirmée, ce facteur devrait être pris en compte pour améliorer l'adaptation posologique individuelle. De plus, l'analyse de la pharmacocinétique clinique des anticorps thérapeutiques est une étape nécessaire à l'étude de leur relation concentration-effet, outil indispensable à la fois pour un choix raisonné de la posologie et pour la compréhension de leur mécanisme d'action chez l'Homme. 
 
-La pharmacocinétique n'a pas été étudiée avec le même niveau de détail pour tous les anticorps thérapeutiques. La pharmacocinétique de l'efalizumab (anti-CD11a) a été bien décrite~\citep{REF48, REF49, REF50}. La pharmacocinétique du rituximab a été assez bien étudiée~\citep{REF51, REF52}, mais la connaissance de la pharmacocinétique d'anticorps comme l'adalimumab et le bevacizumab, utilisés pourtant depuis plusieurs années, reste insuffisante. Les études de la pharmacocinétique des anticorps monoclonaux chez l'Homme ont utilisé l'approche non-compartimentale~\citep{REF53,REF54, REF55, REF56, REF57, REF58, REF59} et l'approche compartimentale. Dans ce cas, les modèles étaient parfois mono-compartimentaux~\citep{REF60} mais le plus souvent, bi-compartimentaux (tableau~\ref{tab:2}). Après administration~\gls{IV}, les concentrations d'anticorps monoclonaux décroissent en effet généralement de façon bi-exponentielle. Les anticorps se distribuent donc dans deux types de tissus, respectivement modélisés par un volume central de distribution $V_1$ et un volume périphérique $V_2$ avec une clairance de distribution $Q$ et une clairance d'élimination $\CL$. 
+La pharmacocinétique n'a pas été étudiée avec le même niveau de détail pour tous les anticorps thérapeutiques. La pharmacocinétique de l'efalizumab (anti-CD11a) a été bien décrite~\citep{REF48, REF49, REF50}. La pharmacocinétique du rituximab a été assez bien étudiée~\citep{REF51, REF52}, mais la connaissance de la pharmacocinétique d'anticorps comme l'adalimumab et le bevacizumab, utilisés pourtant depuis plusieurs années, reste insuffisante. Les études de la pharmacocinétique des anticorps monoclonaux chez l'Homme ont utilisé l'approche non-compartimentale~\citep{REF53,REF54, REF55, REF56, REF57, REF58, REF59} et l'approche compartimentale. Dans ce cas, les modèles étaient parfois mono-compartimentaux~\citep{REF60} mais le plus souvent, bi-compartimentaux (tableau~\ref{tab:2}). Après administration~\gls{IV}, les concentrations d'anticorps monoclonaux décroissent en effet généralement de façon bi-exponentielle. Les anticorps se distribuent donc dans deux types de tissus, respectivement modélisés par un volume central de distribution $V_1$ et un volume périphérique $V_2$ avec une clairance de distribution $Q$ et une clairance d'élimination \gls{CL}. 
 
 La description compartimentale de la pharmacocinétique des anticorps administrés par voie~\gls{EV} peut être réalisée en intégrant un compartiment d'absorption et une constante d'absorption $k_{a}$ d'ordre~1. Hayashi~\textit{et al.} ont par exemple décrit l'absorption de l'omalizumab (anti IgE) administré par voie sous cutanée (SC) à l'aide de ce modèle~\citep{REF61}. aucune modélisation de l'absorption d'un anticorps monoclonal reposant sur des compartiments de transit n'a pour l'instant été publiée. Compte tenu de la lenteur de l'absorption, la distribution de l'anticorps dans le compartiment périphérique est rarement identifiable ; pour cette raison, un modèle mono-compartimental est souvent utilisé.
 
@@ -712,22 +712,22 @@ Bien que les modèles de type TMDD soient théoriquement les mieux adaptés à l
       \hline
       \hline
       Mager 2003~\citep{REF65} & Abciximab & GpIIb/IIIa & Angioplastie coronaire & \gls{IV} perf & 47 & 2 & - & 1 & - \\
-      Weisman 2003~\citep{REF66} & Adalimumab & TNF$\alpha$ & PR & \gls{IV} perf & 9 & 2 & - & 1 & $\CL$ : sexe \\
+      Weisman 2003~\citep{REF66} & Adalimumab & TNF$\alpha$ & PR & \gls{IV} perf & 9 & 2 & - & 1 & \gls{CL} : sexe \\
       Mould 2007~\citep{REF67} & Alemtuzumab & CD52 & Leucémie lymphoïde chronique & \gls{IV} perf & 67 & 2 & - & MM & - \\
       Dirks 2008~\citep{REF68} & Cetuximab & EGFR & Cancer de la tête et du cou & \gls{IV} perf & 143 & 2 & - & MM & - \\
       Mould 2007~\citep{REF69} & Clenoliximab & CD4 & PR & \gls{IV} perf & 32 & 2 & - & MM & - \\
       Ng 2005~\citep{REF50} & Efalizumab & CD11a & Psoriasis modéré et sévère & SC & 240 & 2 & 56\% & 1+MM & - \\
       Dartois 2007~\citep{REF70} & Ilonimomab & CD25 & Maladie du greffon contre l'hôte & \gls{IV} perf & 21 & 2 & - & 1 & - \\
-      Ternant 2008~\citep{REF71} & Infliximab & TNF$\alpha$ & maladies inflammatoires de l'intestin & \gls{IV} perf & 33 & 2 & - & 1 & V1 : Poids et sexe immunisation sur $\CL$ \\
-      Kuester 2009~\citep{REF72} & Matuzumab & EGFR & Cancer colorectal & \gls{IV} perf & 90+81 & 2 & - & 1+MM & $\CL$ : Poids sec \\
+      Ternant 2008~\citep{REF71} & Infliximab & TNF$\alpha$ & maladies inflammatoires de l'intestin & \gls{IV} perf & 33 & 2 & - & 1 & V1 : Poids et sexe immunisation sur \gls{CL} \\
+      Kuester 2009~\citep{REF72} & Matuzumab & EGFR & Cancer colorectal & \gls{IV} perf & 90+81 & 2 & - & 1+MM & \gls{CL} : Poids sec \\
       Hayashi 2007~\citep{REF61} & Omalizumab & IgE & Syndromes atopiques & SC & 910 & 1 & 62\% & 1 & $V_1/F$ : Poids,  âge et sexe \\
-      Ma 2008~\citep{REF73} & Panitumumab & EGFR & Cancer colorectal & \gls{IV} perf & 1200 & 2 & - & 1+MM & Poids sur $V_1$, $\CL$ et $V_{max}$ \\
+      Ma 2008~\citep{REF73} & Panitumumab & EGFR & Cancer colorectal & \gls{IV} perf & 1200 & 2 & - & 1+MM & Poids sur $V_1$, \gls{CL} et $V_{max}$ \\
       Iacona 2000~\citep{REF51} & Rituximab & CD20 & Lymphome NHF & \gls{IV} perf & 7 & 2 & - & 1 & - \\
-      Ng 2005~\citep{REF52} & Rituximab & CD20 & PR & \gls{IV} perf & 102 & 2 & - & 1 & BSA et sexe sur $V_1$ et $\CL$ \\
-      Kloft 2004~\citep{REF74} & Sibrotuzumab & FAP & Cancers colorectal et du poumon & \gls{IV} perf & 60 & 2 & - & 1+MM & Poids sur $V_1$,  $\CL$ et $V_{max}$ \\
+      Ng 2005~\citep{REF52} & Rituximab & CD20 & PR & \gls{IV} perf & 102 & 2 & - & 1 & BSA et sexe sur $V_1$ et \gls{CL} \\
+      Kloft 2004~\citep{REF74} & Sibrotuzumab & FAP & Cancers colorectal et du poumon & \gls{IV} perf & 60 & 2 & - & 1+MM & Poids sur $V_1$,  \gls{CL} et $V_{max}$ \\
       Frey 2010~\citep{REF75} & Tocilizumab & IL6R & PR & \gls{IV} perf & 1793 & 2 & - & 1+MM & - \\
-      Bruno 2005~\citep{REF76} & Trastuzumab & HER2 & Cancer du sein métastatique & \gls{IV} perf & 476 & 2 & - & 1 & $V_1$ : Poids, ECD ; $\CL$ : ECD, MET \\
-      Zhu 2009~\citep{REF77} & Ustekinumab & IL12/23 & Psoriasis sévère & SC & 1937 & 1 & ? & 1 & Poids, diabète et immunisation sur $V_1/F$ et $\CL/F$ \\
+      Bruno 2005~\citep{REF76} & Trastuzumab & HER2 & Cancer du sein métastatique & \gls{IV} perf & 476 & 2 & - & 1 & $V_1$ : Poids, ECD ; \gls{CL} : ECD, MET \\
+      Zhu 2009~\citep{REF77} & Ustekinumab & IL12/23 & Psoriasis sévère & SC & 1937 & 1 & ? & 1 & Poids, diabète et immunisation sur $V_1/F$ et $\gls{CL}/F$ \\
       \hline
     \end{tabular}
   \label{tab:2}
@@ -738,7 +738,7 @@ Comme nous l'avons évoqué plus haut, la plupart des études initiales~\citep{R
 \paragraph{Facteurs démographiques et biochimiques.} Les facteurs démographiques (âge, poids, sexe, origine ethnique, surface corporelle, etc.) ainsi que certaines mesures biologiques (albuminémie, numérations sanguines, marqueurs de l'inflammation, etc.) sont montré une relation avec les paramètres pharmacocinétiques d'un anticorps thérapeutique. Le poids ou la surface corporelle sont souvent les principales covariables explicatives de la variabilité interindividuelle des volumes de distribution, ceux-ci augmentant avec la valeur de ces covariables~\citep{REF52, REF61, REF74, REF76, REF78, REF79, REF80}. Le sexe peut également influencer la pharmacocinétique des anticorps. Ternant~\textit{et al.} ont montré une influence du sexe sur le volume de distribution de l'infliximab~\citep{REF71}. 
 Comme décrit plus haut, la distribution et l'élimination de l'albumine et des IgG sont liées. Fasanmade~\textit{et al.} ont observé une relation entre la concentration sérique d'albumine et la pharmacocinétique de l'infliximab chez les patients traités pour rectocolite hémorragique~\citep{REF81}. La clairance de l'infliximab était d'autant plus faible que les patients avaient une concentration d'albumine élevée. Pour expliquer ces résultats, les auteurs ont fait l'hypothèse que des concentrations faibles d'albumine sont le reflet d'une expression plus faible de FcRn, responsable d'un recyclage plus faible et donc d'une élimination plus importante de l'infliximab et de l'albumine. Ils ont proposé d'utiliser la concentration sérique d'albumine comme indicateur prédictif de l'exposition des patients à l'infliximab.
 \paragraph{Immunisation}
-L'immunisation contre les anticorps thérapeutiques augmente leur clairance. Ternant~\textit{et al.} ont montré que la clairance de l'infliximab était 2,7 fois plus élevée chez les patients ayant des anticorps anti-infliximab (ATI pour \textit{antibodies toward infliximab})~\citep{REF71} que chez les patients non immunisés.
+L'immunisation contre les anticorps thérapeutiques augmente leur clairance. Ternant~\textit{et al.} ont montré que la clairance de l'infliximab était 2,7 fois plus élevée chez les patients ayant des anticorps anti-infliximab (\gls{ATI} pour \textit{antibodies toward infliximab})~\citep{REF71} que chez les patients non immunisés.
 
 \subsection{Facteurs de variabilité de la relation dose-concentration-effet des IgG}
 Un des premiers facteurs individuels de variabilité de la réponse aux anticorps thérapeutiques identifié est un polymorphisme génétique du récepteur Fc$\gamma$RIIIA (CD16a) codé par le gène FCGR3A. Ce polymorphisme conduit à la présence d'une phénylalanine ou d'une valine en position~\citep{REF158}. En effet, la survie sans progression de patients traités par rituximab, un anti-CD20, pour lymphome malin non Hodgkinien était significativement plus longue chez les patients homozygotes de génotype FCGR3A-158V/V que chez les patients porteurs de l'allèle FCGR3A-158F~\citep{REF82}. Ce polymorphisme génétique influence l'affinité du récepteur Fc$\gamma$RIIIA pour la portion Fc des IgG et donc le recrutement des cellules impliquées dans la cytotoxicité à médiation cellulaire dépendante des anticorps (\gls{ADCC} pour \textit{Antibody-Dependent Cell-mediated Cytotoxicity})~\citep{REF83, REF84}. L'influence de ce polymorphisme sur l'efficacité du rituximab a été confirmée par d'autres études~\citep{REF85, REF86} et a également été mis en évidence pour d'autres anticorps thérapeutiques agissant au moins en partie par \gls{ADCC}, comme un anticorps anti-D~\citep{REF87}, l'infliximab~\citep{REF88} et le trastuzumab~\citep{REF89}.
@@ -793,13 +793,13 @@ Le cetuximab est également indiqué dans le traitement des patients ayant un ca
 
 Dans ces deux indications, le cetuximab est injecté par voie intraveineuse (\gls{IV}) toutes les semaines. La dose de charge recommandée est de 400 mg/m$^2$ pour la première perfusion qui se déroule sur deux heures. La dose de maintenance hebdomadaire est de 250 mg/m$^2$.
 
-Les conditions de prescription dans le cancer colorectal ont évolué au cours du temps. En effet, la surexpression d'EGFR n'est plus un critère strict d'inclusion puisque des études ont montré que le nombre de copies d'EGFR n'influence pas significativement le bénéfice clinique 107-109. De plus, la mutation tumorale de KRAS n'était pas un critère d'exclusion au moment de l'autorisation de mise sur le marché (AMM) du cetuximab en juin 2004. Depuis, plusieurs études ont montré que la réponse au cetuximab est restreinte aux patients porteurs de tumeurs avec KRAS non muté~\citep{REF110, REF111, REF112, REF113}.
+Les conditions de prescription dans le cancer colorectal ont évolué au cours du temps. En effet, la surexpression d'EGFR n'est plus un critère strict d'inclusion puisque des études ont montré que le nombre de copies d'EGFR n'influence pas significativement le bénéfice clinique 107-109. De plus, la mutation tumorale de KRAS n'était pas un critère d'exclusion au moment de l'autorisation de mise sur le marché (\gls{AMM}) du cetuximab en juin 2004. Depuis, plusieurs études ont montré que la réponse au cetuximab est restreinte aux patients porteurs de tumeurs avec KRAS non muté~\citep{REF110, REF111, REF112, REF113}.
 
 Une méta-analyse a récemment montré que la survie sans progression des patients dont la tumeur avait la mutation KRAS G13D était meilleure que celle des patients ayant une tumeur avec une autre mutation~\citep{REF114}. Une autre étude a montré que le statut KRAS peut varier entre la tumeur primaire et les métastases chez un même patient~\citep{REF115}. D'autres polymorphismes génétiques tels que PTEN ou BRAF pourraient également avoir une influence sur l'efficacité du cetuximab~\citep{REF116, REF117}.
 
-Dans le cancer colorectal métastatique, la chimiothérapie associée est administrée toutes les deux semaines alors que la posologie de l'AMM du cetuximab est d'une injection hebdomadaire. Pour éviter au patient d'être hospitalisé toutes les semaines, l'injection d'une double dose (500 mg/m$^2$) de cetuximab toutes les deux semaines est couramment pratiquée. Cependant, les données publiées à ce jour~\citep{REF118} n'ont pas permis de démontrer clairement l'équivalence de cette posologie avec celle de l'AMM. 
+Dans le cancer colorectal métastatique, la chimiothérapie associée est administrée toutes les deux semaines alors que la posologie de l'\gls{AMM} du cetuximab est d'une injection hebdomadaire. Pour éviter au patient d'être hospitalisé toutes les semaines, l'injection d'une double dose (500 mg/m$^2$) de cetuximab toutes les deux semaines est couramment pratiquée. Cependant, les données publiées à ce jour~\citep{REF118} n'ont pas permis de démontrer clairement l'équivalence de cette posologie avec celle de l'\gls{AMM}. 
 
-D'autres indications du cetuximab comme le cancer cutané~\citep{REF119} sont également activement explorées. Plusieurs essais de phase~II et de phase~III ont évalué l'intérêt du cetuximab en association à une chimiothérapie à base de sels de platine en 1ère ligne de traitement de cancers bronchiques non à petites cellules, avancés ou métastatiques~\citep{REF120, REF121}. Les résultats de ces essais montrent un bénéfice modeste en termes de survie globale (OS pour \textit{Overall Survival}) et de survie sans progression (PFS pour \textit{Progression-Free Survival}), associé à une toxicité non négligeable. Ces données ne montrant pas de rapport bénéfice/risque suffisant, le cetuximab n'a pas encore obtenu d'AMM dans cette indication.
+D'autres indications du cetuximab comme le cancer cutané~\citep{REF119} sont également activement explorées. Plusieurs essais de phase~II et de phase~III ont évalué l'intérêt du cetuximab en association à une chimiothérapie à base de sels de platine en 1ère ligne de traitement de cancers bronchiques non à petites cellules, avancés ou métastatiques~\citep{REF120, REF121}. Les résultats de ces essais montrent un bénéfice modeste en termes de survie globale (OS pour \textit{Overall Survival}) et de survie sans progression (PFS pour \textit{Progression-Free Survival}), associé à une toxicité non négligeable. Ces données ne montrant pas de rapport bénéfice/risque suffisant, le cetuximab n'a pas encore obtenu d'\gls{AMM} dans cette indication.
 
 \subsection{Méthodes de mesure des concentrations de cetuximab}
 Deux types de techniques de dosage ont été rapportées pour mesurer les concentrations sanguines de cetuximab chez l'Homme ou l'animal : les méthodes ELISA~\citep{REF122, REF123, REF124} et la résonnance plasmonique de surface (BiaCore)~\citep{REF125}. Les limites basses de quantification des méthodes ELISA étaient de l'ordre de 0,1 mg/L mais les étapes de validation n'ont pas été décrites.
@@ -809,7 +809,7 @@ La pharmacocinétique du cetuximab a été peu décrite. Les analyses qui ont é
 
 Dirks~\textit{et al.} ont décrit la pharmacocinétique du cetuximab chez des patients traités pour carcinome épidermoïde de la tête et du cou par approche compartimentale de population. L'élimination y était quantifiée grâce à une équation de type Michaelis-Menten (équation~\ref{eq:34})~\citep{REF68}. Dans cette étude, le poids idéal et la numération leucocytaire étaient des covariables influençant significativement $V_{max}$, tandis que le poids influençait significativement $V_1$. Chez les patients traités pour cancer colorectal métastatique, il n'existe pas de publication décrivant une analyse compartimentale du cetuximab. Les facteurs influençant la variabilité de sa pharmacocinétique dans cette pathologie n'ont donc pas été étudiés.
 
-Le matuzumab est une autre IgG anti-EGFR dont le développement a été arrêté en février 2008 par manque d'efficacité. Sa pharmacocinétique a cependant été décrite par approche compartimentale, à l'aide d'un modèle à deux compartiments avec élimination linéaire ($\CL$) couplée à une élimination saturable de type Michaelis-Menten~\citep{REF72, REF129}. La masse maigre était une covariable influençant significativement $\CL$. La pharmacocinétique du panitumumab (IgG2 anti-EGFR) a également été décrite par ce modèle~\citep{REF73}. Le poids était la covariable la plus influente, reliée à $\CL$, $V_{max}$, et $V_1$.
+Le matuzumab est une autre IgG anti-EGFR dont le développement a été arrêté en février 2008 par manque d'efficacité. Sa pharmacocinétique a cependant été décrite par approche compartimentale, à l'aide d'un modèle à deux compartiments avec élimination linéaire (\gls{CL}) couplée à une élimination saturable de type Michaelis-Menten~\citep{REF72, REF129}. La masse maigre était une covariable influençant significativement \gls{CL}. La pharmacocinétique du panitumumab (IgG2 anti-EGFR) a également été décrite par ce modèle~\citep{REF73}. Le poids était la covariable la plus influente, reliée à \gls{CL}, $V_{max}$, et $V_1$.
 
 \subsection{Relations dose-réponse et concentration-réponse du cetuximab}
 Peu de descriptions de la variabilité de la relation dose-réponse ou concentration-réponse ont été publiées.
