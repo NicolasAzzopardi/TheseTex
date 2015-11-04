@@ -221,14 +221,24 @@ Si le début de l'absorption est décalé par rapport au temps d'administration~
 Dans le cas d'un modèle à un compartiment, la pharmacocinétique du médicament administré par voie~\gls{EV} avec retard d'absorption peut être décrite par le système de $n+2$ équations différentielles suivant :
 
 \begin{equation}
-x
+\left| \begin{matrix}
+\frac{da_0}{dt}=-k_{t}\cdot a_0 \phantom{-k_{t}\cdot a_1 -k_{t}\cdot a_{n-1} -k_{t}\cdot a_n -k_a\cdot A -k_{10}\cdot C  }         & avec & a_0(0)=D \cdot F\\ 
+\frac{da_1}{dt}=\phantom{-}k_{t}\cdot a_0 -k_{t}\cdot a_1 \phantom{-k_{t}\cdot a_{n-1} -k_{t}\cdot a_n -k_a\cdot A -k_{10}\cdot C} & avec & a_1(0)=0\\
+\cdots                                                                                                                             &      & \cdots \\
+\frac{da_n}{dt}=\phantom{-k_{t}\cdot a_0 -k_{t}\cdot a_1 -}k_{t}\cdot a_{n-1} -k_{t}\cdot a_n \phantom{-k_a\cdot A -k_{10}\cdot C} & avec & a_n(0)=0\\ 
+\frac{dA}{dt}  =\phantom{-k_{t}\cdot a_0 -k_{t}\cdot a_1 -k_{t}\cdot a_{n-1} -}k_{t}\cdot a_n -k_a\cdot A \phantom{-k_{10}\cdot C} & avec & A(0)=0\\ 
+\frac{dC}{dt}  =\phantom{-k_{t}\cdot a_0 -k_{t}\cdot a_1 -k_{t}\cdot a_{n-1} -k_{t}\cdot a_n -}k_a\cdot A -k_{10}\cdot C           & avec & C(0)=0\\ 
+\end{matrix}\right.
 \label{eq:20}
 \end{equation}
 
 L'absorption est dans ce cas définie à la fois par la fraction biodisponible $F$ et par une constante d'absorption $k_{a}$ mais également par une constante de transfert $k_t$ et le nombre de compartiments de transit $n$. En pratique, le nombre d'équations dans le système~\ref{eq:20} est fixé par $n$. Pour trouver le nombre n de compartiments de transit qui permet au mieux de décrire l'absorption, il est donc nécessaire de faire plusieurs essais. Cette limitation peut être contournée~\citep{REF1}, en simplifiant le système d'équation~\ref{eq:20} par le système suivant si $n > 2$ :
 
 \begin{equation}
-x
+\left| \begin{matrix}
+\frac{dA_a}{dt}= D \cdot F \cdot k_t \cdot \frac{(k_t \cdot t)^n\cdot e^{-k_t \cdot t}}{\sqrt{2\pi}\cdot n^{n+1/2}\cdot e^{-n} } - k_a \cdot A_a                      \phantom{- k_{10}\cdot C}& avec & A_a(0)=0\\ 
+\frac{dC}{dt}=\phantom{D \cdot F \cdot k_t \cdot \frac{(k_t \cdot t)^n\cdot e^{-k_t \cdot t}}{\sqrt{2\pi}\cdot n^{n+1/2}\cdot e^{-n} } - }k_a \cdot A_a             -k_{10}\cdot C & avec & a_1(0)=0\\
+\end{matrix}\right.
 \label{eq:21}
 \end{equation}
 
@@ -305,12 +315,12 @@ C(t) = A \cdot e^{-\gls{alpha}\cdot t}+B \cdot e^{-\gls{beta}\cdot t}
 où $A$ et $B$ sont respectivement les concentrations de distribution et d'élimination, extrapolées au temps $0$ ("à l'origine") par approche "graphique", analogues au $C_0$ du modèle mono-compartimental, et \gls{alpha} et \gls{beta} sont respectivement les macro-constantes de distribution et d'élimination définies par :
 
 \begin{equation}
-\gls{alpha} = \frac{1}{2}\cdot[k_{12}+k_{21}+k_{10}+\sqrt{(k_{12}+k_{21}+k_{10})^2-4\cdot k_{21}\cdot k_{10}}]
+\gls{alpha} = \frac{1}{2}\cdot \left(k_{12}+k_{21}+k_{10}+\sqrt{(k_{12}+k_{21}+k_{10})^2-4\cdot k_{21}\cdot k_{10}} \right)
 \label{eq:29}
 \end{equation}
 
 \begin{equation}
-\gls{beta} = \frac{1}{2}\cdot[k_{12}+k_{21}+k_{10}-\sqrt{(k_{12}+k_{21}+k_{10})^2-4\cdot k_{21}\cdot k_{10}}]
+\gls{beta} = \frac{1}{2}\cdot\left(k_{12}+k_{21}+k_{10}-\sqrt{(k_{12}+k_{21}+k_{10})^2-4\cdot k_{21}\cdot k_{10}}\right)
 \label{eq:30}
 \end{equation}
 
@@ -336,7 +346,11 @@ L'élimination saturable des médicaments "classiques", généralement liée à 
 Un modèle pharmacocinétique de type TMDD est une interprétation mécanistique précise de l'interaction entre le médicament et sa cible au cours du temps (Figure~\ref{fig:6}). Les variations de concentration de médicament, de quantité de cible et de complexe médicament-cible sont décrites par le système d'équations différentielles suivant :
 
 \begin{equation}
-x
+\left| \begin{matrix}
+\frac{dC}{dt}=& \phantom{k_{\syn} - k_{\dg}\cdot R} - k_{\on} \cdot C \cdot R + k_{\off} \cdot RC\phantom{ - k_{\nt} \cdot RC}\\ 
+\frac{dR}{dt}=&          k_{\syn} - k_{\dg}\cdot R  - k_{\on} \cdot C \cdot R + k_{\off} \cdot RC\phantom{ - k_{\nt} \cdot RC}\\ 
+\frac{dRC}{dt}=&\phantom{k_{\syn} - k_{\dg}\cdot R - }k_{\on} \cdot C \cdot R - k_{\off} \cdot RC - k_{\nt} \cdot RC\\ 
+\end{matrix}\right.
 \label{eq:33}
 \end{equation}
 
@@ -347,17 +361,17 @@ x
 	\label{fig:6}
 \end{figure}
 
-Le médicament sous forme libre, de concentration $C$, se lie à une quantité de cible libre $R$ avec une constante d'association $k_{on}$. Cette constante est d'ordre~2 car l'association dépend à la fois de la concentration $C$ et de la quantité de récepteur $R$. Cette association forme un complexe médicament-cible $RC$. Le complexe $RC$ peut soit se dissocier avec une constante de dissociation d'ordre~1 $k_{off}$ (qui est très faible pour les anticorps) soit être internalisé ou dégradé avec une constante d'ordre~1 $k_{int}$. Comme indiqué dans le système d'équations~\ref{eq:33}, le modèle peut également prendre en compte le fait que les cibles libres sont synthétisées avec une constante d'ordre~0 $k_{syn}$ et dégradées indépendamment de l'effet du médicament, avec une constante de dégradation d'ordre~1 $k_{deg}$~\citep{REF3}.
+Le médicament sous forme libre, de concentration $C$, se lie à une quantité de cible libre $R$ avec une constante d'association $k_{\on}$. Cette constante est d'ordre~2 car l'association dépend à la fois de la concentration $C$ et de la quantité de récepteur $R$. Cette association forme un complexe médicament-cible $RC$. Le complexe $RC$ peut soit se dissocier avec une constante de dissociation d'ordre~1 $k_{\off}$ (qui est très faible pour les anticorps) soit être internalisé ou dégradé avec une constante d'ordre~1 $k_{\nt}$. Comme indiqué dans le système d'équations~\ref{eq:33}, le modèle peut également prendre en compte le fait que les cibles libres sont synthétisées avec une constante d'ordre~0 $k_{\syn}$ et dégradées indépendamment de l'effet du médicament, avec une constante de dégradation d'ordre~1 $k_{\dg}$~\citep{REF3}.
 
 Un tel modèle doit être couplé à un modèle compartimental classique qui décrit les phénomènes d'absorption, de distribution et d'élimination du médicament qui ne sont pas liés à la cible. Dans ce cas, $C$ représente la concentration dans le compartiment central.
 
 \paragraph{Élimination de type Michaelis-Menten} L'équation de Michaelis-Menten a été initialement proposée pour décrire la saturation de la cinétique enzymatique~\citep{REF5}. Elle est maintenant couramment utilisée pour décrire, entre autres, la cinétique d'élimination saturable de certains médicaments. D'après le modèle de Michaelis-Menten, ce type d'élimination est décrit par l'équation différentielle suivante :
 
 \begin{equation}
-\frac{dC}{dt}=-\frac{V_{max}\cdot C}{k_M + C}
+\frac{dC}{dt}=-\frac{V_{\mx}\cdot C}{k_M + C}
 \label{eq:34}
 \end{equation}
-où $V_{max}$ est la vitesse maximale d'élimination du médicament et $k_M$ est la constante dite de Michaelis, qui correspond à la concentration de médicament pour laquelle la vitesse d'élimination est égale à la moitié de $V_{max}$ (Figure~\ref{fig:7}).
+où $V_{\mx}$ est la vitesse maximale d'élimination du médicament et $k_M$ est la constante dite de Michaelis, qui correspond à la concentration de médicament pour laquelle la vitesse d'élimination est égale à la moitié de $V_{\mx}$ (Figure~\ref{fig:7}).
 
 \begin{figure}[htbp]
 	\centering
@@ -368,10 +382,10 @@ où $V_{max}$ est la vitesse maximale d'élimination du médicament et $k_M$ est
 
 Un tel type d'élimination peut être considéré comme une simplification d'un modèle TMDD sous deux conditions :
 \begin{itemize}
-\item L'affinité du médicament pour sa cible est très forte (c'est-à-dire : $k_{on} >> k_{off}$).
-\item La quantité totale de cible $R_{tot} =  R + RC$ reste constante au cours du temps.
+\item L'affinité du médicament pour sa cible est très forte (c'est-à-dire : $k_{\on} >> k_{\off}$).
+\item La quantité totale de cible $R_{\tot} =  R + RC$ reste constante au cours du temps.
 \end{itemize}
-Dans ces conditions, les paramètres de Michaelis-Menten sont définis par : $V_{max} = k_{int}\cdot R_{tot}\cdot V$ où $V$ est le volume de distribution du médicament et par $k_M = k_{off} /k_{on}$~\citep{REF4, REF6}.
+Dans ces conditions, les paramètres de Michaelis-Menten sont définis par : $V_{\mx} = k_{\nt}\cdot R_{\tot}\cdot V$ où $V$ est le volume de distribution du médicament et par $k_M = k_{\off} /k_{\on}$~\citep{REF4, REF6}.
 \paragraph{Élimination d'ordre~0} Ce modèle est le plus simple pour décrire une élimination saturable. L'élimination n'est pas dépendante de la concentration et la vitesse d'élimination (quantité de médicament éliminée par unité de temps) est constante (Figure~\ref{fig:8}). Ce type d'élimination est décrit par l'équation différentielle suivante :
 
 \begin{equation}
@@ -381,7 +395,7 @@ Dans ces conditions, les paramètres de Michaelis-Menten sont définis par : $V_
 
 où $k_0$ est une constante d'ordre~0, la vitesse d'élimination étant indépendante de la concentration.
 
-L'élimination d'ordre~0 est un cas particulier de l'élimination de type Michaelis-Menten, correspondant à des concentrations de médicaments $>> k_M$. Dans ce cas, $k_M$ n'est pas identifiable et $k_0 \approx V_{max}$.
+L'élimination d'ordre~0 est un cas particulier de l'élimination de type Michaelis-Menten, correspondant à des concentrations de médicaments $>> k_M$. Dans ce cas, $k_M$ n'est pas identifiable et $k_0 \approx V_{\mx}$.
 
 \begin{figure}[htbp]
 	\centering
@@ -451,7 +465,7 @@ La modélisation de population s'inscrit dans le cadre des modèles non-linéair
 \paragraph*{Modèle structural :} Pour la pharmacocinétique, il s'agit du modèle qui relie la concentration au temps. La fonction qui relie les deux variables comporte les paramètres pharmacocinétiques : volume de distribution, clairance, constantes de transfert, etc. Le modèle structural s'écrit :
 
 \begin{equation}
-x
+Y_{ij,pred} = f(\theta_i ,t_{ij})
 \label{eq:36}
 \end{equation}
 
@@ -460,7 +474,7 @@ où $Y$ est la variable étudiée, $Y_{ij,pred}$ est la valeur prédite par le m
 Exemple : Après une dose unique et d'après l'équation~\ref{eq:18}, pour un modèle pharmacocinétique mono-compartimental avec élimination d'ordre~1, l'équation~\ref{eq:36} peut s'écrire :
 
 \begin{equation}
-x
+C_{ij,pred} = \frac{D_i}{V_i} \cdot e^{-\frac{\CL_i}{V_i}t_{ij}}
 \label{eq:37}
 \end{equation}
 
@@ -468,13 +482,13 @@ où $C_{ij,pred}$ est la concentration prédite par le modèle pour le sujet $i$
 
 \paragraph*{Modèle d'erreur interindividuelle :} Il décrit la variabilité interindividuelle des sujets, c'est-à-dire l'écart entre les paramètres de population et les paramètres individuels estimés. Ce modèle s'écrit :
 \begin{equation}
-x
+\theta_{ki} = \phi_{k} \left(\theta_k , \eta_{ki} \right)
 \label{eq:38}
 \end{equation}
 où $\varphi_k$ est le modèle d'erreur interindividuelle utilisé pour décrire la variabilité des valeurs individuelles $\theta_{ki}$ du paramètre de population $\theta_k$ et  $\eta_{ki}$ quantifie la différence individuelle du sujet $i$ par rapport à $\theta_k$. On suppose la distribution des $\eta_{ki}$ normale et centrée, telle que :
 
 \begin{equation}
-x
+\eta_{ki} \sim \mathcal{N}\left(0,  \omega^2_k \right)
 \label{eq:39}
 \end{equation}
 
@@ -485,19 +499,19 @@ Pour décrire la variabilité interindividuelle des paramètres, plusieurs modè
 \begin{itemize}
 \item Modèle additif :
 \begin{equation}
-x
+\theta_{ki} = \theta_{k} + \eta_{ki} 
 \label{eq:40}
 \end{equation}
 
 \item Modèle proportionnel :
 \begin{equation}
-x
+\theta_{ki} = \theta_{k} \cdot \left(1 + \eta_{ki} \right) 
 \label{eq:41}
 \end{equation}
 
 \item Modèle exponentiel :
 \begin{equation}
-x
+\theta_{ki} = \theta_{k} \cdot e^{\eta_{ki}} 
 \label{eq:42}
 \end{equation}
  
@@ -519,14 +533,14 @@ Pour chaque individu $i$, la valeur $\theta_{ki}$ du $k$éme paramètre est donc
 Si aucune covariable n'est ajoutée au modèle interindividuel, $\theta_k$ s'écrit :
 
 \begin{equation}
-x
+\theta_{k, \TV} = \theta_k
 \label{eq:44}
 \end{equation}
 
-où $\theta_{k,TV}$ est la valeur "typique" (\textit{typical value}) du paramètre $k$, dans la population. Si une covariable $m$ est ajoutée au modèle interindividuel, $\theta_{k,TV}$ s'écrit :
+où $\theta_{k,\TV}$ est la valeur "typique" (\textit{typical value}) du paramètre $k$, dans la population. Si une covariable $m$ est ajoutée au modèle interindividuel, $\theta_{k,\TV}$ s'écrit :
 
 \begin{equation}
-x
+\theta_{k, \TV} = g \left( \theta_k , z_{kmi} \right)
 \label{eq:45}
 \end{equation}
 
@@ -535,28 +549,28 @@ où $g$ est le modèle de covariables et $z_{kmi}$ est la valeur de la covariabl
 Exemple : Pour un modèle interindividuel exponentiel, la clairance du sujet $i$ s'écrit :
 
 \begin{equation}
-\gls{CL}_i
+\CL_i = \CL_{\TV} \cdot e^{\eta_{\CL,i}}
 \label{eq:46}
 \end{equation}
 
-Si $\gls{CL}_{TV}$ est influencée par la surface corporelle (BSA pour \textit{body surface area}) du patient (Figure~\ref{fig:9}), la valeur typique de \gls{CL} peut s'écrire :
+Si $\CL_{\TV}$ est influencée par la surface corporelle (BSA pour \textit{body surface area}) du patient (Figure~\ref{fig:9}), la valeur typique de $\CL$ peut s'écrire :
 
 \begin{equation}
-x
+\CL_{\TV} = \CL \cdot \beta_{\BSA,\CL} \cdot \frac{\BSA_i}{\BSA_{\mathit{med}}}
 \label{eq:47}
 \end{equation}
 
-où \gls{CL} est la valeur de population de la clairance, $\beta_{BSA,\gls{CL}}$ est une constante, $BSA_i$ la surface corporelle du patient $i$ et $BSA_{med}$ la surface corporelle médiane de la population. Pour un modèle interindividuel exponentiel, la clairance $\gls{CL}_i$ du sujet $i$ s'écrit donc :
+où $\CL$ est la valeur de population de la clairance, $\beta_{BSA,\gls{CL}}$ est une constante, $BSA_i$ la surface corporelle du patient $i$ et $BSA_{med}$ la surface corporelle médiane de la population. Pour un modèle interindividuel exponentiel, la clairance $\gls{CL}_i$ du sujet $i$ s'écrit donc :
 
 \begin{equation}
-x
+\CL_i = \CL \cdot \beta_{\BSA,\CL} \cdot \frac{\BSA_i}{\BSA_{\med}} \cdot e^{\eta_{\CL,i}}
 \label{eq:48}
 \end{equation}
 
 \begin{figure}[htbp]
 	\centering
 		\includegraphics[width=10cm]{figures/raster/FIG_9}
-	\caption[Modèle de covariable.]{Modèle de covariable. Exemple d'une relation linéaire entre la clairance systémique d'un médicament et la surface corporelle (BSA). Les points bleus représentent les valeurs individuelles. $TV$ : \textit{Typical Value} ; med : Valeur médiane.}
+	\caption[Modèle de covariable.]{Modèle de covariable. Exemple d'une relation linéaire entre la clairance systémique d'un médicament et la surface corporelle (BSA). Les points bleus représentent les valeurs individuelles. $\TV$ : \textit{Typical Value} ; $\med$ : Valeur médiane.}
 	\label{fig:9}
 \end{figure}
 
@@ -567,33 +581,33 @@ A la fin de ces procédures, le modèle obtenu comporte uniquement les covariabl
 \paragraph*{Modèle d'erreur résiduelle :} Malgré l'utilisation d'un modèle de variabilité interindividuel et d'un modèle de covariables, il reste toujours un écart "résiduel", appelé résidu, entre la valeur d'une concentration observée et celle de la concentration prédite (Figure~\ref{fig:10}). Le modèle d'erreur résiduelle permet de décrire la distribution des résidus. L'équation générale du modèle d'erreur résiduelle s'écrit :
 
 \begin{equation}
-x
+Y_{ij,\obs} = \zeta \left( Y_{ij,\pred}, \varepsilon_{ij} \right)
 \label{eq:49}
 \end{equation}
 
-où $Y_{ij,obs}$ est la $j$ème valeur observée (ici, une concentration) pour le sujet $i$, $\zeta$ est le modèle d'erreur résiduelle et $\varepsilon_{ij}$ est une variable aléatoire. On suppose que $\varepsilon_{ij} \sim \mathcal{N}(0 ; \sigma^2)$ où $\sigma^2$ est la variance résiduelle. Comme pour la variabilité interindividuelle, plusieurs modèles d'erreur résiduelle peuvent être utilisés (Figure~\ref{fig:10}) :
+où $Y_{ij,\obs}$ est la $j$ème valeur observée (ici, une concentration) pour le sujet $i$, $\zeta$ est le modèle d'erreur résiduelle et $\varepsilon_{ij}$ est une variable aléatoire. On suppose que $\varepsilon_{ij} \sim \mathcal{N}(0 ; \sigma^2)$ où $\sigma^2$ est la variance résiduelle. Comme pour la variabilité interindividuelle, plusieurs modèles d'erreur résiduelle peuvent être utilisés (Figure~\ref{fig:10}) :
 \begin{itemize}
 \item Modèle additif :
 \begin{equation}
-x
+Y_{ij,\obs} = Y_{ij,\pred} + \varepsilon_{ij}
 \label{eq:50}
 \end{equation}
 
 \item Modèle proportionnel :
 \begin{equation}
-x
+Y_{ij,\obs} = Y_{ij,\pred} \cdot \left(1 + \varepsilon_{ij} \right)
 \label{eq:51}
 \end{equation}
 
 \item Modèle mixte :
 \begin{equation}
-x
+Y_{ij,\obs} = Y_{ij,\pred} \cdot \left(1 + \varepsilon_{ij_1} \right) +  \varepsilon_{ij_2}
 \label{eq:52}
 \end{equation}
 
 \item Modèle exponentiel :
 \begin{equation}
-x
+Y_{ij,\obs} = Y_{ij,\pred} \cdot e^{\varepsilon_{ij}}
 \label{eq:53}
 \end{equation}
 
@@ -691,7 +705,7 @@ La structure des anticorps thérapeutiques n'est cependant pas le seul facteur i
 \subsection{Modélisation pharmacocinétique des anticorps monoclonaux}
 Comme pour les médicaments "classiques", la pharmacocinétique des anticorps monoclonaux est principalement étudiée lors des phases initiales de leur développement clinique (phases~I et II) pour déterminer les doses qui seront testées en phase~III. Cependant, pour de nombreux anticorps monoclonaux actuellement sur le marché, la relation entre la concentration et l'effet in vivo est mal connue et/ou peu décrite dans la littérature et les données pharmacocinétiques sont insuffisamment utilisées lors du choix des doses à administrer. Une meilleure connaissance de la pharmacocinétique est donc une étape indispensable pour l'optimisation de l'utilisation thérapeutique des anticorps monoclonaux. Ce besoin d'amélioration du schéma posologique est particulièrement net en cancérologie. Il y a au moins deux raisons à cela : d'une part, au moment de la mise sur le marché, la connaissance de l'anticorps monoclonal est souvent incomplète car son développement clinique a été accéléré compte tenu de la gravité de la pathologie. D'autre part, une influence de la masse tumorale sur la pharmacocinétique des anticorps monoclonaux est suspectée~\citep{REF45, REF46, REF47}. Si cette influence est confirmée, ce facteur devrait être pris en compte pour améliorer l'adaptation posologique individuelle. De plus, l'analyse de la pharmacocinétique clinique des anticorps thérapeutiques est une étape nécessaire à l'étude de leur relation concentration-effet, outil indispensable à la fois pour un choix raisonné de la posologie et pour la compréhension de leur mécanisme d'action chez l'Homme. 
 
-La pharmacocinétique n'a pas été étudiée avec le même niveau de détail pour tous les anticorps thérapeutiques. La pharmacocinétique de l'efalizumab (anti-CD11a) a été bien décrite~\citep{REF48, REF49, REF50}. La pharmacocinétique du rituximab a été assez bien étudiée~\citep{REF51, REF52}, mais la connaissance de la pharmacocinétique d'anticorps comme l'adalimumab et le bevacizumab, utilisés pourtant depuis plusieurs années, reste insuffisante. Les études de la pharmacocinétique des anticorps monoclonaux chez l'Homme ont utilisé l'approche non-compartimentale~\citep{REF53,REF54, REF55, REF56, REF57, REF58, REF59} et l'approche compartimentale. Dans ce cas, les modèles étaient parfois mono-compartimentaux~\citep{REF60} mais le plus souvent, bi-compartimentaux (tableau~\ref{tab:2}). Après administration~\gls{IV}, les concentrations d'anticorps monoclonaux décroissent en effet généralement de façon bi-exponentielle. Les anticorps se distribuent donc dans deux types de tissus, respectivement modélisés par un volume central de distribution $V_1$ et un volume périphérique $V_2$ avec une clairance de distribution $Q$ et une clairance d'élimination \gls{CL}. 
+La pharmacocinétique n'a pas été étudiée avec le même niveau de détail pour tous les anticorps thérapeutiques. La pharmacocinétique de l'efalizumab (anti-CD11a) a été bien décrite~\citep{REF48, REF49, REF50}. La pharmacocinétique du rituximab a été assez bien étudiée~\citep{REF51, REF52}, mais la connaissance de la pharmacocinétique d'anticorps comme l'adalimumab et le bevacizumab, utilisés pourtant depuis plusieurs années, reste insuffisante. Les études de la pharmacocinétique des anticorps monoclonaux chez l'Homme ont utilisé l'approche non-compartimentale~\citep{REF53,REF54, REF55, REF56, REF57, REF58, REF59} et l'approche compartimentale. Dans ce cas, les modèles étaient parfois mono-compartimentaux~\citep{REF60} mais le plus souvent, bi-compartimentaux (tableau~\ref{tab:2}). Après administration~\gls{IV}, les concentrations d'anticorps monoclonaux décroissent en effet généralement de façon bi-exponentielle. Les anticorps se distribuent donc dans deux types de tissus, respectivement modélisés par un volume central de distribution $V_1$ et un volume périphérique $V_2$ avec une clairance de distribution $Q$ et une clairance d'élimination $\CL$. 
 
 La description compartimentale de la pharmacocinétique des anticorps administrés par voie~\gls{EV} peut être réalisée en intégrant un compartiment d'absorption et une constante d'absorption $k_{a}$ d'ordre~1. Hayashi~\textit{et al.} ont par exemple décrit l'absorption de l'omalizumab (anti IgE) administré par voie sous cutanée (SC) à l'aide de ce modèle~\citep{REF61}. aucune modélisation de l'absorption d'un anticorps monoclonal reposant sur des compartiments de transit n'a pour l'instant été publiée. Compte tenu de la lenteur de l'absorption, la distribution de l'anticorps dans le compartiment périphérique est rarement identifiable ; pour cette raison, un modèle mono-compartimental est souvent utilisé.
 
@@ -703,9 +717,10 @@ Lorsque l'élimination n'est pas saturée, l'\gls{AUC} -- qui est le reflet de l
 Bien que les modèles de type TMDD soient théoriquement les mieux adaptés à la description mécanistique de l'élimination des anticorps monoclonaux, aucune publication n'a encore rapporté leur utilisation. Les caractéristiques non-linéaires de l'élimination sont généralement décrites par équation de Michaelis-Menten.  
 
 \begin{table}[!ht]
+\begin{tiny}
   \centering
   \caption{Exemples de modèles de population utilisés pour décrire la pharmacocinétique des anticorps monoclonaux thérapeutiques.}
-    \begin{tabular}{p{1.6cm}ccp{1.8cm}p{.8cm}p{.9cm}ccp{.9cm}l}
+    \begin{tabular}{p{1.1cm}ccp{1.7cm}cp{.9cm}p{.8cm}cp{.7cm}p{2.1cm}}
       &&&&&&&&& \\
       \hline
 \textbf{Étude} & \textbf{Anticorps} & \textbf{Cible} & \textbf{Pathologie} & \textbf{Voie} & \textbf{Sujets (n)} & \textbf{Comp.} & \textbf{F} & \textbf{Élim.} & \textbf{Covariables} \\
@@ -731,6 +746,7 @@ Bien que les modèles de type TMDD soient théoriquement les mieux adaptés à l
       \hline
     \end{tabular}
   \label{tab:2}
+\end{tiny}
 \end{table}
 
 \subsubsection{Facteurs de variabilité interindividuelle de la pharmacocinétique des anticorps monoclonaux.}
@@ -748,10 +764,10 @@ Comme ce polymorphisme entraîne une différence d'affinité du récepteur Fc$\g
 Comme pour les médicaments classiques, les autres sources potentielles de variabilité de la relation concentration-effet sont le type de maladie et les traitements associés~\citep{REF7}. 
 
 \subsection{Méthodes de mesure des concentrations des anticorps monoclonaux}
-Afin de pouvoir réaliser des études pharmacocinétiques, il faut disposer d'une technique analytique validée. La première étape de la validation est la sélection d'une méthode de dosage appropriée à l'analyte et à sa matrice. Dans le cadre des études de cette thèse, l'analyte est un anticorps monoclonal. Compte tenu de sa masse moléculaire très élevée, la mesure de sa concentration ne peut pas être réalisée avec les mêmes techniques que celles utilisées pour les médicaments "classiques". Par ailleurs, le sérum, matrice dans laquelle l'analyse est habituellement réalisée, contient de nombreuses protéines et notamment d'autres anticorps. La méthode de mesure doit donc permettre d'estimer des concentrations sériques d'anticorps monoclonaux pouvant être inférieures à 1 mg/L alors qu'ils sont mélangés avec des IgG1 endogènes ayant des concentrations de l'ordre de 9 g/L~\citep{REF90}. Plusieurs méthodes de dosage des anticorps monoclonaux sont décrites dans la littérature~\citep{REF91} :
+Afin de pouvoir réaliser des études pharmacocinétiques, il faut disposer d'une technique analytique validée. La première étape de la validation est la sélection d'une méthode de dosage appropriée à l'analyte et à sa matrice. Dans le cadre des études de cette thèse, l'analyte est un anticorps monoclonal. Compte tenu de sa masse moléculaire très élevée, la mesure de sa concentration ne peut pas être réalisée avec les mêmes techniques que celles utilisées pour les médicaments "classiques". Par ailleurs, le sérum, matrice dans laquelle l'analyse est habituellement réalisée, contient de nombreuses protéines et notamment d'autres anticorps. La méthode de mesure doit donc permettre d'estimer des concentrations sériques d'anticorps monoclonaux pouvant être inférieures à 1 mg/L alors qu'ils sont mélangés avec des IgG1 endogènes ayant des concentrations de l'ordre de 9~g/L~\citep{REF90}. Plusieurs méthodes de dosage des anticorps monoclonaux sont décrites dans la littérature~\citep{REF91} :
 
 \begin{description}
-\item[Résonance plasmonique de surface (BiaCore\textsuperscript{\textregistered}) :] Cette technique consiste à envoyer un faisceau de lumière monochromatique polarisée sur une puce sur laquelle un antigène-cible a été fixé, puis à mesurer les variations de l'angle de réflexion du faisceau dues à la modification de masse liée à la fixation antigène–--anticorps. Cette méthode est très précise, mais trop lourde pour envisager son utilisation en routine~\citep{REF92}.
+\item[Résonance plasmonique de surface (BiaCore\textsuperscript{\textregistered}) :] Cette technique consiste à envoyer un faisceau de lumière monochromatique polarisée sur une puce sur laquelle un antigène-cible a été fixé, puis à mesurer les variations de l'angle de réflexion du faisceau dues à la modification de masse liée à la fixation antigène-anticorps. Cette méthode est très précise, mais trop lourde pour envisager son utilisation en routine~\citep{REF92}.
 \item[Chromatographie :] Ces méthodes sont prometteuses, car elles sont très rapides. Cependant, le développement est encore limité en raison de la matrice (le sérum) qu'il faut préalablement immuno-purifier. Yang~\textit{et al.} ont développé une technique de dosage d'un anticorps thérapeutique (non spécifié) par LC-MS/MS~\citep{REF93}. Une autre méthode expérimentale de dosage du cetuximab par LC-MS/MS a également été publiée~\citep{REF94}.
 \item[Bio-analyses :] Ces techniques permettent d'estimer les concentrations d'anticorps monoclonaux en mesurant leur activité biologique \textit{ex vivo}. La variabilité des cellules cibles utilisées peut cependant poser des problèmes de reproductibilité, ce qui rend cette approche inadaptée en recherche clinique ou en suivi thérapeutique.
 \item[Immunoanalyses : ] Cet ensemble de techniques permet de quantifier les concentrations d'anticorps monoclonaux grâce à l'interaction antigène-anticorps. La méthode E.L.I.S.A. (ou ELISA pour \textit{Enzyme Linked ImmunoSorbent Assay})~\citep{REF95}, comme les méthodes précédemment citées, peut être utilisée sous plusieurs formes. Parmi les principales méthodes ELISA, on peut citer (\ref{fig:15}) :
